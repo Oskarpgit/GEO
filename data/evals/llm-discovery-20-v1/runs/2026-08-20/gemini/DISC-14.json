@@ -1,0 +1,34 @@
+{
+  "promptId": "DISC-14",
+  "category": "coffee-machines",
+  "intent": "milk_easy_clean",
+  "engine": "gemini",
+  "prompt": "Poleć automatyczny ekspres do kaw mlecznych, który jest łatwy w czyszczeniu. Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://gemini.google.com/app/d87b3457b9542bec",
+  "completed": true,
+  "capturedAt": "2026-08-20T19:02:56.245Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/oferta/ekspres-do-kawy-automatyczny-philips-lattego-5500-czarny-chrom-ep5547-90-15664591213",
+      "text": "Oferta Allegro – Philips LatteGo 5500 EP5547/90"
+    },
+    {
+      "href": "https://allegro.pl/oferta/ekspres-automatyczny-cisnieniowy-philips-ep2231-40-lattego-1500w-czarny-18736119619",
+      "text": "Oferta Allegro – Philips EP2231/40 LatteGo"
+    },
+    {
+      "href": "https://allegro.pl/oferta/ekspres-automatyczny-de-longhi-magnifica-evo-ecam-292-33-sb-1450w-18484215238",
+      "text": "Oferta Allegro – De'Longhi Magnifica Evo"
+    },
+    {
+      "href": "https://allegro.pl/oferta/automatyczny-ekspres-cisnieniowy-nivona-caferomatica-759-1455-w-czarny-18331586297",
+      "text": "Oferta Allegro – Nivona CafeRomatica 759"
+    },
+    {
+      "href": "https://allegro.pl/oferta/automatyczny-ekspres-cisnieniowy-do-kawy-melitta-latticia-ot-1450-w-led-17937336022",
+      "text": "Oferta Allegro – Melitta Latticia OT"
+    }
+  ],
+  "responseText": "Treść wiadomości Gemini\n\nNajwygodniejszym rozwiązaniem do kaw mlecznych pod kątem higieny jest system Philips LatteGo – dzbanek składa się z zaledwie dwóch części, nie posiada żadnych rurek ani wężyków i można go wypłukać pod bieżącą wodą w kilkanaście sekund. Drugim sprawdzonym rozwiązaniem są systemy De'Longhi LatteCrema z funkcją automatycznego przedmuchu parą oraz automaty z wężykiem (np. Nivona, Melitta) oferujące programy szybkiego płukania.  \nAllegro\n+ 1\n\n1. Philips LatteGo 5500 EP5547/90  \nAllegro\n\nDlaczego ten model: Najbardziej zaawansowany model z bezkonkurencyjnym systemem LatteGo (brak rurek, mycie w 15 s lub w zmywarce), cichym młynkiem i szerokim wyborem profili kaw mlecznych oraz mrożonych.  \nAllegro\n\nOferta Allegro – Philips LatteGo 5500 EP5547/90  \nAllegro\n\n2. Philips LatteGo EP2231/40  \nAllegro\n\nDlaczego ten model: Ten sam bezproblemowy system czyszczenia mleka LatteGo, ale w znacznie bardziej przystępnym budżecie (podstawowy zestaw napojów: cappuccino, espresso, klasyczna czarna).  \nAllegro\n+ 1\n\nOferta Allegro – Philips EP2231/40 LatteGo  \nAllegro\n\n3. De'Longhi Magnifica Evo ECAM  \nAllegro\n\nDlaczego ten model: Karafka LatteCrema wyposażona w pokrętło automatycznego czyszczenia (przedmuchiwanie gorącą parą zaraz po spienieniu), możliwość przechowywania dzbanka w lodówce i mycia elementów w zmywarce.  \nAllegro\n+ 1\n\nOferta Allegro – De'Longhi Magnifica Evo  \nAllegro\n\n4. Nivona CafeRomatica 759  \nAllegro\n\nDlaczego ten model: Doskonała gęstość i temperatura mlecznej pianki; higienę zapewnia automatyczne płukanie wężyka i spieniacza parą bezpośrednio do tacki po zakończeniu przygotowywania napoju.  \nAllegro\n+ 2\n\nOferta Allegro – Nivona CafeRomatica 759  \nAllegro\n\n5. Melitta Latticia OT  \nAllegro\n\nDlaczego ten model: Kompaktowy ekspres z systemem LATTEperfection i funkcją Quick & Clean (szybkie czyszczenie układu mlecznego parą i wodą za naciśnięciem jednego przycisku).  \nAllegro\n\nOferta Allegro – Melitta Latticia OT  \nAllegro\n\nUzasadnienie kolejności:\n\nPozycje 1–2 (Philips): Bezwzględny priorytet dla łatwości obsługi – brak wewnętrznych rurek i ukrytych zakamarków całkowicie eliminuje problem zalegających resztek mleka.  \nAllegro\n\nPozycja 3 (De'Longhi): Kompromis pomiędzy pełną karafką a automatycznym przedmuchem układu parą wodną.\n\nPozycje 4–5 (Nivona, Melitta): Klasyczne układy z wężykiem, które wymagają nieco więcej uwagi (okresowe płukanie płynem do czyszczenia obiegów mlecznych), ale oferują automatyczne programy przepłukiwania i bardzo wysoką kulturę parzenia kawy.  \nAllegro"
+}
+

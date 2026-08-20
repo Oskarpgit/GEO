@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "testId": "P11-vacuum-dyson-v15-detect",
+  "category": "vacuum-cleaners",
+  "query": "Poleć konkretne oferty Allegro na Dyson V15 Detect. Podaj bezpośrednie linki do ofert sprzedawców.",
+  "target": {
+    "offerId": "18757686025",
+    "productId": "e2427326-d154-4ef9-a817-c1aa19f84db5"
+  },
+  "observation": {
+    "retrievalClass": "archived_other_offer",
+    "targetOfferVisible": false,
+    "targetProductVisible": false,
+    "allegroSurfaceVisible": true
+  },
+  "attempt": {
+    "attemptId": "codex-web:P11-vacuum-dyson-v15-detect:r1",
+    "offerId": "18757686025",
+    "promptId": "VIS-P11-vacuum-dyson-v15-detect",
+    "repetition": 1,
+    "status": "success",
+    "capturedAt": "2026-08-20T20:26:44.2616511+02:00",
+    "engine": {
+      "provider": "openai",
+      "model": "codex-runtime-unspecified",
+      "surface": "llm_web_retrieval",
+      "consumerAnswerCaptured": false
+    },
+    "appearances": [
+      {
+        "rank": 1,
+        "entityType": "offer",
+        "url": "https://archiwum.allegro.pl/oferta/odkurzacz-pionowy-dyson-v15-detect-absolute-laser-240aw-60min-do-siersci-i17227992152.html",
+        "detectedOfferId": "17227992152",
+        "identityMatch": "uncertain",
+        "cited": true
+      }
+    ]
+  },
+  "metrics": {
+    "offerId": "18757686025",
+    "successfulAttempts": 1,
+    "excludedAttempts": 0,
+    "matchedAttempts": 0,
+    "uncertainAppearances": 1,
+    "mentionRate": 0,
+    "offerLinkRate": 0,
+    "top1Share": 0,
+    "top3Share": 0,
+    "top5Share": 0,
+    "meanReciprocalRank": 0
+  }
+}

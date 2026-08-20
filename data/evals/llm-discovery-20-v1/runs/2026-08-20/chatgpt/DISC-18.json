@@ -1,0 +1,54 @@
+{
+  "promptId": "DISC-18",
+  "category": "cameras",
+  "intent": "beginner_hybrid",
+  "engine": "chatgpt",
+  "prompt": "Jaki aparat bezlusterkowy dla początkującego nadaje się do zdjęć i filmu? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://chatgpt.com/c/6a874d9b-ff24-83eb-a5a6-93242845c137",
+  "completed": true,
+  "capturedAt": "2026-08-20T18:56:02.671Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/oferta/canon-eos-r50-black-rf-s-18-45mm-f4-5-6-3-is-stm-kit-bezlusterkowiec-24-18034419413?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/canon-eos-r50-black-rf-s-18-45mm-f4-5-6-3-is-stm-kit-bezlusterkowiec-24-18034419413?utm_source=chatgpt.com",
+      "text": "Sprawdź konkretną ofertę na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/sony-zv-e10-ii-16-50mm-f-3-5-5-6-oss-ii-18462785436?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/sony-zv-e10-ii-16-50mm-f-3-5-5-6-oss-ii-18462785436?utm_source=chatgpt.com",
+      "text": "Sprawdź konkretną ofertę na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/aparat-bezlusterkowy-nikon-z-50ii-nikkor-z-dx-16-50mm-f-3-5-6-3-vr-18147272416?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/aparat-bezlusterkowy-nikon-z-50ii-nikkor-z-dx-16-50mm-f-3-5-6-3-vr-18147272416?utm_source=chatgpt.com",
+      "text": "Sprawdź konkretną ofertę na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/aparat-canon-eos-r50-obiektyw-rf-s-18-45-mm-f-4-5-6-3-is-stm-17542192044?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/aparat-canon-eos-r50-obiektyw-rf-s-18-45-mm-f-4-5-6-3-is-stm-17542192044?utm_source=chatgpt.com",
+      "text": "Sprawdź konkretną ofertę na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/aparat-bezlusterkowy-canon-eos-r50-rf-s-18-45mm-f4-5-6-3-is-stm-16110543365?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/aparat-bezlusterkowy-canon-eos-r50-rf-s-18-45mm-f4-5-6-3-is-stm-16110543365?utm_source=chatgpt.com",
+      "text": "Sprawdź konkretną ofertę na Allegro"
+    }
+  ],
+  "responseText": "Jaki aparat bezlusterkowy dla początkującego nadaje się do zdjęć i filmu? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.\n\nJeśli ma to być pierwszy bezlusterkowiec do zdjęć i filmu, celowałbym w APS-C z dobrym autofocusem i kitowym zoomem. Na podstawie aktualnie znalezionych ofert Allegro moja kolejność wygląda tak:\n\nCanon EOS R50 + RF-S 18-45 mm — 3029 zł\nNajlepszy wybór dla początkującego: bardzo dobry autofocus, 24,2 MP, 4K, wizjer elektroniczny i prosty interfejs. Kit 18-45 mm jest uniwersalny na start. \nAllegro\n\nSprawdź konkretną ofertę na Allegro\n\nSony ZV-E10 II + 16-50 mm — 4190 zł\nNajlepszy z tej grupy, jeśli film jest równie ważny jak zdjęcia. Bardzo dobry autofocus i nowoczesne możliwości wideo; minusem jest brak wizjera. \nAllegro\n\nSprawdź konkretną ofertę na Allegro\n\nNikon Z50 II + 16-50 mm VR — 3981 zł\nBardzo wszechstronny aparat z wizjerem, świetnym AF i 4K. Szczególnie dobry, jeśli oprócz filmu chcesz mocno rozwijać fotografię. \nAllegro\n\nSprawdź konkretną ofertę na Allegro\n\nCanon EOS R50 + 18-45 mm + karta 128 GB + torba — 3299 zł\nPraktycznie ten sam świetny korpus co nr 1, ale zestaw zawiera dodatkowo kartę i torbę. Warto, jeśli nie masz jeszcze akcesoriów. \nAllegro\n\nSprawdź konkretną ofertę na Allegro\n\nCanon EOS R50 + 18-45 mm — 3147,97 zł\nDobra alternatywa dla nr 1; ten sam aparat i obiektyw, ale oferta ma bardzo dobre oceny i dużo zakupów. \nAllegro\n\nSprawdź konkretną ofertę na Allegro\n\nMój wybór: Canon EOS R50 + 18-45 mm. Jest najłatwiejszy na początek i daje bardzo dobry kompromis zdjęcia ↔ film ↔ cena. Jeśli natomiast priorytetem jest filmowanie, dopłaciłbym do Sony ZV-E10 II.\n\nChatGPT może popełniać błędy. Sprawdź ważne informacje.\n\nMyślenie"
+}
+

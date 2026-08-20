@@ -1,0 +1,34 @@
+{
+  "promptId": "DISC-08",
+  "category": "headphones",
+  "intent": "sports_earbuds",
+  "engine": "gemini",
+  "prompt": "Jakie bezprzewodowe słuchawki douszne do biegania i treningu warto kupić do 800 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://gemini.google.com/app/249ca5fca790c417",
+  "completed": true,
+  "capturedAt": "2026-08-20T19:00:34.427Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/oferta/sluchawki-sportowe-beats-fit-pro-apple-tws-bluetooth-biale-dokanalowe-anc-18688798640",
+      "text": "Beats Fit Pro True Wireless na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/sluchawki-z-przewodnictwem-kostnym-shokz-openrun-pro-2-black-bluetooth-16529041644",
+      "text": "Shokz OpenRun Pro na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/sluchawki-bezprzewodowe-dokanalowe-sennheiser-cx-sport-17041990269",
+      "text": "Sennheiser SPORT True Wireless na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/sluchawki-bezprzewodowe-jbl-endurance-peak-3-18463686444",
+      "text": "JBL Endurance Peak 3 na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/sluchawki-bezprzewodowe-jbl-endurance-race-2-biale-wodoszczelne-sportowe-18682065585",
+      "text": "JBL Endurance Race 2 na Allegro"
+    }
+  ],
+  "responseText": "Treść wiadomości Gemini\n\nOto zestawienie najlepszych modeli słuchawek bezprzewodowych do biegania i intensywnych treningów w budżecie do 800 zł, ułożonych według ergonomii, stabilności w uchu oraz odporności na pot i warunki atmosferyczne:\n\n1. Beats Fit Pro  \nAllegro\n\nDlaczego 1. miejsce: Najbardziej uniwersalny wybór do treningów i na co dzień. Elastyczne skrzydełka pewnie blokują słuchawkę w małżowinie (nie wypadają przy gwałtownych ruchach), a chip Apple zapewnia świetną redukcję szumów (ANC), tryb kontaktu oraz mocne, dynamiczne brzmienie motywujące do biegu.  \nAllegro\n+ 2\n\nOferta: Beats Fit Pro True Wireless na Allegro  \nAllegro\n+ 1\n\n2. Shokz OpenRun Pro  \nAllegro\n\nDlaczego 2. miejsce: Bezkonkurencyjny faworyt dla biegaczy miejskich i asfaltowych. Technologia przewodnictwa kostnego pozostawia kanał słuchowy całkowicie otwarty, co zapewnia pełną kontrolę nad otoczeniem (ruch uliczny, rowerzyści) i eliminuje dyskomfort potliwości ucha.  \nAllegro\n+ 2\n\nOferta: Shokz OpenRun Pro na Allegro  \nAllegro\n+ 1\n\n3. Sennheiser SPORT True Wireless  \nAllegro\n\nDlaczego 3. miejsce: Najlepsza wierność dźwięku w segmencie sportowym. Unikalny system adapterów Adaptable Acoustics pozwala wybrać między otwartymi końcówkami (słyszysz otoczenie i własne kroki bez dudnienia) a zamkniętymi (pełna izolacja akustyczna na siłownię).  \nAllegro\n+ 1\n\nOferta: Sennheiser SPORT True Wireless na Allegro  \nAllegro\n+ 1\n\n4. JBL Endurance Peak 3  \nAllegro\n\nDlaczego 4. miejsce: Pancerna stabilność dzięki pałąkom zausznym Powerhook. Posiadają pełną wodo- i pyłoszczelność IP68 oraz baterię działającą do 50 godzin łącznie z etui, choć przez gabaryty są mniej dyskretne niż modele dokanałowe.  \nAllegro\n+ 2\n\nOferta: JBL Endurance Peak 3 na Allegro  \nAllegro\n+ 1\n\n5. JBL Endurance Race 2  \nAllegro\n\nDlaczego 5. miejsce: Bardzo opłacalny model dokanałowy z konstrukcją TwistLock i certyfikatem IP68. Oferuje wsparcie ANC oraz basowe brzmienie za ułamek maksymalnego budżetu.  \nAllegro\n+ 1\n\nOferta: JBL Endurance Race 2 na Allegro  \nAllegro\n+ 1"
+}
+

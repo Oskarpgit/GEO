@@ -1,0 +1,456 @@
+{
+  "corpusId": "allegro-diverse-20-v1",
+  "createdAt": "2026-08-20T18:16:39.220Z",
+  "sourceRunId": "allegro-diverse-20-2026-08-20T18:16:39.219Z",
+  "rulesetId": "allegro-pl-2026-08-20.1",
+  "rawEvidencePolicy": "Raw Firecrawl HTML and competitor descriptions remain outside Git. The repository stores hashes, normalized facts, description profiles, rule results and assertions.",
+  "requested": 20,
+  "extracted": 20,
+  "extractionFailed": 0,
+  "geoInputComplete": 19,
+  "geoInputIncomplete": 1,
+  "categories": [
+    "smartphones",
+    "laptops",
+    "tablets",
+    "headphones",
+    "televisions",
+    "vacuum-cleaners",
+    "robot-vacuums",
+    "coffee-machines",
+    "consoles",
+    "smartwatches",
+    "cameras",
+    "action-cameras"
+  ],
+  "learningSignals": {
+    "descriptionsPresent": 19,
+    "descriptionsMissing": 1,
+    "gtinPresent": 5,
+    "gtinMissing": 15
+  },
+  "cases": [
+    {
+      "testId": "P01-smartphone-samsung-galaxy-s25",
+      "category": "smartphones",
+      "extractionPassed": true,
+      "geoInputComplete": true,
+      "failedExtractionAssertions": [],
+      "failedGeoInputAssertions": [],
+      "offerId": "18762904428",
+      "productId": "f5e9b862-2981-40dd-b7cc-92f4a83956fd",
+      "gtinPresent": false,
+      "parameterCount": 8,
+      "descriptionCharacters": 2961,
+      "imageCount": 13,
+      "validationTotals": {
+        "passed": 11,
+        "failed": 1,
+        "needs_review": 6,
+        "not_applicable": 0,
+        "not_evaluated": 1
+      }
+    },
+    {
+      "testId": "P02-smartphone-apple-iphone-16",
+      "category": "smartphones",
+      "extractionPassed": true,
+      "geoInputComplete": true,
+      "failedExtractionAssertions": [],
+      "failedGeoInputAssertions": [],
+      "offerId": "18721238546",
+      "productId": "6d7b7ffa-215f-4df8-a78c-12ff0e9a1036",
+      "gtinPresent": true,
+      "parameterCount": 8,
+      "descriptionCharacters": 968,
+      "imageCount": 4,
+      "validationTotals": {
+        "passed": 12,
+        "failed": 1,
+        "needs_review": 6,
+        "not_applicable": 0,
+        "not_evaluated": 0
+      }
+    },
+    {
+      "testId": "P03-laptop-lenovo-ideapad-slim-5",
+      "category": "laptops",
+      "extractionPassed": true,
+      "geoInputComplete": true,
+      "failedExtractionAssertions": [],
+      "failedGeoInputAssertions": [],
+      "offerId": "18337597045",
+      "productId": "bf9acb74-ebfc-4eca-89f5-056c62e9cee8",
+      "gtinPresent": false,
+      "parameterCount": 8,
+      "descriptionCharacters": 7974,
+      "imageCount": 35,
+      "validationTotals": {
+        "passed": 10,
+        "failed": 2,
+        "needs_review": 6,
+        "not_applicable": 0,
+        "not_evaluated": 1
+      }
+    },
+    {
+      "testId": "P04-laptop-apple-macbook-air-m4",
+      "category": "laptops",
+      "extractionPassed": true,
+      "geoInputComplete": true,
+      "failedExtractionAssertions": [],
+      "failedGeoInputAssertions": [],
+      "offerId": "18160724536",
+      "productId": "e53b81e7-e0ab-496a-babb-8c50fc47bff4",
+      "gtinPresent": false,
+      "parameterCount": 8,
+      "descriptionCharacters": 2602,
+      "imageCount": 9,
+      "validationTotals": {
+        "passed": 11,
+        "failed": 1,
+        "needs_review": 6,
+        "not_applicable": 0,
+        "not_evaluated": 1
+      }
+    },
+    {
+      "testId": "P05-tablet-apple-ipad-11",
+      "category": "tablets",
+      "extractionPassed": true,
+      "geoInputComplete": true,
+      "failedExtractionAssertions": [],
+      "failedGeoInputAssertions": [],
+      "offerId": "17380406275",
+      "productId": "edb0705a-a2eb-4f17-9e32-377c6a41f8d6",
+      "gtinPresent": false,
+      "parameterCount": 8,
+      "descriptionCharacters": 7339,
+      "imageCount": 27,
+      "validationTotals": {
+        "passed": 10,
+        "failed": 2,
+        "needs_review": 6,
+        "not_applicable": 0,
+        "not_evaluated": 1
+      }
+    },
+    {
+      "testId": "P06-tablet-samsung-galaxy-tab-s10-fe",
+      "category": "tablets",
+      "extractionPassed": true,
+      "geoInputComplete": true,
+      "failedExtractionAssertions": [],
+      "failedGeoInputAssertions": [],
+      "offerId": "18857672035",
+      "productId": "664bceaa-ca30-49db-ba6c-8a23bd43b697",
+      "gtinPresent": false,
+      "parameterCount": 8,
+      "descriptionCharacters": 2645,
+      "imageCount": 12,
+      "validationTotals": {
+        "passed": 11,
+        "failed": 1,
+        "needs_review": 6,
+        "not_applicable": 0,
+        "not_evaluated": 1
+      }
+    },
+    {
+      "testId": "P07-headphones-sony-wh-1000xm5",
+      "category": "headphones",
+      "extractionPassed": true,
+      "geoInputComplete": true,
+      "failedExtractionAssertions": [],
+      "failedGeoInputAssertions": [],
+      "offerId": "18122778668",
+      "productId": "e120b95a-1e21-4fac-8c84-fead7a8769ba",
+      "gtinPresent": false,
+      "parameterCount": 8,
+      "descriptionCharacters": 5332,
+      "imageCount": 17,
+      "validationTotals": {
+        "passed": 10,
+        "failed": 2,
+        "needs_review": 6,
+        "not_applicable": 0,
+        "not_evaluated": 1
+      }
+    },
+    {
+      "testId": "P08-headphones-apple-airpods-pro-2",
+      "category": "headphones",
+      "extractionPassed": true,
+      "geoInputComplete": true,
+      "failedExtractionAssertions": [],
+      "failedGeoInputAssertions": [],
+      "offerId": "18833119412",
+      "productId": "58fbc6df-2280-42aa-8f87-4c63dbda1aac",
+      "gtinPresent": false,
+      "parameterCount": 8,
+      "descriptionCharacters": 1813,
+      "imageCount": 9,
+      "validationTotals": {
+        "passed": 11,
+        "failed": 1,
+        "needs_review": 6,
+        "not_applicable": 0,
+        "not_evaluated": 1
+      }
+    },
+    {
+      "testId": "P09-tv-samsung-oled-55",
+      "category": "televisions",
+      "extractionPassed": true,
+      "geoInputComplete": true,
+      "failedExtractionAssertions": [],
+      "failedGeoInputAssertions": [],
+      "offerId": "18425831388",
+      "productId": "2fbcd250-1916-4572-81f1-af892c804608",
+      "gtinPresent": false,
+      "parameterCount": 8,
+      "descriptionCharacters": 10162,
+      "imageCount": 22,
+      "validationTotals": {
+        "passed": 10,
+        "failed": 2,
+        "needs_review": 6,
+        "not_applicable": 0,
+        "not_evaluated": 1
+      }
+    },
+    {
+      "testId": "P10-tv-lg-oled-55",
+      "category": "televisions",
+      "extractionPassed": true,
+      "geoInputComplete": true,
+      "failedExtractionAssertions": [],
+      "failedGeoInputAssertions": [],
+      "offerId": "18040885794",
+      "productId": "aa006793-6692-4f44-8960-16ad254d6b54",
+      "gtinPresent": false,
+      "parameterCount": 8,
+      "descriptionCharacters": 3469,
+      "imageCount": 8,
+      "validationTotals": {
+        "passed": 11,
+        "failed": 1,
+        "needs_review": 6,
+        "not_applicable": 0,
+        "not_evaluated": 1
+      }
+    },
+    {
+      "testId": "P11-vacuum-dyson-v15-detect",
+      "category": "vacuum-cleaners",
+      "extractionPassed": true,
+      "geoInputComplete": true,
+      "failedExtractionAssertions": [],
+      "failedGeoInputAssertions": [],
+      "offerId": "18757686025",
+      "productId": "e2427326-d154-4ef9-a817-c1aa19f84db5",
+      "gtinPresent": false,
+      "parameterCount": 8,
+      "descriptionCharacters": 5397,
+      "imageCount": 25,
+      "validationTotals": {
+        "passed": 10,
+        "failed": 2,
+        "needs_review": 6,
+        "not_applicable": 0,
+        "not_evaluated": 1
+      }
+    },
+    {
+      "testId": "P12-robot-vacuum-dreame-x50-ultra",
+      "category": "robot-vacuums",
+      "extractionPassed": true,
+      "geoInputComplete": true,
+      "failedExtractionAssertions": [],
+      "failedGeoInputAssertions": [],
+      "offerId": "18539421029",
+      "productId": "83510dd3-d07d-4c37-91ad-5f9adf84aaa7",
+      "gtinPresent": false,
+      "parameterCount": 8,
+      "descriptionCharacters": 4262,
+      "imageCount": 3,
+      "validationTotals": {
+        "passed": 11,
+        "failed": 1,
+        "needs_review": 6,
+        "not_applicable": 0,
+        "not_evaluated": 1
+      }
+    },
+    {
+      "testId": "P13-coffee-philips-lattego-ep2333",
+      "category": "coffee-machines",
+      "extractionPassed": true,
+      "geoInputComplete": true,
+      "failedExtractionAssertions": [],
+      "failedGeoInputAssertions": [],
+      "offerId": "18408342168",
+      "productId": "05e2d777-45ea-4b30-9c7b-0fe2bb627ea4",
+      "gtinPresent": false,
+      "parameterCount": 8,
+      "descriptionCharacters": 2451,
+      "imageCount": 8,
+      "validationTotals": {
+        "passed": 10,
+        "failed": 2,
+        "needs_review": 6,
+        "not_applicable": 0,
+        "not_evaluated": 1
+      }
+    },
+    {
+      "testId": "P14-coffee-delonghi-dinamica-ecam35055",
+      "category": "coffee-machines",
+      "extractionPassed": true,
+      "geoInputComplete": true,
+      "failedExtractionAssertions": [],
+      "failedGeoInputAssertions": [],
+      "offerId": "18661934149",
+      "productId": "be218d21-2030-4536-8ee3-2fcb5853ad96",
+      "gtinPresent": true,
+      "parameterCount": 8,
+      "descriptionCharacters": 4616,
+      "imageCount": 14,
+      "validationTotals": {
+        "passed": 12,
+        "failed": 1,
+        "needs_review": 6,
+        "not_applicable": 0,
+        "not_evaluated": 0
+      }
+    },
+    {
+      "testId": "P15-console-playstation-5-slim-digital",
+      "category": "consoles",
+      "extractionPassed": true,
+      "geoInputComplete": true,
+      "failedExtractionAssertions": [],
+      "failedGeoInputAssertions": [],
+      "offerId": "18284603755",
+      "productId": "355df6b8-3056-4fbb-b3cd-2075e95840bd",
+      "gtinPresent": true,
+      "parameterCount": 8,
+      "descriptionCharacters": 1423,
+      "imageCount": 17,
+      "validationTotals": {
+        "passed": 12,
+        "failed": 1,
+        "needs_review": 6,
+        "not_applicable": 0,
+        "not_evaluated": 0
+      }
+    },
+    {
+      "testId": "P16-console-nintendo-switch-2",
+      "category": "consoles",
+      "extractionPassed": true,
+      "geoInputComplete": true,
+      "failedExtractionAssertions": [],
+      "failedGeoInputAssertions": [],
+      "offerId": "18744198200",
+      "productId": "9772ef1c-b0d1-49b7-a865-2dd2aa710a67",
+      "gtinPresent": true,
+      "parameterCount": 8,
+      "descriptionCharacters": 3090,
+      "imageCount": 18,
+      "validationTotals": {
+        "passed": 12,
+        "failed": 1,
+        "needs_review": 6,
+        "not_applicable": 0,
+        "not_evaluated": 0
+      }
+    },
+    {
+      "testId": "P17-smartwatch-apple-watch-series-10",
+      "category": "smartwatches",
+      "extractionPassed": true,
+      "geoInputComplete": true,
+      "failedExtractionAssertions": [],
+      "failedGeoInputAssertions": [],
+      "offerId": "18331590310",
+      "productId": "e617685f-64fd-44af-bb0d-f3426f004a46",
+      "gtinPresent": true,
+      "parameterCount": 8,
+      "descriptionCharacters": 3315,
+      "imageCount": 8,
+      "validationTotals": {
+        "passed": 10,
+        "failed": 3,
+        "needs_review": 6,
+        "not_applicable": 0,
+        "not_evaluated": 0
+      }
+    },
+    {
+      "testId": "P18-smartwatch-garmin-fenix-8",
+      "category": "smartwatches",
+      "extractionPassed": true,
+      "geoInputComplete": true,
+      "failedExtractionAssertions": [],
+      "failedGeoInputAssertions": [],
+      "offerId": "18760658518",
+      "productId": "47c35c6e-c21a-4ad6-b46e-0626a0ee0db0",
+      "gtinPresent": false,
+      "parameterCount": 8,
+      "descriptionCharacters": 1864,
+      "imageCount": 10,
+      "validationTotals": {
+        "passed": 11,
+        "failed": 1,
+        "needs_review": 6,
+        "not_applicable": 0,
+        "not_evaluated": 1
+      }
+    },
+    {
+      "testId": "P19-camera-canon-eos-r50",
+      "category": "cameras",
+      "extractionPassed": true,
+      "geoInputComplete": true,
+      "failedExtractionAssertions": [],
+      "failedGeoInputAssertions": [],
+      "offerId": "18732278834",
+      "productId": "1cc369ca-afdf-4a56-a1b8-873f85388d35",
+      "gtinPresent": false,
+      "parameterCount": 8,
+      "descriptionCharacters": 8907,
+      "imageCount": 24,
+      "validationTotals": {
+        "passed": 10,
+        "failed": 2,
+        "needs_review": 6,
+        "not_applicable": 0,
+        "not_evaluated": 1
+      }
+    },
+    {
+      "testId": "P20-camera-gopro-hero13-black",
+      "category": "action-cameras",
+      "extractionPassed": true,
+      "geoInputComplete": false,
+      "failedExtractionAssertions": [],
+      "failedGeoInputAssertions": [
+        "description_present"
+      ],
+      "offerId": "18816079967",
+      "productId": "9efdb84e-511f-48a7-a96c-407c04b1487c",
+      "gtinPresent": false,
+      "parameterCount": 8,
+      "descriptionCharacters": 0,
+      "imageCount": 6,
+      "validationTotals": {
+        "passed": 4,
+        "failed": 2,
+        "needs_review": 1,
+        "not_applicable": 0,
+        "not_evaluated": 12
+      }
+    }
+  ]
+}

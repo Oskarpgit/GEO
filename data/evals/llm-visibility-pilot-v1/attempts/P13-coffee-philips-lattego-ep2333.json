@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.0.0",
+  "testId": "P13-coffee-philips-lattego-ep2333",
+  "category": "coffee-machines",
+  "query": "Poleć konkretne oferty Allegro na ekspres Philips LatteGo EP2333. Podaj bezpośrednie linki do ofert sprzedawców.",
+  "target": {
+    "offerId": "18408342168",
+    "productId": "05e2d777-45ea-4b30-9c7b-0fe2bb627ea4"
+  },
+  "observation": {
+    "retrievalClass": "none",
+    "targetOfferVisible": false,
+    "targetProductVisible": false,
+    "allegroSurfaceVisible": false
+  },
+  "attempt": {
+    "attemptId": "codex-web:P13-coffee-philips-lattego-ep2333:r1",
+    "offerId": "18408342168",
+    "promptId": "VIS-P13-coffee-philips-lattego-ep2333",
+    "repetition": 1,
+    "status": "success",
+    "capturedAt": "2026-08-20T20:26:44.2616511+02:00",
+    "engine": {
+      "provider": "openai",
+      "model": "codex-runtime-unspecified",
+      "surface": "llm_web_retrieval",
+      "consumerAnswerCaptured": false
+    },
+    "appearances": []
+  },
+  "metrics": {
+    "offerId": "18408342168",
+    "successfulAttempts": 1,
+    "excludedAttempts": 0,
+    "matchedAttempts": 0,
+    "uncertainAppearances": 0,
+    "mentionRate": 0,
+    "offerLinkRate": 0,
+    "top1Share": 0,
+    "top3Share": 0,
+    "top5Share": 0,
+    "meanReciprocalRank": 0
+  }
+}

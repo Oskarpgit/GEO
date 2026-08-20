@@ -1,0 +1,34 @@
+{
+  "promptId": "DISC-01",
+  "category": "smartphones",
+  "intent": "camera_value",
+  "engine": "gemini",
+  "prompt": "Jaki smartfon z bardzo dobrym aparatem warto kupić do 3500 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://gemini.google.com/app/a81b1b33f13bb59a",
+  "completed": true,
+  "capturedAt": "2026-08-20T18:57:49.117Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/oferta/google-pixel-8-pro-128gb-czarny-szybka-ladowarka-gratis-kl-premium-18726837300",
+      "text": "Google Pixel 8 Pro 128GB"
+    },
+    {
+      "href": "https://allegro.pl/oferta/smartfon-xiaomi-14-12-512gb-5g-23127pn0cg-czarny-dual-sim-17349266204",
+      "text": "Xiaomi 14 12/512GB (Leica)"
+    },
+    {
+      "href": "https://allegro.pl/oferta/smartfon-oneplus-12-czarny16-gb-512-gb-5g-a-18580435304",
+      "text": "OnePlus 12 16/512GB (Hasselblad)"
+    },
+    {
+      "href": "https://allegro.pl/oferta/samsung-galaxy-s24-ultra-5g-12-gb-256-gb-titanium-gray-jak-nowy-18422584146",
+      "text": "Samsung Galaxy S24 Ultra 12/256GB"
+    },
+    {
+      "href": "https://allegro.pl/oferta/smartfon-apple-iphone-15-6-gb-128-gb-5g-rozowy-bat-77-box-18811151526",
+      "text": "Apple iPhone 15 128GB"
+    }
+  ],
+  "responseText": "Treść wiadomości Gemini\n\nW budżecie do 3500 zł najlepsze możliwości fotograficzne oferują flagowce z zaawansowaną fotografią obliczeniową, dużą fizyczną matrycą oraz dedykowanym teleobiektywem.\n\nRekomendowane oferty na Allegro (ranking od najlepszego)\n\nGoogle Pixel 8 Pro 128GB  \nAllegro\n\nXiaomi 14 12/512GB (Leica)  \nAllegro\n\nOnePlus 12 16/512GB (Hasselblad)\n\nSamsung Galaxy S24 Ultra 12/256GB  \nAllegro\n\nApple iPhone 15 128GB  \nAllegro\n\nUzasadnienie kolejności  \nAllegro\n\n1. Google Pixel 8 Pro: Bezkonkurencyjny algorytm HDR+ i reprodukcja odcieni skóry. Zdjęcia w trudnym oświetleniu i portrety wychodzą powtarzalnie najlepiej bez potrzeby ręcznej edycji, a 5-krotny zoom peryskopowy deklasuje większość konkurentów w tej cenie.  \nAllegro\n\n2. Xiaomi 14: Rewelacyjna optyka stworzona we współpracy z marką Leica (profile kolorystyczne Authentic/Vibrant) oraz teleobiektyw 75 mm z ruchomą soczewką, który znakomicie sprawdza się w portretach i ujęciach makro.  \nAllegro\n\n3. OnePlus 12: Kalibracja kolorów Hasselblad, duża matryca główna Sony LYT-808 oraz świetny peryskop 64 MP dający wysoką szczegółowość przy 3- i 6-krotnym zbliżeniu.  \nAllegro\n\n4. Samsung Galaxy S24 Ultra: Najbardziej elastyczny zestaw obiektywów na rynku z matrycą 200 MP i wszechstronnym zoomem, choć oprogramowanie Samsunga miewa tendencję do mocniejszego cyfrowego wyostrzania i saturacji niż Pixel czy Leica.  \nAllegro\n\n5. Apple iPhone 15: Wzorcowa jakość rejestracji wideo, świetna stabilizacja i bardzo spójne odwzorowanie kolorów, jednak brak fizycznego teleobiektywu stawia go fotograficznie nieco niżej od modeli z peryskopem.  \nAllegro\n+ 1"
+}
+

@@ -1,0 +1,34 @@
+{
+  "promptId": "DISC-09",
+  "category": "televisions",
+  "intent": "oled_55_movies",
+  "engine": "chatgpt",
+  "prompt": "Jaki telewizor OLED 55 cali do filmów i seriali ma obecnie najlepszy stosunek jakości do ceny? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://chatgpt.com/c/6a874c3d-23d4-83eb-b8df-a2b6ea41ccf6",
+  "completed": true,
+  "capturedAt": "2026-08-20T18:49:51.602Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/listing?string=telewizor+samsung+qe55s90f&utm_source=chatgpt.com",
+      "text": "allegro.pl\n+1"
+    },
+    {
+      "href": "https://allegro.pl/kategoria/tv-i-video-telewizory-257732?string=samsung+qe55s90f&utm_source=chatgpt.com",
+      "text": "allegro.pl"
+    },
+    {
+      "href": "https://mediamarkt.pl/pl/category/telewizory-55-cali-70081.html?brand=SAMSUNG&utm_source=chatgpt.com",
+      "text": "mediamarkt.pl\n+1"
+    },
+    {
+      "href": "https://www.lgwebos.co.il/wp-content/uploads/2025/07/LG-OLED-C5.pdf?utm_source=chatgpt.com",
+      "text": "lgwebos.co.il"
+    },
+    {
+      "href": "https://allegro.pl/listing?string=telewizor+samsung+qe55s90f&utm_source=chatgpt.com",
+      "text": "allegro.pl\n+1"
+    }
+  ],
+  "responseText": "Jaki telewizor OLED 55 cali do filmów i seriali ma obecnie najlepszy stosunek jakości do ceny? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.\n\nNajlepszy stosunek jakości do ceny spośród 55-calowych OLED-ów, które znalazłem na Allegro, ma obecnie Samsung S90F (QE55S90FAE). W ofertach Allegro schodzi do ok. 3200–3400 zł, co jest bardzo mocną ceną za panel OLED 4K 144 Hz. \nallegro.pl\n+1\n\nMój ranking\n\nSamsung QE55S90FAE — ok. 3199 zł\nNajlepszy wybór. Bardzo dobry HDR, wysoka jasność jak na OLED, świetny kontrast i 144 Hz. Do filmów i seriali jest znakomity, a przy tej cenie trudno go przebić. \nallegro.pl\n\nUwaga: wyszukiwarka Allegro pokazuje tę cenę u konkretnego sprzedawcy, ale nie udostępniła mi wiarygodnego bezpośredniego URL-a do samej oferty — dlatego nie będę udawał, że mam link do oferty, którego nie mogę zweryfikować.\n\nLG OLED55B56LA (B5) — ok. 3500 zł\nŚwietna alternatywa dla S90F. OLED 4K 120 Hz, webOS i bardzo dobry obraz filmowy; B5 jest obecnie wyraźnie tańszy od C5. \nmediamarkt.pl\n+1\n\nLG OLED55C56LA (C5)\nLepszy procesor i wyższa klasa obrazu niż B5, ale dopłata ma sens dopiero przy niewielkiej różnicy cenowej. Model C5 wykorzystuje procesor α9 AI Gen8 i panel OLED evo. \nlgwebos.co.il\n\nCo bym kupił?\n\nSamsung S90F za ~3200–3400 zł → zdecydowanie nr 1.\nJeżeli konkretna oferta okaże się niedostępna, LG B5 w okolicach 3500 zł jest moim drugim wyborem.\n\nNie podaję fikcyjnych „bezpośrednich” linków: aktualne wyniki Allegro, które mogłem zweryfikować, zwracają listingi, a nie stabilne URL-e konkretnych sprzedawców. \nallegro.pl\n+1\n\nChatGPT może popełniać błędy. Sprawdź ważne informacje.\n\nMyślenie"
+}
+

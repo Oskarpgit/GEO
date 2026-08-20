@@ -1,0 +1,34 @@
+{
+  "promptId": "DISC-05",
+  "category": "tablets",
+  "intent": "study_notes",
+  "engine": "gemini",
+  "prompt": "Jaki tablet do nauki, notatek i oglądania filmów warto kupić do 2500 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://gemini.google.com/app/7dd54ddb40c076e7",
+  "completed": true,
+  "capturedAt": "2026-08-20T18:59:26.235Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/oferta/apple-ipad-10-9-64gb-blue-10-generacja-15306867548",
+      "text": "Sprawdź ofertę na Allegro: Apple iPad 10.9 64GB Blue"
+    },
+    {
+      "href": "https://allegro.pl/oferta/tablet-samsung-galaxy-tab-s9-fe-10-9-5g-x516-gwarancja-nowy-6-128gb-18339629367",
+      "text": "Sprawdź ofertę na Allegro: Samsung Galaxy Tab S9 FE 6/128GB"
+    },
+    {
+      "href": "https://allegro.pl/oferta/tablet-lenovo-tab-p12-12-7-8-gb-128-gb-zielony-16877142114",
+      "text": "Sprawdź ofertę na Allegro: Lenovo Tab P12 12,7\" 8/128GB"
+    },
+    {
+      "href": "https://allegro.pl/oferta/tablet-xiaomi-redmi-pad-12-1-6-gb-128-gb-szary-18434269987",
+      "text": "Sprawdź ofertę na Allegro: Xiaomi Redmi Pad Pro 12,1\" 6/128GB"
+    },
+    {
+      "href": "https://allegro.pl/oferta/tablet-lenovo-idea-tab-11-8gb-256gb-2-5k-ips-lcd-90hz-android-15-rysik-18295971374",
+      "text": "Sprawdź ofertę na Allegro: Lenovo Idea Tab 11\" 8/256GB + Rysik"
+    }
+  ],
+  "responseText": "Treść wiadomości Gemini\n\nDo nauki, tworzenia notatek i konsumpcji multimediów w budżecie do 2500 zł najlepiej sprawdzają się modele łączące wysokiej jakości ekrany, wsparcie dla precyzyjnych rysików oraz płynne oprogramowanie.  \nAllegro\n\n1. Apple iPad 10.9\" (10. generacji)  \nAllegro\n\nDlaczego warto: Bezkonkurencyjny ekosystem aplikacji edukacyjnych i do notowania (GoodNotes, Notability, Procreate). Długie, kilkuletnie wsparcie aktualizacjami i wysoka jasność ekranu Liquid Retina.  \nAllegro\n\nZastosowanie: Wygodna nauka, synchronizacja z chmurą i stabilne odtwarzanie multimediów.  \nAllegro\n\nSprawdź ofertę na Allegro: Apple iPad 10.9 64GB Blue  \nAllegro\n\n2. Samsung Galaxy Tab S9 FE (10.9\")  \nAllegro\n\nDlaczego warto: Rysik S-Pen znajduje się w zestawie (brak dodatkowych kosztów), a aplikacja Samsung Notes jest jedną z najbardziej rozbudowanych na rynku. Dodatkowo oferuje tryb Samsung DeX (interfejs okienkowy jak na PC) oraz wodoszczelność IP68.  \nAllegro\n\nZastosowanie: Ręczne notatki, praca na podzielonym ekranie (PDF + notatnik) i oglądanie filmów.  \nAllegro\n+ 1\n\nSprawdź ofertę na Allegro: Samsung Galaxy Tab S9 FE 6/128GB  \nAllegro\n\n3. Lenovo Tab P12 (12.7\")  \nAllegro\n\nDlaczego warto: Ogromny ekran 12,7 cala w rozdzielczości 3K z czterema głośnikami JBL Dolby Atmos sprawia, że to najlepszy wybór typowo pod filmy oraz pracę na dwóch otwartych aplikacjach jednocześnie. Wersje zestawowe zawierają rysik Lenovo Tab Pen Plus.  \nAllegro\n\nZastosowanie: Oglądanie wideo w wysokiej rozdzielczości, czytanie skanów i podręczników bez konieczności ciągłego powiększania.  \nAllegro\n\nSprawdź ofertę na Allegro: Lenovo Tab P12 12,7\" 8/128GB  \nAllegro\n\n4. Xiaomi Redmi Pad Pro (12.1\")  \nAllegro\n\nDlaczego warto: Wyświetlacz 12.1\" 2.5K z odświeżaniem 120 Hz, potężna bateria 10 000 mAh oraz obsługa Dolby Vision i Dolby Atmos przy zachowaniu bardzo atrakcyjnej ceny, co pozwala zaoszczędzić sporą część budżetu na opcjonalny rysik i klawiaturę.  \nAllegro\n\nZastosowanie: Maratony filmowe i codzienna nauka z dużą przestrzenią roboczą.  \nAllegro\n+ 1\n\nSprawdź ofertę na Allegro: Xiaomi Redmi Pad Pro 12,1\" 6/128GB  \nAllegro\n\n5. Lenovo Idea Tab 11 (z rysikiem w zestawie)  \nAllegro\n\nDlaczego warto: Kompaktowa propozycja budżetowa z ekranem 2.5K 90 Hz, 8 GB RAM i 256 GB pamięci wbudowanej oraz dołączonym piórkiem. Bardzo poręczny format do noszenia na zajęcia.  \nAllegro\n+ 1\n\nZastosowanie: Podstawowe notatki, przeglądanie materiałów i streaming w podróży.  \nAllegro\n\nSprawdź ofertę na Allegro: Lenovo Idea Tab 11\" 8/256GB + Rysik  \nAllegro\n\nUzasadnienie hierarchii:  \nAllegro\n\niPad 10 i Galaxy Tab S9 FE zajmują czołowe miejsca ze względu na bezkonkurencyjną responsywność rysika oraz dojrzałe oprogramowanie do zarządzania notatkami i plikami PDF. Samsung wygrywa opłacalnością zestawu (rysik w pudełku), natomiast iPad kulturą pracy i płynnością.  \nAllegro\n+ 1\n\nLenovo Tab P12 oraz Redmi Pad Pro to propozycje dla osób stawiających na pierwszym miejscu duży format (powyżej 12 cali) i wrażenia kinowe, kosztem nieco mniej zaawansowanego ekosystemu notatek niż w Apple/Samsungu.  \nAllegro\n\nIdea Tab 11 zamyka stawkę jako najbardziej ekonomiczna, kompletna opcja z dużą pamięcią wewnętrzną.  \nAllegro"
+}
+

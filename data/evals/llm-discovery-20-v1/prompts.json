@@ -1,0 +1,136 @@
+{
+  "promptsetId": "llm-discovery-20-v1",
+  "language": "pl-PL",
+  "marketplace": "allegro-pl",
+  "engines": ["chatgpt", "gemini"],
+  "conversationPolicy": "fresh_conversation_per_prompt",
+  "searchPolicy": "web_search_enabled",
+  "resultPolicy": {
+    "maximumRecommendations": 5,
+    "requireDirectSellerOfferLinks": true,
+    "doNotNameExpectedProductsOrOfferIds": true,
+    "negativeResultIsValid": true
+  },
+  "prompts": [
+    {
+      "promptId": "DISC-01",
+      "category": "smartphones",
+      "intent": "camera_value",
+      "text": "Jaki smartfon z bardzo dobrym aparatem warto kupić do 3500 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność."
+    },
+    {
+      "promptId": "DISC-02",
+      "category": "smartphones",
+      "intent": "compact_premium",
+      "text": "Poleć kompaktowy smartfon klasy premium z dobrym czasem pracy. Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność."
+    },
+    {
+      "promptId": "DISC-03",
+      "category": "laptops",
+      "intent": "office_mobility",
+      "text": "Jaki lekki laptop do pracy biurowej i podróży warto kupić do 4500 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność."
+    },
+    {
+      "promptId": "DISC-04",
+      "category": "laptops",
+      "intent": "gaming_value",
+      "text": "Jaki laptop gamingowy z najlepszym stosunkiem wydajności do ceny warto kupić do 6000 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność."
+    },
+    {
+      "promptId": "DISC-05",
+      "category": "tablets",
+      "intent": "study_notes",
+      "text": "Jaki tablet do nauki, notatek i oglądania filmów warto kupić do 2500 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność."
+    },
+    {
+      "promptId": "DISC-06",
+      "category": "tablets",
+      "intent": "drawing",
+      "text": "Poleć tablet z rysikiem do rysowania i pracy kreatywnej. Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność."
+    },
+    {
+      "promptId": "DISC-07",
+      "category": "headphones",
+      "intent": "anc_travel",
+      "text": "Jakie słuchawki nauszne z bardzo dobrym ANC warto kupić do podróży? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność."
+    },
+    {
+      "promptId": "DISC-08",
+      "category": "headphones",
+      "intent": "sports_earbuds",
+      "text": "Jakie bezprzewodowe słuchawki douszne do biegania i treningu warto kupić do 800 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność."
+    },
+    {
+      "promptId": "DISC-09",
+      "category": "televisions",
+      "intent": "oled_55_movies",
+      "text": "Jaki telewizor OLED 55 cali do filmów i seriali ma obecnie najlepszy stosunek jakości do ceny? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność."
+    },
+    {
+      "promptId": "DISC-10",
+      "category": "televisions",
+      "intent": "bright_room_65",
+      "text": "Jaki telewizor 65 cali sprawdzi się w jasnym salonie i do sportu? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność."
+    },
+    {
+      "promptId": "DISC-11",
+      "category": "vacuum-cleaners",
+      "intent": "pets_cordless",
+      "text": "Jaki odkurzacz pionowy bezprzewodowy najlepiej radzi sobie z sierścią zwierząt? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność."
+    },
+    {
+      "promptId": "DISC-12",
+      "category": "robot-vacuums",
+      "intent": "thresholds_mopping",
+      "text": "Jaki robot sprzątający z dobrym mopowaniem i pokonywaniem progów warto kupić? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność."
+    },
+    {
+      "promptId": "DISC-13",
+      "category": "coffee-machines",
+      "intent": "automatic_value",
+      "text": "Jaki automatyczny ekspres do kawy warto kupić do 2500 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność."
+    },
+    {
+      "promptId": "DISC-14",
+      "category": "coffee-machines",
+      "intent": "milk_easy_clean",
+      "text": "Poleć automatyczny ekspres do kaw mlecznych, który jest łatwy w czyszczeniu. Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność."
+    },
+    {
+      "promptId": "DISC-15",
+      "category": "consoles",
+      "intent": "family_console",
+      "text": "Jaką konsolę najlepiej kupić rodzinie z dziećmi do wspólnego grania? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność."
+    },
+    {
+      "promptId": "DISC-16",
+      "category": "smartwatches",
+      "intent": "android_health",
+      "text": "Jaki smartwatch do telefonu z Androidem najlepiej monitoruje zdrowie, sen i treningi? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność."
+    },
+    {
+      "promptId": "DISC-17",
+      "category": "smartwatches",
+      "intent": "iphone_daily",
+      "text": "Jaki smartwatch do iPhone'a będzie najlepszy do codziennego używania i sportu? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność."
+    },
+    {
+      "promptId": "DISC-18",
+      "category": "cameras",
+      "intent": "beginner_hybrid",
+      "text": "Jaki aparat bezlusterkowy dla początkującego nadaje się do zdjęć i filmu? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność."
+    },
+    {
+      "promptId": "DISC-19",
+      "category": "action-cameras",
+      "intent": "travel_sports",
+      "text": "Jaką kamerę sportową warto kupić do podróży, roweru i nagrywania w wodzie? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność."
+    },
+    {
+      "promptId": "DISC-20",
+      "category": "printers",
+      "intent": "home_low_cost",
+      "text": "Jaką drukarkę do domu z tanim drukowaniem warto kupić do 1000 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność."
+    }
+  ]
+}

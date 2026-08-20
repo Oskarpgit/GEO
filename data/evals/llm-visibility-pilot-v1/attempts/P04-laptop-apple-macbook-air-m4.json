@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0.0",
+  "testId": "P04-laptop-apple-macbook-air-m4",
+  "category": "laptops",
+  "query": "Poleć konkretne oferty Allegro na Apple MacBook Air M4. Podaj bezpośrednie linki do ofert sprzedawców.",
+  "target": {
+    "offerId": "18160724536",
+    "productId": "e53b81e7-e0ab-496a-babb-8c50fc47bff4"
+  },
+  "observation": {
+    "retrievalClass": "active_other_offer",
+    "targetOfferVisible": false,
+    "targetProductVisible": false,
+    "allegroSurfaceVisible": true
+  },
+  "attempt": {
+    "attemptId": "codex-web:P04-laptop-apple-macbook-air-m4:r1",
+    "offerId": "18160724536",
+    "promptId": "VIS-P04-laptop-apple-macbook-air-m4",
+    "repetition": 1,
+    "status": "success",
+    "capturedAt": "2026-08-20T20:26:44.2616511+02:00",
+    "engine": {
+      "provider": "openai",
+      "model": "codex-runtime-unspecified",
+      "surface": "llm_web_retrieval",
+      "consumerAnswerCaptured": false
+    },
+    "appearances": [
+      {
+        "rank": 1,
+        "entityType": "domain",
+        "url": "https://allegro.pl/listing?string=macbook+air+m4",
+        "identityMatch": "uncertain",
+        "cited": true
+      },
+      {
+        "rank": 2,
+        "entityType": "offer",
+        "url": "https://allegro.pl/oferta/laptop-apple-macbook-air-13-6-m4-16-gb-256-gb-polnoc-17626445122",
+        "detectedOfferId": "17626445122",
+        "identityMatch": "uncertain",
+        "cited": true
+      }
+    ]
+  },
+  "metrics": {
+    "offerId": "18160724536",
+    "successfulAttempts": 1,
+    "excludedAttempts": 0,
+    "matchedAttempts": 0,
+    "uncertainAppearances": 2,
+    "mentionRate": 0,
+    "offerLinkRate": 0,
+    "top1Share": 0,
+    "top3Share": 0,
+    "top5Share": 0,
+    "meanReciprocalRank": 0
+  }
+}

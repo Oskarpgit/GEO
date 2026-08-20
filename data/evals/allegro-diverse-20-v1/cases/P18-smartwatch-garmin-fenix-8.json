@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.1.0",
+  "testId": "P18-smartwatch-garmin-fenix-8",
+  "category": "smartwatches",
+  "source": {
+    "url": "https://allegro.pl/produkt/smartwatch-garmin-fenix-8-47mm-amoled-slate-czarny-010-02904-00-47c35c6e-c21a-4ad6-b46e-0626a0ee0db0?offerId=18760658518",
+    "capturedAt": "2026-08-20T18:16:39.220Z",
+    "rawEvidenceSha256": "0b41f83f45db090e82b95e3fc3686bb5274da8f579a47d585a5280463083d174",
+    "rawEvidenceBytes": 962735,
+    "rawEvidenceCommitted": false,
+    "firecrawlStatusCode": 200
+  },
+  "expected": {
+    "title": "Smartwatch Garmin Fenix 8 47mm AMOLED",
+    "offerId": "18760658518",
+    "productId": "47c35c6e-c21a-4ad6-b46e-0626a0ee0db0"
+  },
+  "observed": {
+    "offerId": "18760658518",
+    "productId": "47c35c6e-c21a-4ad6-b46e-0626a0ee0db0",
+    "title": "Zegarek Garmin Fenix 8, 47 mm AMOLED, czarny",
+    "brand": "Garmin",
+    "model": "Fenix 8 AMOLED Slate",
+    "categoryPath": [
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Dla kupującego",
+      "Dla sprzedającego",
+      "Elektronika",
+      "Telefony i Akcesoria",
+      "Smartwatche i akcesoria",
+      "Smartwatche",
+      "Smartwatch Garmin Fenix 8 47mm AMOLED Slate czarny 010-02904-00",
+      "Garmin",
+      "Xiaomi",
+      "JG Smart"
+    ],
+    "seller": {
+      "name": "buy-it_pl",
+      "recommendedPercent": 95.6,
+      "superSeller": false,
+      "officialStore": false
+    },
+    "commerce": {
+      "price": 3108.99,
+      "currency": "PLN",
+      "smart": true
+    },
+    "productGroup": {
+      "comparedOfferCount": 39
+    },
+    "parameters": {
+      "Stan": "NowyNowyoznacza Towar całkowicie nowy, kompletny, nieużywany bez jakichkolwiek wad lub defektów (np. rys, wgnieceń, minimalnych uszkodzeń). Towar znajduje się w opakowaniu (tam, gdzie ma to zastosowanie) które jest oryginalne, nieotwarte i nieuszkodzone wraz z nienaruszonymi zabezpieczeniami lub identyfikatorami producenta (takimi jak plomby na pudełkach czy metki na ubraniach).",
+      "Marka": "Garmin",
+      "Model": "Fenix 8 AMOLED Slate",
+      "Rozmiar koperty": "47 mm",
+      "Komunikacja": "Bluetooth",
+      "Czujniki": "akcelerometr, barometr, czujnik geometryczny, czujnik temperatury, kompas, krokomierz, pulsometr, wysokościomierz, żyroskop",
+      "Kompatybilność systemowa": "Android, iOS",
+      "Wodoszczelność": "tak"
+    },
+    "imageCount": 10,
+    "descriptionProfile": {
+      "characters": 1864,
+      "words": 211,
+      "sha256": "8333999986b6940c4728898478a967503933575d566905013f54f41bac7d1e61",
+      "headings": [],
+      "paragraphs": 0,
+      "listItems": 0,
+      "inlineImages": 0
+    }
+  },
+  "validation": {
+    "rulesetId": "allegro-pl-2026-08-20.1",
+    "validatorVersion": "0.1.0",
+    "readyForGeneration": false,
+    "totals": {
+      "passed": 11,
+      "failed": 1,
+      "needs_review": 6,
+      "not_applicable": 0,
+      "not_evaluated": 1
+    },
+    "failedRuleIds": [
+      "ALG-PARAM-002"
+    ],
+    "needsReviewRuleIds": [
+      "ALG-TITLE-004",
+      "ALG-DESC-003",
+      "ALG-DESC-004",
+      "ALG-DESC-005",
+      "ALG-DESC-006",
+      "ALG-DESC-012"
+    ],
+    "notEvaluatedRuleIds": [
+      "ALG-PARAM-001"
+    ]
+  },
+  "assertions": [
+    {
+      "id": "offer_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "18760658518",
+      "observed": "18760658518"
+    },
+    {
+      "id": "product_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "47c35c6e-c21a-4ad6-b46e-0626a0ee0db0",
+      "observed": "47c35c6e-c21a-4ad6-b46e-0626a0ee0db0"
+    },
+    {
+      "id": "title_coverage",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": ">=0.35",
+      "observed": 0.6
+    },
+    {
+      "id": "description_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=80",
+      "observed": 1864
+    },
+    {
+      "id": "parameters_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=4",
+      "observed": 8
+    },
+    {
+      "id": "product_images_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=1",
+      "observed": 10
+    },
+    {
+      "id": "gtin_checksum",
+      "kind": "quality_signal",
+      "status": "not_evaluated",
+      "expected": true
+    }
+  ],
+  "extractionPassed": true,
+  "geoInputComplete": true
+}

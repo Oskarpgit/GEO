@@ -1,0 +1,34 @@
+{
+  "promptId": "DISC-19",
+  "category": "action-cameras",
+  "intent": "travel_sports",
+  "engine": "gemini",
+  "prompt": "Jaką kamerę sportową warto kupić do podróży, roweru i nagrywania w wodzie? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://gemini.google.com/app/d26ab5a04641b132",
+  "completed": true,
+  "capturedAt": "2026-08-20T19:04:44.291Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/oferta/kamera-sportowa-dji-osmo-action-5-pro-adventure-combo-16528669636",
+      "text": "Sprawdź ofertę na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/kamera-sportowa-dji-osmo-action-4-adventure-combo-4k-uhd-wodoodporna-18671533509",
+      "text": "Sprawdź ofertę na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/kamera-sportowa-gopro-hero-13-black-wideo-5-3k-obudowa-wodoodporna-60m-16503955219",
+      "text": "Sprawdź ofertę na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/insta360-ace-pro-standalone-wodoodporna-kamera-akcji-18659173523",
+      "text": "Sprawdź ofertę na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/kamera-sportowa-dji-osmo-action-4-standard-combo-18708481427",
+      "text": "Sprawdź ofertę na Allegro"
+    }
+  ],
+  "responseText": "Treść wiadomości Gemini\n\nDo zastosowań łączących podróże, rower i wodę kluczowe są: szybki system mocowań (łatwe przepinanie z kierownicy na klatkę piersiową lub kijek), wysoka odporność na zanurzenie bez dodatkowych obudów, wydajna bateria oraz dobra stabilizacja w zmiennym świetle (np. w lesie czy pod wodą).  \nAllegro\n\nRanking rekomendowanych kamer i ofert na Allegro  \nAllegro\n\nDJI Osmo Action 5 Pro (Adventure Combo) – Sprawdź ofertę na Allegro  \nAllegro\n\nDlaczego 1. miejsce: Najbardziej wszechstronny wybór. Wodoodporność fabryczna aż do 20 m (bez obudowy), wbudowany głębokościomierz i ciśnieniomierz, magnetyczny system montażu (niezastąpiony na rowerze/w podróży) oraz rekordowy czas pracy na baterii (do 4h). Zestaw Adventure Combo zawiera 3 akumulatory i hub ładujący.  \nAllegro\n\nDJI Osmo Action 4 (Adventure Combo) – Sprawdź ofertę na Allegro  \nAllegro\n+ 1\n\nDlaczego 2. miejsce: Najlepszy stosunek ceny do możliwości. Duża matryca 1/1.3″ świetnie radzi sobie w ciemniejszych partiach lasu na rowerze i pod wodą (do 18 m bez etui), a magnetyczne klipsy działają identycznie jak w nowszym modelu.  \nAllegro\n\nGoPro HERO 13 Black – Sprawdź ofertę na Allegro  \nAllegro\n+ 1\n\nDlaczego 3. miejsce: Wzorcowa stabilizacja HyperSmooth 6.0 i rozdzielczość 5.3K. Wprowadza mocowanie magnetyczne oraz obsługę wymiennych obiektywów HB-Series (w tym filtrów ND i makro). Fabryczna wodoodporność do 10 m (w ofercie dołączona dodatkowa obudowa na 60 m).  \nAllegro\n+ 1\n\nInsta360 Ace Pro – Sprawdź ofertę na Allegro  \nAllegro\n+ 1\n\nDlaczego 4. miejsce: Odchylany ekran ułatwia kadrowanie vlogów w podróży, a optyka Leica i procesor AI zapewniają wyrazisty obraz nocą. Wodoodporność do 10 m i magnetyczne zatrzaski sprawdzają się na rowerze, choć jest nieco cięższa od konkurentów.  \nAllegro\n+ 1\n\nDJI Osmo Action 4 (Standard Combo) – Sprawdź ofertę na Allegro  \nAllegro\n\nDlaczego 5. miejsce: Opcja budżetowa dla osób, które chcą topowej jakości nagrań pod wodą i na szlaku bez dopłacania do pełnego pakietu akcesoriów.  \nAllegro\n\nPorównanie kluczowych parametrów  \nAllegro\nCecha\tDJI Osmo Action 4 / 5 Pro\tGoPro HERO 13 Black\tInsta360 Ace Pro\nWodoodporność (baza)\t18 m (Action 4) / 20 m (Action 5 Pro)\t10 m\t10 m\nSystem montażu\tSzybkozłączka magnetyczna\tMagnetyczny + standard GoPro\tMagnetyczny\nMocna strona na rower\tSzybkie przepinanie, odporność na wstrząsy\tTopowa stabilizacja i profile kolorów\tOdporność i czytelny interfejs\nMocna strona w podróż\tDwa ekrany dotykowe, długa praca na mrozie\tOgromny ekosystem akcesoriów\tOdchylany ekran (flip screen) do selfie\nChcesz dowiedzieć się, jakie uchwyty rowerowe i filtry do wody warto dokupić?\nTak"
+}
+

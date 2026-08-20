@@ -1,0 +1,34 @@
+{
+  "promptId": "DISC-18",
+  "category": "cameras",
+  "intent": "beginner_hybrid",
+  "engine": "gemini",
+  "prompt": "Jaki aparat bezlusterkowy dla początkującego nadaje się do zdjęć i filmu? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://gemini.google.com/app/e52a4ea60f3d6a88",
+  "completed": true,
+  "capturedAt": "2026-08-20T19:04:25.387Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/oferta/sony-zv-e10-ii-16-50mm-f-3-5-5-6-oss-ii-18462785436",
+      "text": "Sony ZV-E10 II + E 16-50 mm OSS II"
+    },
+    {
+      "href": "https://allegro.pl/oferta/canon-aparat-bezlusterkowy-eos-r50-rf-s-18-45-is-stm-creator-kit-czarny-18340373626",
+      "text": "Canon EOS R50 + RF-S 18-45 mm IS STM"
+    },
+    {
+      "href": "https://allegro.pl/oferta/sony-alpha-6400-ilce-6400ab-aparat-cyfrowy-bezlusterkowy-aps-c-24-2-mp-18611278372",
+      "text": "Sony Alpha 6400 (Body)"
+    },
+    {
+      "href": "https://allegro.pl/oferta/fujifilm-x-t30-iii-czarny-body-aparat-fotograficzny-18099717752",
+      "text": "Fujifilm X-T30 (Body)"
+    },
+    {
+      "href": "https://allegro.pl/oferta/panasonic-lumix-dc-g100-12-32mm-f3-5-5-6-15137495600",
+      "text": "Panasonic Lumix DC-G100 + 12-32 mm"
+    }
+  ],
+  "responseText": "Treść wiadomości Gemini\n\nDo hybrydowego zastosowania (zdjęcia i wideo) dla osoby początkującej najlepiej sprawdzają się bezlusterkowce z matrycą APS-C lub Mikro 4/3, które oferują szybki autofokus z detekcją oka/twarzy, obracany ekran oraz bogaty ekosystem wymiennej optyki.  \nAllegro\n\nSony ZV-E10 II + E 16-50 mm OSS II  \nAllegro\n\nDlaczego 1. miejsce: Najlepszy stosunek możliwości wideo do foto w klasie konsumenckiej. Oferuje bezkonkurencyjny autofokus śledzący, 10-bitowe wideo 4K, brak limitów nagrywania oraz dostęp do najszerszej na rynku bazy tanich obiektywów z mocowaniem Sony E.  \nAllegro\n\nCanon EOS R50 + RF-S 18-45 mm IS STM  \nAllegro\n\nDlaczego 2. miejsce: Najbardziej intuicyjny aparat dla osób przesiadających się ze smartfona. Posiada wbudowany wizjer elektroniczny (EVF), świetny system Dual Pixel AF II i daje bardzo naturalne kolory prosto z aparatu (JPEG/wideo) bez konieczności zaawansowanej obróbki.  \nAllegro\n+ 2\n\nSony Alpha 6400 (Body)  \nAllegro\n\nDlaczego 3. miejsce: Prawdziwy klasyk hybrydowy z solidnym, częściowo uszczelnionym korpusem ze stopu magnezu i wizjerem. Jeśli priorytetem jest fotografia z dużą ilością wideo w tle, to pewniejsza konstrukcja niż seria ZV.  \nAllegro\n+ 2\n\nFujifilm X-T30 (Body)  \nAllegro\n\nDlaczego 4. miejsce: Najlepszy wybór do nauki świadomej fotografii dzięki fizycznym pokrętłom czasów i ekspozycji. Słynne profile kolorystyczne (symulacje filmów analogowych Fuji) dają gotowy, kinowy obraz bez żmudnej postprodukcji.  \nAllegro\n+ 2\n\nPanasonic Lumix DC-G100 + 12-32 mm  \nAllegro\n\nDlaczego 5. miejsce: Najbardziej przystępna cenowo i ultra-kompaktowa propozycja. System Mikro 4/3 oznacza bardzo małe gabaryty szkieł, choć aparat ustępuje konkurencji pod kątem autofokusa w dynamicznych scenach.  \nAllegro\n+ 2\n\nChcesz dobrać dodatkowy jasny obiektyw stałoogniskowy do portretów lub ujęć w słabym świetle?\nTak"
+}
+

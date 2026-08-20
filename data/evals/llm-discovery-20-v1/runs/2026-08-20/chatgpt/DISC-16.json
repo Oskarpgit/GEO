@@ -1,0 +1,38 @@
+{
+  "promptId": "DISC-16",
+  "category": "smartwatches",
+  "intent": "android_health",
+  "engine": "chatgpt",
+  "prompt": "Jaki smartwatch do telefonu z Androidem najlepiej monitoruje zdrowie, sen i treningi? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://chatgpt.com/c/6a874d20-0734-83eb-a6e8-2823024534af",
+  "completed": true,
+  "capturedAt": "2026-08-20T18:53:38.984Z",
+  "links": [
+    {
+      "href": "https://www.tomsguide.com/best-picks/best-smartwatch-women?utm_source=chatgpt.com",
+      "text": "Tom's Guide\n+1"
+    },
+    {
+      "href": "https://www.tomsguide.com/wellness/smartwatches/google-pixel-watch5-review?utm_source=chatgpt.com",
+      "text": "Tom's Guide"
+    },
+    {
+      "href": "https://www.tomsguide.com/wellness/smartwatches/google-pixel-watch5-review?utm_source=chatgpt.com",
+      "text": "Tom's Guide\n+1"
+    },
+    {
+      "href": "https://www.tomsguide.com/best-picks/best-smartwatch-women?utm_source=chatgpt.com",
+      "text": "Tom's Guide"
+    },
+    {
+      "href": "https://allegro.pl/oferta/smartwatch-huawei-watch-5-classic-lte-brazowy-46mm-17529010156?srsltid=AfmBOooa8HpPfx2bZ3i1KHWtZBcidCMX_2xxcz50ned95M9c6_apJ9KJ&utm_source=chatgpt.com",
+      "text": "Huawei Watch 5 Classic LTE 46 mm — Allegro, 1399 zł"
+    },
+    {
+      "href": "https://allegro.pl/oferta/smartwatch-huawei-watch-5-elite-46mm-srebrny-17525916789?utm_source=chatgpt.com",
+      "text": "Allegro\n+1"
+    }
+  ],
+  "responseText": "Jaki smartwatch do telefonu z Androidem najlepiej monitoruje zdrowie, sen i treningi? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.\n\nJeśli priorytetem są zdrowie + sen + treningi i masz Androida, wybrałbym przede wszystkim Garmina Venu 4, a następnie Samsung/Google. Garmin jest najmocniejszy treningowo, natomiast Samsung i Pixel oferują bardziej rozbudowany ekosystem „smart” i funkcje zdrowotne. \nTom's Guide\n+1\n\nMój ranking\n\nGarmin Venu 4 — najlepszy wybór do treningów, bardzo dobre metryki zdrowotne i snu, świetna bateria. \nTom's Guide\n\nGarmin Venu 4\n1749,00 zł\n•\nAllegro + inni\n4,7 (1,5 tys.)\n\nGoogle Pixel Watch 5 — najlepszy, jeśli chcesz przede wszystkim monitoringu zdrowia i snu oraz mocnej integracji z Google/Fitbit. W 2026 r. doszły kolejne funkcje zdrowotne. \nTom's Guide\n+1\n\nSamsung Galaxy Watch 8 — świetny kompromis zdrowie/sen/sport + smartwatch; szczególnie atrakcyjny przy telefonie Samsung. \nTom's Guide\n\nSamsung Galaxy Watch 8 · \n4,5\n999,00 zł · Media Expert + inni\n\nHuawei Watch 5 — bardzo dobry monitoring parametrów zdrowotnych i świetna bateria, ale ekosystem aplikacji jest mniej wygodny niż Wear OS. Na Allegro znalazłem aktualną ofertę, choć konkretne warianty potrafią szybko znikać.\nHuawei Watch 5 Classic LTE 46 mm — Allegro, 1399 zł\n\nWażne: nie podaję zmyślonych linków do ofert. W aktualnych wynikach Allegro wyszukiwarka nie zwróciła mi wiarygodnych, aktywnych ofert sprzedażowych Garmina Venu 4, Galaxy Watch 8 ani Pixela Watch 5 — zwracała głównie akcesoria lub zakończone aukcje. Dlatego z maksymalnie 5 wymaganych przez Ciebie linków mogę uczciwie potwierdzić tylko powyższą aktywną ofertę Huawei. \nAllegro\n+1\n\nMój wybór: jeśli trening jest równie ważny jak zdrowie i sen → Garmin Venu 4. Jeśli najważniejsze są sen, zdrowie i funkcje smart → Pixel Watch 5.\n\nPodoba Ci się ta osobowość?\nChatGPT może popełniać błędy. Sprawdź ważne informacje.\n\nMyślenie"
+}
+

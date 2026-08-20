@@ -1,0 +1,58 @@
+{
+  "promptId": "DISC-20",
+  "category": "printers",
+  "intent": "home_low_cost",
+  "engine": "chatgpt",
+  "prompt": "Jaką drukarkę do domu z tanim drukowaniem warto kupić do 1000 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://chatgpt.com/c/6a874dcc-25f0-83ed-8cfd-cc508c67ff53",
+  "completed": true,
+  "capturedAt": "2026-08-20T18:56:30.979Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/ranking/drukarki-atramentowe-i-laserowe-do-1000-zl?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/urzadzenie-wielofunkcyjne-brother-dcp-t535dw-druk-w-kolorze-wi-fi-17831568593?utm_source=chatgpt.com",
+      "text": "Kup na Allegro – konkretna oferta"
+    },
+    {
+      "href": "https://allegro.pl/oferta/urzadzenie-wielofunkcyjne-brother-dcp-t535dw-druk-w-kolorze-wi-fi-17831568593?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/drukarka-wielofunkcyjna-laserowa-mono-brother-dcp-l2622dw-duplex-wifi-17122327111?utm_source=chatgpt.com",
+      "text": "Kup na Allegro – konkretna oferta"
+    },
+    {
+      "href": "https://allegro.pl/oferta/drukarka-wielofunkcyjna-laserowa-mono-brother-dcp-l2622dw-duplex-wifi-17122327111?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/drukarka-laserowa-brother-dcp-1632w-wi-fi-mono-a4-toner-startowy-17854814661?utm_source=chatgpt.com",
+      "text": "Kup na Allegro – konkretna oferta"
+    },
+    {
+      "href": "https://allegro.pl/oferta/drukarka-laserowa-brother-dcp-1632w-wi-fi-mono-a4-toner-startowy-17854814661?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/drukarka-brother-dcp-1632w-monochromatyczna-wielofunkcyjna-a4-laserowa-17834076409?utm_source=chatgpt.com",
+      "text": "Kup na Allegro – konkretna oferta Komputronik"
+    },
+    {
+      "href": "https://allegro.pl/oferta/drukarka-brother-dcp-1632w-monochromatyczna-wielofunkcyjna-a4-laserowa-17834076409?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/urzadzenie-wielofunkcyjne-epson-et-2860-l3270-wifi-dolewane-tusze-17210611710?utm_source=chatgpt.com",
+      "text": "Kup na Allegro – konkretna oferta"
+    },
+    {
+      "href": "https://allegro.pl/oferta/urzadzenie-wielofunkcyjne-epson-et-2860-l3270-wifi-dolewane-tusze-17210611710?utm_source=chatgpt.com",
+      "text": "Allegro"
+    }
+  ],
+  "responseText": "Jaką drukarkę do domu z tanim drukowaniem warto kupić do 1000 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.\nPrzetwarzano przez 13s\n\nJeśli priorytetem jest tanie drukowanie w domu, wybrałbym przede wszystkim drukarkę z systemem zbiorników atramentowych albo monochromatycznego Brothera z tanim tonerem. Allegro w swoim aktualnym rankingu do 1000 zł również wysoko ocenia m.in. Brothera DCP-L2622DW, HP Smart Tank 670 i Brothera DCP-T735DW. \nAllegro\n\nMój ranking\n\nBrother DCP-T535DW — 899 zł\nKup na Allegro – konkretna oferta\n\nNajlepszy wybór do domu, jeśli drukujesz także w kolorze. Zbiorniki zamiast drogich kartridży, Wi-Fi, skaner/kopiarka i automatyczny duplex. Bardzo dobry kompromis między ceną urządzenia a kosztami eksploatacji. \nAllegro\n\nBrother DCP-L2622DW — 799 zł\nKup na Allegro – konkretna oferta\n\nNajlepszy, jeśli wystarczy Ci czarno-biały druk. Laser, Wi-Fi, automatyczny druk dwustronny i skaner. Przy dużej liczbie dokumentów będzie praktyczniejszy niż kolorowy atrament. \nAllegro\n\nBrother DCP-L1632W — 656 zł\nKup na Allegro – konkretna oferta\n\nNajlepsza opcja budżetowa do dokumentów. Laser monochromatyczny, Wi-Fi i funkcje 3w1; dodatkowo cena jest wyraźnie niższa od L2622DW. \nAllegro\n\nBrother DCP-L1632W — 699 zł, Komputronik\nKup na Allegro – konkretna oferta Komputronik\n\nTen sam model, ale oferta dużego i dobrze ocenianego sprzedawcy. Warto rozważyć, jeśli ważniejsza jest dla Ciebie pewność zakupu niż oszczędzenie kilkudziesięciu złotych. \nAllegro\n\nEpson EcoTank L3270 — 529 zł, powystawowy\nKup na Allegro – konkretna oferta\n\nNajciekawsza okazja cenowa, jeśli nie przeszkadza Ci sprzęt powystawowy. Kolor, Wi-Fi i system dolewanych tuszy oznaczają bardzo niskie koszty eksploatacji. \nAllegro\n\nMój wybór: jeśli drukujesz kolorowe dokumenty i zdjęcia → Brother DCP-T535DW. Jeśli głównie faktury, szkoła, dokumenty → Brother DCP-L2622DW. Jeśli chcesz wydać jak najmniej → DCP-L1632W za 656 zł.\n\nCeny i dostępność ofert na Allegro mogą się zmienić; powyższe oferty zostały znalezione jako aktualne podczas wyszukiwania.\n\nChatGPT może popełniać błędy. Sprawdź ważne informacje.\n\nMyślenie"
+}
+

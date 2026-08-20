@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.1.0",
+  "testId": "P15-console-playstation-5-slim-digital",
+  "category": "consoles",
+  "source": {
+    "url": "https://allegro.pl/produkt/konsola-sony-playstation-5-slim-digital-d-chassis-825gb-355df6b8-3056-4fbb-b3cd-2075e95840bd?offerId=18284603755",
+    "capturedAt": "2026-08-20T18:16:39.220Z",
+    "rawEvidenceSha256": "dd132a21b9ff5991d7bcad73ad7b3c3f01433eeb96005b571a78bf1ec9846f5f",
+    "rawEvidenceBytes": 805324,
+    "rawEvidenceCommitted": false,
+    "firecrawlStatusCode": 200
+  },
+  "expected": {
+    "title": "Konsola Sony PlayStation 5 Slim Digital D-Chassis 825GB",
+    "offerId": "18284603755",
+    "productId": "355df6b8-3056-4fbb-b3cd-2075e95840bd"
+  },
+  "observed": {
+    "offerId": "18284603755",
+    "productId": "355df6b8-3056-4fbb-b3cd-2075e95840bd",
+    "title": "Konsola PlayStation Sony PlayStation 5 Slim Digital",
+    "manufacturerCode": "CFI-2116",
+    "gtin": "711719577478",
+    "categoryPath": [
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Dla kupującego",
+      "Dla sprzedającego",
+      "Elektronika",
+      "Konsole i automaty",
+      "Sony PlayStation 5 (PS5)",
+      "Konsole",
+      "Konsola Sony PlayStation 5 Slim Digital D-Chassis 825GB",
+      "Sony"
+    ],
+    "seller": {
+      "name": "X-KOM_PL",
+      "recommendedPercent": 98.7,
+      "superSeller": false,
+      "officialStore": false
+    },
+    "commerce": {
+      "price": 2499,
+      "currency": "PLN",
+      "smart": true
+    },
+    "productGroup": {
+      "comparedOfferCount": 23
+    },
+    "parameters": {
+      "Stan": "NowyNowyoznacza Towar całkowicie nowy, kompletny, nieużywany bez jakichkolwiek wad lub defektów (np. rys, wgnieceń, minimalnych uszkodzeń). Towar znajduje się w opakowaniu (tam, gdzie ma to zastosowanie) które jest oryginalne, nieotwarte i nieuszkodzone wraz z nienaruszonymi zabezpieczeniami lub identyfikatorami producenta (takimi jak plomby na pudełkach czy metki na ubraniach).",
+      "Faktura": "Wystawiam fakturę VAT",
+      "Producent": "Sony",
+      "Waga produktu z opakowaniem jednostkowym": "4.25 kg",
+      "EAN (GTIN)": "711719577478",
+      "Kod producenta": "CFI-2116",
+      "Wersja": "PlayStation 5 Slim Digital Edition",
+      "Zawiera baterie": "tak"
+    },
+    "imageCount": 17,
+    "descriptionProfile": {
+      "characters": 1423,
+      "words": 188,
+      "sha256": "95c4bb4a83e06b77dbd1eee359eb282ad8013c92be556fc2bef033592630a293",
+      "headings": [],
+      "paragraphs": 0,
+      "listItems": 0,
+      "inlineImages": 0
+    }
+  },
+  "validation": {
+    "rulesetId": "allegro-pl-2026-08-20.1",
+    "validatorVersion": "0.1.0",
+    "readyForGeneration": false,
+    "totals": {
+      "passed": 12,
+      "failed": 1,
+      "needs_review": 6,
+      "not_applicable": 0,
+      "not_evaluated": 0
+    },
+    "failedRuleIds": [
+      "ALG-PARAM-002"
+    ],
+    "needsReviewRuleIds": [
+      "ALG-TITLE-004",
+      "ALG-DESC-003",
+      "ALG-DESC-004",
+      "ALG-DESC-005",
+      "ALG-DESC-006",
+      "ALG-DESC-012"
+    ],
+    "notEvaluatedRuleIds": []
+  },
+  "assertions": [
+    {
+      "id": "offer_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "18284603755",
+      "observed": "18284603755"
+    },
+    {
+      "id": "product_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "355df6b8-3056-4fbb-b3cd-2075e95840bd",
+      "observed": "355df6b8-3056-4fbb-b3cd-2075e95840bd"
+    },
+    {
+      "id": "title_coverage",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": ">=0.35",
+      "observed": 0.714
+    },
+    {
+      "id": "description_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=80",
+      "observed": 1423
+    },
+    {
+      "id": "parameters_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=4",
+      "observed": 8
+    },
+    {
+      "id": "product_images_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=1",
+      "observed": 17
+    },
+    {
+      "id": "gtin_checksum",
+      "kind": "quality_signal",
+      "status": "passed",
+      "expected": true,
+      "observed": "711719577478"
+    }
+  ],
+  "extractionPassed": true,
+  "geoInputComplete": true
+}

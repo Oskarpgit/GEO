@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "1.1.0",
+  "testId": "P06-tablet-samsung-galaxy-tab-s10-fe",
+  "category": "tablets",
+  "source": {
+    "url": "https://allegro.pl/produkt/tablet-samsung-galaxy-tab-s10-fe-10-9-8-gb-128-gb-szary-664bceaa-ca30-49db-ba6c-8a23bd43b697?offerId=18857672035",
+    "capturedAt": "2026-08-20T18:16:39.220Z",
+    "rawEvidenceSha256": "04fc2e15e7b1ca15ccacf598d078c8b7bb272c604cc65e782015a7cbec5c3fa9",
+    "rawEvidenceBytes": 974174,
+    "rawEvidenceCommitted": false,
+    "firecrawlStatusCode": 200
+  },
+  "expected": {
+    "title": "Tablet Samsung Galaxy Tab S10 FE 10,9 cali 8 GB / 128 GB",
+    "offerId": "18857672035",
+    "productId": "664bceaa-ca30-49db-ba6c-8a23bd43b697"
+  },
+  "observed": {
+    "offerId": "18857672035",
+    "productId": "664bceaa-ca30-49db-ba6c-8a23bd43b697",
+    "title": "Tablet Samsung Galaxy Tab S10 FE 10,9\" 8 GB / 128 GB szary",
+    "categoryPath": [
+      "Zaloguj się",
+      "Dla kupującego",
+      "Dla sprzedającego",
+      "Elektronika",
+      "Komputery",
+      "Tablety",
+      "Urządzenia",
+      "Tablet Samsung Galaxy Tab S10 FE 10,9\" 8 GB / 128 GB szary",
+      "Samsung",
+      "Apple",
+      "DOOGEE"
+    ],
+    "seller": {
+      "name": "telefonylodz",
+      "ratingCount": 49732,
+      "superSeller": true,
+      "officialStore": false
+    },
+    "commerce": {
+      "price": 1999,
+      "currency": "PLN",
+      "smart": true
+    },
+    "productGroup": {},
+    "parameters": {
+      "Stan": "NowyNowyoznacza Towar całkowicie nowy, kompletny, nieużywany bez jakichkolwiek wad lub defektów (np. rys, wgnieceń, minimalnych uszkodzeń). Towar znajduje się w opakowaniu (tam, gdzie ma to zastosowanie) które jest oryginalne, nieotwarte i nieuszkodzone wraz z nienaruszonymi zabezpieczeniami lub identyfikatorami producenta (takimi jak plomby na pudełkach czy metki na ubraniach).",
+      "Przekątna ekranu": "10.9\"",
+      "Model tabletu": "inny (Galaxy Tab S10 FE)",
+      "Kolor": "szary",
+      "Komunikacja": "Bluetooth, Wi-Fi",
+      "Model procesora": "Samsung Exynos 1580",
+      "Wbudowana pamięć": "128 GB",
+      "Pamięć RAM": "8 GB"
+    },
+    "imageCount": 12,
+    "descriptionProfile": {
+      "characters": 2645,
+      "words": 329,
+      "sha256": "fa7c3ae370b914d194f29d5cf1d24d2e11bb75ec32eecba988b5876e99c6692a",
+      "headings": [],
+      "paragraphs": 0,
+      "listItems": 0,
+      "inlineImages": 0
+    }
+  },
+  "validation": {
+    "rulesetId": "allegro-pl-2026-08-20.1",
+    "validatorVersion": "0.1.0",
+    "readyForGeneration": false,
+    "totals": {
+      "passed": 11,
+      "failed": 1,
+      "needs_review": 6,
+      "not_applicable": 0,
+      "not_evaluated": 1
+    },
+    "failedRuleIds": [
+      "ALG-PARAM-002"
+    ],
+    "needsReviewRuleIds": [
+      "ALG-TITLE-004",
+      "ALG-DESC-003",
+      "ALG-DESC-004",
+      "ALG-DESC-005",
+      "ALG-DESC-006",
+      "ALG-DESC-012"
+    ],
+    "notEvaluatedRuleIds": [
+      "ALG-PARAM-001"
+    ]
+  },
+  "assertions": [
+    {
+      "id": "offer_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "18857672035",
+      "observed": "18857672035"
+    },
+    {
+      "id": "product_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "664bceaa-ca30-49db-ba6c-8a23bd43b697",
+      "observed": "664bceaa-ca30-49db-ba6c-8a23bd43b697"
+    },
+    {
+      "id": "title_coverage",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": ">=0.35",
+      "observed": 0.9
+    },
+    {
+      "id": "description_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=80",
+      "observed": 2645
+    },
+    {
+      "id": "parameters_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=4",
+      "observed": 8
+    },
+    {
+      "id": "product_images_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=1",
+      "observed": 12
+    },
+    {
+      "id": "gtin_checksum",
+      "kind": "quality_signal",
+      "status": "not_evaluated",
+      "expected": true
+    }
+  ],
+  "extractionPassed": true,
+  "geoInputComplete": true
+}

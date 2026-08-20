@@ -1,0 +1,46 @@
+{
+  "promptId": "DISC-11",
+  "category": "vacuum-cleaners",
+  "intent": "pets_cordless",
+  "engine": "chatgpt",
+  "prompt": "Jaki odkurzacz pionowy bezprzewodowy najlepiej radzi sobie z sierścią zwierząt? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://chatgpt.com/c/6a874c77-1898-83eb-b552-a756e2a0cc21",
+  "completed": true,
+  "capturedAt": "2026-08-20T18:50:44.955Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/oferta/odkurzacz-pionowy-dyson-v15-detect-absolute-zloty-18257015566?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/odkurzacz-pionowy-dyson-v15-detect-absolute-zloty-18257015566?utm_source=chatgpt.com",
+      "text": "Kup na Allegro — Dyson V15 Detect Absolute"
+    },
+    {
+      "href": "https://allegro.pl/oferta/odkurzacz-pionowy-dreame-z30-ultra-17840140941?utm_source=chatgpt.com",
+      "text": "Allegro\n+1"
+    },
+    {
+      "href": "https://allegro.pl/oferta/odkurzacz-pionowy-dreame-z30-ultra-17840140941?utm_source=chatgpt.com",
+      "text": "Kup na Allegro — Dreame Z30 Ultra"
+    },
+    {
+      "href": "https://allegro.pl/oferta/odkurzacz-pionowy-dreame-z30-17388421613?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/odkurzacz-pionowy-dreame-z30-17388421613?utm_source=chatgpt.com",
+      "text": "Kup na Allegro — Dreame Z30"
+    },
+    {
+      "href": "https://allegro.pl/oferta/odkurzacz-pionowy-samsung-jet-vs20a95943n-woody-green-czarny-16588385459?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/odkurzacz-pionowy-samsung-jet-vs20a95943n-woody-green-czarny-16588385459?utm_source=chatgpt.com",
+      "text": "Kup na Allegro — Samsung Bespoke Jet VS20A95943N"
+    }
+  ],
+  "responseText": "Jaki odkurzacz pionowy bezprzewodowy najlepiej radzi sobie z sierścią zwierząt? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.\n\nJeśli priorytetem jest sierść zwierząt, wybrałbym przede wszystkim modele z mocną elektroszczotką i dedykowaną mini-szczotką do sierści. Z aktualnie znalezionych ofert Allegro moja kolejność wygląda tak:\n\nDyson V15 Detect Absolute — 2449 zł\nNajlepszy wybór pod kątem samego zbierania sierści: 230 AW, elektroszczotka Digital Motorbar oraz miniaturowa elektroszczotka, która dobrze sprawdza się na tapicerce i legowiskach. Oferta jest od Oficjalnego Sklepu Allegro. \nAllegro\n\nKup na Allegro — Dyson V15 Detect Absolute\n\nDreame Z30 Ultra — 1499 zł\nMoim zdaniem najlepszy stosunek możliwości do ceny. Ma bardzo mocne ssanie, 90 min pracy, HEPA H14 i przede wszystkim dedykowane narzędzie do zbierania sierści zwierząt. \nAllegro\n+1\n\nKup na Allegro — Dreame Z30 Ultra\n\nDreame Z30 — 1159,15 zł\nŚwietna tańsza alternatywa: 90 min pracy, 0,6 l pojemnika, HEPA i dwie elektroszczotki. Jeśli nie potrzebujesz bardziej rozbudowanego Z30 Ultra, jest bardzo opłacalny. Oferta MoreleGrupa. \nAllegro\n\nKup na Allegro — Dreame Z30\n\nSamsung Bespoke Jet VS20A95943N — 1299 zł\nBardzo dobry do sierści i szczególnie wygodny, jeśli masz dużo sprzątania — 120 min deklarowanego czasu pracy, wymienny akumulator i zestaw akcesoriów. Minusem jest niższa moc ssania niż w Dysonie/Dreame. \nAllegro\n\nKup na Allegro — Samsung Bespoke Jet VS20A95943N\n\nMój wybór: jeśli budżet pozwala — Dyson V15. Jeśli chcesz wydać rozsądniej, Dreame Z30 Ultra za ok. 1500 zł jest obecnie bardzo mocną alternatywą i właśnie jego wybrałbym pod kątem sierści + cena.\n\nCeny i dostępność ofert Allegro mogą się zmienić.\n\nChatGPT może popełniać błędy. Sprawdź ważne informacje.\n\nMyślenie"
+}
+

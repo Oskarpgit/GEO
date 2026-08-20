@@ -1,0 +1,34 @@
+{
+  "promptId": "DISC-06",
+  "category": "tablets",
+  "intent": "drawing",
+  "engine": "gemini",
+  "prompt": "Poleć tablet z rysikiem do rysowania i pracy kreatywnej. Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://gemini.google.com/app/f81b1fb9c751a443",
+  "completed": true,
+  "capturedAt": "2026-08-20T18:59:53.048Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/oferta/tablet-apple-ipad-pro-11-m4-8gb-256gb-wifi-cellular-5g-srebrny-17312575792",
+      "text": "Apple iPad Pro 11\" M4 256GB na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/tablet-ipad-air-11-m2-128gb-18442059926",
+      "text": "Apple iPad Air 11\" M2 128GB na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/tablet-samsung-galaxy-tab-s9-12gb-256gb-wi-fi-bluetooth-tft-grafitowy-18523582209",
+      "text": "Samsung Galaxy Tab S9 256GB na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/tablet-graficzny-xp-pen-magic-drawing-pad-9494g-17684627148",
+      "text": "XP-Pen Magic Drawing Pad na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/tablet-galaxy-tab-s9-fe-18430845078",
+      "text": "Samsung Galaxy Tab S9 FE 128GB na Allegro"
+    }
+  ],
+  "responseText": "Treść wiadomości Gemini\n\n1. Apple iPad Pro 11\" (M4)  \nAllegro\n\nDlaczego ten wybór: Bezwzględny lider w pracy profesjonalnej. Ekran Tandem OLED oferuje idealną czerń i kontrast, procesor M4 zapewnia płynną pracę na setkach warstw w Procreate czy Photoshopie, a wsparcie dla Apple Pencil Pro (reakcja na ściskanie, obrót beczkowy i haptyka) daje precyzję zbliżoną do tradycyjnych narzędzi.  \nAllegro\n\nOferta: Apple iPad Pro 11\" M4 256GB na Allegro  \nAllegro\n\n2. Apple iPad Air 11\" (M2)  \nAllegro\n\nDlaczego ten wybór: Najlepszy stosunek możliwości do ceny w ekosystemie Apple. Obsługuje ten sam zaawansowany rysik Apple Pencil Pro co model Pro oraz pełną bibliotekę aplikacji dla artystów (Procreate, Nomad Sculpt, Clip Studio Paint) przy znacznie niższym progu wejścia cenowego.  \nAllegro\n+ 1\n\nOferta: Apple iPad Air 11\" M2 128GB na Allegro  \nAllegro\n+ 1\n\n3. Samsung Galaxy Tab S9 (11\" / AMOLED 120Hz)\n\nDlaczego ten wybór: Najlepszy tablet z systemem Android do ilustracji. Rysik S Pen oparty na technologii EMR (Wacom) znajduje się w zestawie (brak ukrytych kosztów akcesoriów), nie wymaga ładowania do samego rysowania, a panel Dynamic AMOLED 2X 120 Hz gwarantuje zerowe opóźnienie kreski i wierne odwzorowanie barw.  \nAllegro\n\nOferta: Samsung Galaxy Tab S9 256GB na Allegro  \nAllegro\n+ 1\n\n4. XP-Pen Magic Drawing Pad (12,2\")  \nAllegro\n\nDlaczego ten wybór: Sprzęt stworzony ściśle pod kątem rysowania, a nie ogólnej konsumpcji mediów. Wyposażony w matowy ekran o fakturze papieru (redukuje odblaski i ślizganie się końcówki) oraz rysik X3 Pro Pencil obsługujący aż 16 384 poziomy nacisku.  \nAllegro\n\nOferta: XP-Pen Magic Drawing Pad na Allegro  \nAllegro\n+ 1\n\n5. Samsung Galaxy Tab S9 FE (10,9\")  \nAllegro\n\nDlaczego ten wybór: Opcja budżetowa dla początkujących i hobbystów. Pomimo ekranu 90 Hz IPS nadal oferuje pełną precyzję rysika S Pen w zestawie, solidną konstrukcję oraz dostęp do programów takich jak Krita, ibis Paint X czy Clip Studio Paint.  \nAllegro\n+ 1\n\nOferta: Samsung Galaxy Tab S9 FE 128GB na Allegro  \nAllegro\n+ 1\n\nUzasadnienie kolejności rankingu:\nRanking otwiera iPad Pro ze względu na bezkonkurencyjny ekosystem aplikacji graficznych (przede wszystkim iPadOS-exclusive Procreate) oraz referencyjny ekran OLED. iPad Air zajmuje drugie miejsce jako najbardziej opłacalny wybór z obsługą Apple Pencil Pro. Pozycje 3 i 4 to czołówka alternatyw z technologią EMR/matowym wykończeniem (rysik w cenie), a zestawienie zamyka Tab S9 FE jako propozycja ekonomiczna.  \nAllegro\n\nJeśli chcesz dopasować sprzęt do konkretnych zastosowań:\nPorównaj aplikacje graficzne na iOS vs Android\nDobierz akcesoria ochronne i folie paper-like"
+}
+

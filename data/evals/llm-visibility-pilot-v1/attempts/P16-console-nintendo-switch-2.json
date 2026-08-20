@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0.0",
+  "testId": "P16-console-nintendo-switch-2",
+  "category": "consoles",
+  "query": "Poleć konkretne oferty Allegro na Nintendo Switch 2. Podaj bezpośrednie linki do ofert sprzedawców.",
+  "target": {
+    "offerId": "18744198200",
+    "productId": "9772ef1c-b0d1-49b7-a865-2dd2aa710a67"
+  },
+  "observation": {
+    "retrievalClass": "allegro_lokalnie",
+    "targetOfferVisible": false,
+    "targetProductVisible": false,
+    "allegroSurfaceVisible": true
+  },
+  "attempt": {
+    "attemptId": "codex-web:P16-console-nintendo-switch-2:r1",
+    "offerId": "18744198200",
+    "promptId": "VIS-P16-console-nintendo-switch-2",
+    "repetition": 1,
+    "status": "success",
+    "capturedAt": "2026-08-20T20:26:44.2616511+02:00",
+    "engine": {
+      "provider": "openai",
+      "model": "codex-runtime-unspecified",
+      "surface": "llm_web_retrieval",
+      "consumerAnswerCaptured": false
+    },
+    "appearances": [
+      {
+        "rank": 1,
+        "entityType": "domain",
+        "url": "https://allegrolokalnie.pl/oferty/nintendo-switch-2/konsole-324319/q/nintendo%20switch%202",
+        "identityMatch": "uncertain",
+        "cited": true
+      }
+    ]
+  },
+  "metrics": {
+    "offerId": "18744198200",
+    "successfulAttempts": 1,
+    "excludedAttempts": 0,
+    "matchedAttempts": 0,
+    "uncertainAppearances": 1,
+    "mentionRate": 0,
+    "offerLinkRate": 0,
+    "top1Share": 0,
+    "top3Share": 0,
+    "top5Share": 0,
+    "meanReciprocalRank": 0
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "runId": "llm-visibility-pilot-v1",
+  "createdAt": "2026-08-20T20:26:44.2616511+02:00",
+  "sourceCorpusId": "allegro-diverse-20-v1",
+  "engine": {
+    "provider": "openai",
+    "model": "codex-runtime-unspecified",
+    "surface": "llm_web_retrieval",
+    "consumerAnswerCaptured": false
+  },
+  "protocol": {
+    "language": "pl-PL",
+    "marketplace": "allegro-pl",
+    "repetitionsPerProduct": 1,
+    "queryPattern": "Poleć konkretne oferty Allegro na {produkt}. Podaj bezpośrednie linki do ofert sprzedawców."
+  },
+  "limitations": [
+    "To jest warstwa retrieval modelu Codex, a nie interfejs konsumencki ChatGPT.",
+    "W pilocie wykonano jedno powtórzenie na produkt; wynik nie mierzy jeszcze stabilności.",
+    "Brak widoczności konkretnego offer_id nie oznacza braku widoczności produktu lub domeny Allegro."
+  ],
+  "requested": 20,
+  "successful": 20,
+  "targetOffersVisible": 0,
+  "targetOfferMentionRate": 0,
+  "targetProductsVisible": 1,
+  "exactProductVisibilityRate": 0.05,
+  "allegroSurfacesVisible": 18,
+  "allegroSurfaceRate": 0.9,
+  "retrievalClasses": {
+    "main_market_listing": 12,
+    "none": 2,
+    "active_other_offer": 1,
+    "archived_other_offer": 2,
+    "allegro_lokalnie": 2,
+    "foreign_market_product": 1
+  },
+  "cases": [
+    {
+      "testId": "P01-smartphone-samsung-galaxy-s25",
+      "category": "smartphones",
+      "offerId": "18762904428",
+      "productId": "f5e9b862-2981-40dd-b7cc-92f4a83956fd",
+      "retrievalClass": "main_market_listing",
+      "targetOfferVisible": false,
+      "targetProductVisible": false,
+      "allegroSurfaceVisible": true
+    },
+    {
+      "testId": "P02-smartphone-apple-iphone-16",
+      "category": "smartphones",
+      "offerId": "18721238546",
+      "productId": "6d7b7ffa-215f-4df8-a78c-12ff0e9a1036",
+      "retrievalClass": "none",
+      "targetOfferVisible": false,
+      "targetProductVisible": false,
+      "allegroSurfaceVisible": false
+    },
+    {
+      "testId": "P03-laptop-lenovo-ideapad-slim-5",
+      "category": "laptops",
+      "offerId": "18337597045",
+      "productId": "bf9acb74-ebfc-4eca-89f5-056c62e9cee8",
+      "retrievalClass": "main_market_listing",
+      "targetOfferVisible": false,
+      "targetProductVisible": false,
+      "allegroSurfaceVisible": true
+    },
+    {
+      "testId": "P04-laptop-apple-macbook-air-m4",
+      "category": "laptops",
+      "offerId": "18160724536",
+      "productId": "e53b81e7-e0ab-496a-babb-8c50fc47bff4",
+      "retrievalClass": "active_other_offer",
+      "targetOfferVisible": false,
+      "targetProductVisible": false,
+      "allegroSurfaceVisible": true
+    },
+    {
+      "testId": "P05-tablet-apple-ipad-11",
+      "category": "tablets",
+      "offerId": "17380406275",
+      "productId": "edb0705a-a2eb-4f17-9e32-377c6a41f8d6",
+      "retrievalClass": "main_market_listing",
+      "targetOfferVisible": false,
+      "targetProductVisible": false,
+      "allegroSurfaceVisible": true
+    },
+    {
+      "testId": "P06-tablet-samsung-galaxy-tab-s10-fe",
+      "category": "tablets",
+      "offerId": "18857672035",
+      "productId": "664bceaa-ca30-49db-ba6c-8a23bd43b697",
+      "retrievalClass": "main_market_listing",
+      "targetOfferVisible": false,
+      "targetProductVisible": false,
+      "allegroSurfaceVisible": true
+    },
+    {
+      "testId": "P07-headphones-sony-wh-1000xm5",
+      "category": "headphones",
+      "offerId": "18122778668",
+      "productId": "e120b95a-1e21-4fac-8c84-fead7a8769ba",
+      "retrievalClass": "main_market_listing",
+      "targetOfferVisible": false,
+      "targetProductVisible": false,
+      "allegroSurfaceVisible": true
+    },
+    {
+      "testId": "P08-headphones-apple-airpods-pro-2",
+      "category": "headphones",
+      "offerId": "18833119412",
+      "productId": "58fbc6df-2280-42aa-8f87-4c63dbda1aac",
+      "retrievalClass": "main_market_listing",
+      "targetOfferVisible": false,
+      "targetProductVisible": false,
+      "allegroSurfaceVisible": true
+    },
+    {
+      "testId": "P09-tv-samsung-oled-55",
+      "category": "televisions",
+      "offerId": "18425831388",
+      "productId": "2fbcd250-1916-4572-81f1-af892c804608",
+      "retrievalClass": "main_market_listing",
+      "targetOfferVisible": false,
+      "targetProductVisible": false,
+      "allegroSurfaceVisible": true
+    },
+    {
+      "testId": "P10-tv-lg-oled-55",
+      "category": "televisions",
+      "offerId": "18040885794",
+      "productId": "aa006793-6692-4f44-8960-16ad254d6b54",
+      "retrievalClass": "archived_other_offer",
+      "targetOfferVisible": false,
+      "targetProductVisible": false,
+      "allegroSurfaceVisible": true
+    },
+    {
+      "testId": "P11-vacuum-dyson-v15-detect",
+      "category": "vacuum-cleaners",
+      "offerId": "18757686025",
+      "productId": "e2427326-d154-4ef9-a817-c1aa19f84db5",
+      "retrievalClass": "archived_other_offer",
+      "targetOfferVisible": false,
+      "targetProductVisible": false,
+      "allegroSurfaceVisible": true
+    },
+    {
+      "testId": "P12-robot-vacuum-dreame-x50-ultra",
+      "category": "robot-vacuums",
+      "offerId": "18539421029",
+      "productId": "83510dd3-d07d-4c37-91ad-5f9adf84aaa7",
+      "retrievalClass": "allegro_lokalnie",
+      "targetOfferVisible": false,
+      "targetProductVisible": false,
+      "allegroSurfaceVisible": true
+    },
+    {
+      "testId": "P13-coffee-philips-lattego-ep2333",
+      "category": "coffee-machines",
+      "offerId": "18408342168",
+      "productId": "05e2d777-45ea-4b30-9c7b-0fe2bb627ea4",
+      "retrievalClass": "none",
+      "targetOfferVisible": false,
+      "targetProductVisible": false,
+      "allegroSurfaceVisible": false
+    },
+    {
+      "testId": "P14-coffee-delonghi-dinamica-ecam35055",
+      "category": "coffee-machines",
+      "offerId": "18661934149",
+      "productId": "be218d21-2030-4536-8ee3-2fcb5853ad96",
+      "retrievalClass": "foreign_market_product",
+      "targetOfferVisible": false,
+      "targetProductVisible": true,
+      "allegroSurfaceVisible": true
+    },
+    {
+      "testId": "P15-console-playstation-5-slim-digital",
+      "category": "consoles",
+      "offerId": "18284603755",
+      "productId": "355df6b8-3056-4fbb-b3cd-2075e95840bd",
+      "retrievalClass": "main_market_listing",
+      "targetOfferVisible": false,
+      "targetProductVisible": false,
+      "allegroSurfaceVisible": true
+    },
+    {
+      "testId": "P16-console-nintendo-switch-2",
+      "category": "consoles",
+      "offerId": "18744198200",
+      "productId": "9772ef1c-b0d1-49b7-a865-2dd2aa710a67",
+      "retrievalClass": "allegro_lokalnie",
+      "targetOfferVisible": false,
+      "targetProductVisible": false,
+      "allegroSurfaceVisible": true
+    },
+    {
+      "testId": "P17-smartwatch-apple-watch-series-10",
+      "category": "smartwatches",
+      "offerId": "18331590310",
+      "productId": "e617685f-64fd-44af-bb0d-f3426f004a46",
+      "retrievalClass": "main_market_listing",
+      "targetOfferVisible": false,
+      "targetProductVisible": false,
+      "allegroSurfaceVisible": true
+    },
+    {
+      "testId": "P18-smartwatch-garmin-fenix-8",
+      "category": "smartwatches",
+      "offerId": "18760658518",
+      "productId": "47c35c6e-c21a-4ad6-b46e-0626a0ee0db0",
+      "retrievalClass": "main_market_listing",
+      "targetOfferVisible": false,
+      "targetProductVisible": false,
+      "allegroSurfaceVisible": true
+    },
+    {
+      "testId": "P19-camera-canon-eos-r50",
+      "category": "cameras",
+      "offerId": "18732278834",
+      "productId": "1cc369ca-afdf-4a56-a1b8-873f85388d35",
+      "retrievalClass": "main_market_listing",
+      "targetOfferVisible": false,
+      "targetProductVisible": false,
+      "allegroSurfaceVisible": true
+    },
+    {
+      "testId": "P20-camera-gopro-hero13-black",
+      "category": "action-cameras",
+      "offerId": "18816079967",
+      "productId": "9efdb84e-511f-48a7-a96c-407c04b1487c",
+      "retrievalClass": "main_market_listing",
+      "targetOfferVisible": false,
+      "targetProductVisible": false,
+      "allegroSurfaceVisible": true
+    }
+  ]
+}

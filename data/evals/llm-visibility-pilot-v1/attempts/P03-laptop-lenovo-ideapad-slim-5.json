@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0.0",
+  "testId": "P03-laptop-lenovo-ideapad-slim-5",
+  "category": "laptops",
+  "query": "Poleć konkretne oferty Allegro na Lenovo IdeaPad Slim 5. Podaj bezpośrednie linki do ofert sprzedawców.",
+  "target": {
+    "offerId": "18337597045",
+    "productId": "bf9acb74-ebfc-4eca-89f5-056c62e9cee8"
+  },
+  "observation": {
+    "retrievalClass": "main_market_listing",
+    "targetOfferVisible": false,
+    "targetProductVisible": false,
+    "allegroSurfaceVisible": true
+  },
+  "attempt": {
+    "attemptId": "codex-web:P03-laptop-lenovo-ideapad-slim-5:r1",
+    "offerId": "18337597045",
+    "promptId": "VIS-P03-laptop-lenovo-ideapad-slim-5",
+    "repetition": 1,
+    "status": "success",
+    "capturedAt": "2026-08-20T20:26:44.2616511+02:00",
+    "engine": {
+      "provider": "openai",
+      "model": "codex-runtime-unspecified",
+      "surface": "llm_web_retrieval",
+      "consumerAnswerCaptured": false
+    },
+    "appearances": [
+      {
+        "rank": 1,
+        "entityType": "domain",
+        "url": "https://allegro.pl/listing?string=ideapad+slim5",
+        "identityMatch": "uncertain",
+        "cited": true
+      }
+    ]
+  },
+  "metrics": {
+    "offerId": "18337597045",
+    "successfulAttempts": 1,
+    "excludedAttempts": 0,
+    "matchedAttempts": 0,
+    "uncertainAppearances": 1,
+    "mentionRate": 0,
+    "offerLinkRate": 0,
+    "top1Share": 0,
+    "top3Share": 0,
+    "top5Share": 0,
+    "meanReciprocalRank": 0
+  }
+}

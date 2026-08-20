@@ -1,0 +1,50 @@
+{
+  "promptId": "DISC-05",
+  "category": "tablets",
+  "intent": "study_notes",
+  "engine": "chatgpt",
+  "prompt": "Jaki tablet do nauki, notatek i oglądania filmów warto kupić do 2500 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://chatgpt.com/c/6a874bb8-1efc-83ed-88df-8787344a00a9",
+  "completed": true,
+  "capturedAt": "2026-08-20T18:47:38.639Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/oferta/redmi-pad-2-pro-70394-12-1-2560x1600-8gb-256gb-an15-graphite-18313053624?utm_source=chatgpt.com",
+      "text": "Xiaomi Redmi Pad 2 Pro 8/256 GB – 1159,99 zł"
+    },
+    {
+      "href": "https://allegro.pl/oferta/tablet-lenovo-idea-tab-tb336fu-11-8-256-gb-wi-fi-szary-rysik-18298927033?utm_source=chatgpt.com",
+      "text": "Lenovo Idea Tab 11\" 8/256 GB + rysik – 1149 zł"
+    },
+    {
+      "href": "https://allegro.pl/oferta/tablet-lenovo-idea-tab-tb336fu-11-8-256-gb-wi-fi-szary-rysik-18298927033?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/tablet-xiaomi-pad-7-8-128gb-gray-18093318267?utm_source=chatgpt.com",
+      "text": "Xiaomi Pad 7 8/128 GB – 1269,99 zł"
+    },
+    {
+      "href": "https://allegro.pl/oferta/tablet-xiaomi-pad-7-8-128gb-gray-18093318267?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/tablet-huawei-matepad-11-5-2025-papermatte-8-256gb-klawiatura-rysik-17832108147?utm_source=chatgpt.com",
+      "text": "Huawei MatePad 11.5 2025 PaperMatte 8/256 GB + klawiatura + rysik – 1699 zł"
+    },
+    {
+      "href": "https://allegro.pl/oferta/tablet-huawei-matepad-11-5-2025-papermatte-8-256gb-klawiatura-rysik-17832108147?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/tablet-samsung-galaxy-tab-s10-fe-wifi-8-128gb-szary-17373595805?utm_source=chatgpt.com",
+      "text": "Samsung Galaxy Tab S10 FE 8/128 GB – 1999 zł"
+    },
+    {
+      "href": "https://allegro.pl/oferta/tablet-samsung-galaxy-tab-s10-fe-wifi-8-128gb-szary-17373595805?utm_source=chatgpt.com",
+      "text": "Allegro"
+    }
+  ],
+  "responseText": "Jaki tablet do nauki, notatek i oglądania filmów warto kupić do 2500 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.\n\nDo 2500 zł szukałbym przede wszystkim tabletu z dobrym ekranem, rysikiem lub jego obsługą i co najmniej 8 GB RAM. Po sprawdzeniu aktualnych ofert Allegro mój ranking wygląda tak:\n\nXiaomi Redmi Pad 2 Pro 8/256 GB – 1159,99 zł\n\nNajlepszy stosunek możliwości do ceny. Duży 12,1\" ekran 2.5K 120 Hz, 8/256 GB i bardzo duża bateria 12 000 mAh. Świetny do filmów i nauki; do notatek warto dokupić rysik.\n\nLenovo Idea Tab 11\" 8/256 GB + rysik – 1149 zł\n\nNajlepszy wybór stricte do nauki i notatek. Dostajesz 8/256 GB oraz rysik w zestawie, ekran 11\" 2.5K/90 Hz i lekką konstrukcję. Bardzo atrakcyjny zestaw za tę cenę. \nAllegro\n\nXiaomi Pad 7 8/128 GB – 1269,99 zł\n\nNajmocniejszy sprzętowo z tej trójki: Snapdragon 7+ Gen 3, ekran 11,2\" 3.2K 144 Hz i 8 GB RAM. Świetny do filmów i wymagających aplikacji, ale 128 GB i brak rysika w zestawie obniżają jego pozycję. \nAllegro\n\nHuawei MatePad 11.5 2025 PaperMatte 8/256 GB + klawiatura + rysik – 1699 zł\n\nBardzo ciekawy komplet do robienia notatek — PaperMatte + rysik + klawiatura. Ekran jest szczególnie przyjemny do dłuższego pisania, choć ograniczenia ekosystemu Huawei sprawiają, że stawiam go za Androidami Xiaomi/Lenovo. \nAllegro\n\nSamsung Galaxy Tab S10 FE 8/128 GB – 1999 zł\n\nNajbardziej „bezproblemowa” opcja z Androidem: Samsung, dobre wsparcie systemowe i świetny wybór do notatek. Problemem jest 128 GB i stosunkowo wysoka cena względem Xiaomi/Lenovo. \nAllegro\n\nMój wybór:\n\n🥇 Redmi Pad 2 Pro – jeśli priorytetem są filmy + duży ekran + uniwersalność.\n\n🥈 Lenovo Idea Tab 8/256 + rysik – jeśli przede wszystkim notatki i nauka.\n\n🥉 Xiaomi Pad 7 – jeśli zależy Ci najbardziej na wydajności i jakości ekranu.\n\nCeny i dostępność ofert Allegro mogą zmieniać się bardzo szybko.\n\nChatGPT może popełniać błędy. Sprawdź ważne informacje.\n\nMyślenie"
+}
+

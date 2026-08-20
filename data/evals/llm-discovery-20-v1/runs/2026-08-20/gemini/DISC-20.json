@@ -1,0 +1,34 @@
+{
+  "promptId": "DISC-20",
+  "category": "printers",
+  "intent": "home_low_cost",
+  "engine": "gemini",
+  "prompt": "Jaką drukarkę do domu z tanim drukowaniem warto kupić do 1000 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://gemini.google.com/app/fdf2c00103676075",
+  "completed": true,
+  "capturedAt": "2026-08-20T19:05:09.645Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/oferta/urzadzenie-wielofunkcyjne-canon-pixma-g3470-3w1-biale-18284171260",
+      "text": "Canon PIXMA G3470 MegaTank"
+    },
+    {
+      "href": "https://allegro.pl/oferta/hp-bezprzewodowe-urzadzenie-wielofunkcyjne-smart-tank-725-28b51a-670-18579188879",
+      "text": "HP Smart Tank 725 All-in-One"
+    },
+    {
+      "href": "https://allegro.pl/oferta/drukarka-wielofunkcyjna-atramentowa-kolor-epson-et-2870-18070604508",
+      "text": "Epson EcoTank ET-2870"
+    },
+    {
+      "href": "https://allegro.pl/oferta/drukarka-wielofunkcyjna-atramentowa-kolor-epson-l3210-18730154261",
+      "text": "Epson EcoTank L3210"
+    },
+    {
+      "href": "https://allegro.pl/oferta/outlet-drukarka-canon-pixma-g640-atramentowa-wi-fi-a4-megatank-18708380291",
+      "text": "Canon PIXMA G640 MegaTank (Outlet)"
+    }
+  ],
+  "responseText": "Treść wiadomości Gemini\n\nDo domowego, taniego drukowania najlepszym wyborem są urządzenia wielofunkcyjne z systemem stałego zasilania atramentem (tzw. CISS / MegaTank / EcoTank / Smart Tank). Zamiast drogich kartridży dolewa się w nich tusz z butelek, co obniża koszt wydruku pojedynczej strony do ułamka grosza.  \nAllegro\n\nCanon PIXMA G3470 MegaTank (~771 zł)  \nAllegro\n\nDlaczego 1. miejsce: Najbardziej bezproblemowa konstrukcja do domu w tym budżecie. Posiada Wi-Fi, łatwo wymienną kasetę konserwacyjną (pochłaniacz tuszu) oraz głowice, które w razie zaschnięcia można dokupić i wymienić samodzielnie bez oddawania sprzętu do serwisu.  \nAllegro\n+ 1\n\nHP Smart Tank 725 All-in-One (~859 zł)  \nAllegro\n\nDlaczego 2. miejsce: Posiada fabryczny, automatyczny druk dwustronny (duplex) oraz zamkniętą kasetę na papier chroniącą arkusze przed kurzem. Bardzo dobra relacja funkcji biurowych do ceny.  \nAllegro\n\nEpson EcoTank ET-2870 (~650 zł)  \nAllegro\n\nDlaczego 3. miejsce: Głowica Micro Piezo (druk na zimno) zużywa minimalną ilość energii i zapewnia długą żywotność. Model wyposażono w kolorowy ekranik LCD ułatwiający obsługę bez komputera oraz moduł Wi-Fi.  \nAllegro\n+ 1\n\nEpson EcoTank L3210 (~400–550 zł)  \nAllegro\n\nDlaczego 4. miejsce: Opcja budżetowa dla osób, które nie potrzebują łączności bezprzewodowej i drukują wyłącznie po kablu USB. Zapewnia dokładnie tak samo niski koszt tuszu jak droższe modele EcoTank.  \nAllegro\n\nCanon PIXMA G640 MegaTank (Outlet) (~899 zł)  \nAllegro\n\nDlaczego 5. miejsce: Urządzenie 6-kolorowe zorientowane na wysoką jakość zdjęć. Koszt eksploatacji jest minimalnie wyższy niż w modelach 4-kolorowych, ale jakość wydruków fotograficznych i przejść tonalnych deklasuje standardowe drukarki domowe.  \nAllegro\n\nUzasadnienie hierarchii:\nKolejność opiera się na balansie między bezawaryjnością w warunkach domowych (łatwość serwisowania głowicy/pampersa w Canonie), wygodą codzienną (duplex i zamknięta szuflada w HP) a kompromisami cenowymi i funkcjonalnymi (brak Wi-Fi w tańszym Epsonie lub profil fotograficzny w G640).  \nAllegro\n\nChcesz wskazówek, jak dbać o drukarkę ze zbiornikami, żeby tusz nie zasychał?\nTak"
+}
+

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0.0",
+  "testId": "P06-tablet-samsung-galaxy-tab-s10-fe",
+  "category": "tablets",
+  "query": "Poleć konkretne oferty Allegro na Samsung Galaxy Tab S10 FE. Podaj bezpośrednie linki do ofert sprzedawców.",
+  "target": {
+    "offerId": "18857672035",
+    "productId": "664bceaa-ca30-49db-ba6c-8a23bd43b697"
+  },
+  "observation": {
+    "retrievalClass": "main_market_listing",
+    "targetOfferVisible": false,
+    "targetProductVisible": false,
+    "allegroSurfaceVisible": true
+  },
+  "attempt": {
+    "attemptId": "codex-web:P06-tablet-samsung-galaxy-tab-s10-fe:r1",
+    "offerId": "18857672035",
+    "promptId": "VIS-P06-tablet-samsung-galaxy-tab-s10-fe",
+    "repetition": 1,
+    "status": "success",
+    "capturedAt": "2026-08-20T20:26:44.2616511+02:00",
+    "engine": {
+      "provider": "openai",
+      "model": "codex-runtime-unspecified",
+      "surface": "llm_web_retrieval",
+      "consumerAnswerCaptured": false
+    },
+    "appearances": [
+      {
+        "rank": 1,
+        "entityType": "domain",
+        "url": "https://allegro.pl/listing?string=samsung+s10+tab+fe",
+        "identityMatch": "uncertain",
+        "cited": true
+      }
+    ]
+  },
+  "metrics": {
+    "offerId": "18857672035",
+    "successfulAttempts": 1,
+    "excludedAttempts": 0,
+    "matchedAttempts": 0,
+    "uncertainAppearances": 1,
+    "mentionRate": 0,
+    "offerLinkRate": 0,
+    "top1Share": 0,
+    "top3Share": 0,
+    "top5Share": 0,
+    "meanReciprocalRank": 0
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0.0",
+  "testId": "P08-headphones-apple-airpods-pro-2",
+  "category": "headphones",
+  "query": "Poleć konkretne oferty Allegro na AirPods Pro 2. Podaj bezpośrednie linki do ofert sprzedawców.",
+  "target": {
+    "offerId": "18833119412",
+    "productId": "58fbc6df-2280-42aa-8f87-4c63dbda1aac"
+  },
+  "observation": {
+    "retrievalClass": "main_market_listing",
+    "targetOfferVisible": false,
+    "targetProductVisible": false,
+    "allegroSurfaceVisible": true
+  },
+  "attempt": {
+    "attemptId": "codex-web:P08-headphones-apple-airpods-pro-2:r1",
+    "offerId": "18833119412",
+    "promptId": "VIS-P08-headphones-apple-airpods-pro-2",
+    "repetition": 1,
+    "status": "success",
+    "capturedAt": "2026-08-20T20:26:44.2616511+02:00",
+    "engine": {
+      "provider": "openai",
+      "model": "codex-runtime-unspecified",
+      "surface": "llm_web_retrieval",
+      "consumerAnswerCaptured": false
+    },
+    "appearances": [
+      {
+        "rank": 1,
+        "entityType": "domain",
+        "url": "https://allegro.pl/listing?string=airpods+pro+pro+2",
+        "identityMatch": "uncertain",
+        "cited": true
+      }
+    ]
+  },
+  "metrics": {
+    "offerId": "18833119412",
+    "successfulAttempts": 1,
+    "excludedAttempts": 0,
+    "matchedAttempts": 0,
+    "uncertainAppearances": 1,
+    "mentionRate": 0,
+    "offerLinkRate": 0,
+    "top1Share": 0,
+    "top3Share": 0,
+    "top5Share": 0,
+    "meanReciprocalRank": 0
+  }
+}

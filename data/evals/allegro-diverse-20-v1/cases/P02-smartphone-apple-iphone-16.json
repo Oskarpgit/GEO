@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.1.0",
+  "testId": "P02-smartphone-apple-iphone-16",
+  "category": "smartphones",
+  "source": {
+    "url": "https://allegro.pl/produkt/smartfon-apple-iphone-16-8-gb-128-gb-5g-czarny-6d7b7ffa-215f-4df8-a78c-12ff0e9a1036?offerId=18721238546",
+    "capturedAt": "2026-08-20T18:16:39.220Z",
+    "rawEvidenceSha256": "2a33b3ec6838934393f6a1607ee9eade55fcae7b7c18aac040b09e89de60e69b",
+    "rawEvidenceBytes": 1040248,
+    "rawEvidenceCommitted": false,
+    "firecrawlStatusCode": 200
+  },
+  "expected": {
+    "title": "Smartfon Apple iPhone 16 8 GB / 128 GB 5G czarny",
+    "offerId": "18721238546",
+    "productId": "6d7b7ffa-215f-4df8-a78c-12ff0e9a1036"
+  },
+  "observed": {
+    "offerId": "18721238546",
+    "productId": "6d7b7ffa-215f-4df8-a78c-12ff0e9a1036",
+    "title": "Apple iPhone 16 128GB czarny",
+    "brand": "Apple",
+    "manufacturerCode": "MYE73HX/A",
+    "gtin": "195949821844",
+    "categoryPath": [
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Dla kupującego",
+      "Dla sprzedającego",
+      "Elektronika",
+      "Telefony i Akcesoria",
+      "Smartfony i telefony komórkowe",
+      "Apple",
+      "iPhone 16",
+      "Smartfon Apple iPhone 16 8 GB / 128 GB 5G czarny",
+      "Apple",
+      "Samsung",
+      "Xiaomi"
+    ],
+    "seller": {
+      "name": "iDream_pl",
+      "recommendedPercent": 98.8,
+      "superSeller": true,
+      "officialStore": false
+    },
+    "commerce": {
+      "price": 3599,
+      "currency": "PLN",
+      "smart": true
+    },
+    "productGroup": {},
+    "parameters": {
+      "Stan": "NowyNowyoznacza Towar całkowicie nowy, kompletny, nieużywany bez jakichkolwiek wad lub defektów (np. rys, wgnieceń, minimalnych uszkodzeń). Towar znajduje się w opakowaniu (tam, gdzie ma to zastosowanie) które jest oryginalne, nieotwarte i nieuszkodzone wraz z nienaruszonymi zabezpieczeniami lub identyfikatorami producenta (takimi jak plomby na pudełkach czy metki na ubraniach).",
+      "Faktura": "Wystawiam fakturę VAT",
+      "Kod producenta": "MYE73HX/A",
+      "Marka": "Apple",
+      "Model telefonu": "iPhone 16",
+      "Typ": "Smartfon",
+      "EAN (GTIN)": "195949821844",
+      "Kod EPREL": "2251146"
+    },
+    "imageCount": 4,
+    "descriptionProfile": {
+      "characters": 968,
+      "words": 109,
+      "sha256": "817cda6042a66a0f810dd5df1cf7ff508b1b99a40adc3e6a9de04ae3537e9137",
+      "headings": [],
+      "paragraphs": 0,
+      "listItems": 0,
+      "inlineImages": 0
+    }
+  },
+  "validation": {
+    "rulesetId": "allegro-pl-2026-08-20.1",
+    "validatorVersion": "0.1.0",
+    "readyForGeneration": false,
+    "totals": {
+      "passed": 12,
+      "failed": 1,
+      "needs_review": 6,
+      "not_applicable": 0,
+      "not_evaluated": 0
+    },
+    "failedRuleIds": [
+      "ALG-PARAM-002"
+    ],
+    "needsReviewRuleIds": [
+      "ALG-TITLE-004",
+      "ALG-DESC-003",
+      "ALG-DESC-004",
+      "ALG-DESC-005",
+      "ALG-DESC-006",
+      "ALG-DESC-012"
+    ],
+    "notEvaluatedRuleIds": []
+  },
+  "assertions": [
+    {
+      "id": "offer_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "18721238546",
+      "observed": "18721238546"
+    },
+    {
+      "id": "product_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "6d7b7ffa-215f-4df8-a78c-12ff0e9a1036",
+      "observed": "6d7b7ffa-215f-4df8-a78c-12ff0e9a1036"
+    },
+    {
+      "id": "title_coverage",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": ">=0.35",
+      "observed": 0.5
+    },
+    {
+      "id": "description_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=80",
+      "observed": 968
+    },
+    {
+      "id": "parameters_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=4",
+      "observed": 8
+    },
+    {
+      "id": "product_images_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=1",
+      "observed": 4
+    },
+    {
+      "id": "gtin_checksum",
+      "kind": "quality_signal",
+      "status": "passed",
+      "expected": true,
+      "observed": "195949821844"
+    }
+  ],
+  "extractionPassed": true,
+  "geoInputComplete": true
+}

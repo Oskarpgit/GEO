@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "1.1.0",
+  "testId": "P13-coffee-philips-lattego-ep2333",
+  "category": "coffee-machines",
+  "source": {
+    "url": "https://allegro.pl/produkt/automatyczny-ekspres-cisnieniowy-philips-lattego-ep2333-40-1500-w-bialy-05e2d777-45ea-4b30-9c7b-0fe2bb627ea4?offerId=18408342168",
+    "capturedAt": "2026-08-20T18:16:39.220Z",
+    "rawEvidenceSha256": "e126caaad03ae1045bb990fed7b602c033e5fd1777a3243926a24819493925bf",
+    "rawEvidenceBytes": 1052375,
+    "rawEvidenceCommitted": false,
+    "firecrawlStatusCode": 200
+  },
+  "expected": {
+    "title": "Automatyczny ekspres ciśnieniowy Philips LatteGo EP2333/40",
+    "offerId": "18408342168",
+    "productId": "05e2d777-45ea-4b30-9c7b-0fe2bb627ea4"
+  },
+  "observed": {
+    "offerId": "18408342168",
+    "productId": "05e2d777-45ea-4b30-9c7b-0fe2bb627ea4",
+    "title": "Automatyczny ekspres ciśnieniowy Philips LatteGo EP2333/40 1500W",
+    "categoryPath": [
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Dla kupującego",
+      "Dla sprzedającego",
+      "Elektronika",
+      "RTV i AGD",
+      "AGD drobne",
+      "Do kuchni",
+      "Ekspresy do kawy",
+      "Ekspresy ciśnieniowe",
+      "Automatyczny ekspres ciśnieniowy Philips LatteGo EP2333/40 1500 W biały",
+      "Philips",
+      "De'Longhi",
+      "Krups"
+    ],
+    "seller": {
+      "name": "bk-market",
+      "recommendedPercent": 96.7,
+      "ratingCount": 47976,
+      "superSeller": false,
+      "officialStore": false
+    },
+    "commerce": {
+      "price": 1339.99,
+      "currency": "PLN",
+      "smart": true
+    },
+    "productGroup": {
+      "comparedOfferCount": 23
+    },
+    "parameters": {
+      "Stan": "NowyNowyoznacza Towar całkowicie nowy, kompletny, nieużywany bez jakichkolwiek wad lub defektów (np. rys, wgnieceń, minimalnych uszkodzeń). Towar znajduje się w opakowaniu (tam, gdzie ma to zastosowanie) które jest oryginalne, nieotwarte i nieuszkodzone wraz z nienaruszonymi zabezpieczeniami lub identyfikatorami producenta (takimi jak plomby na pudełkach czy metki na ubraniach).",
+      "Pojemność zbiornika na wodę": "1.8",
+      "Moc": "1500 W",
+      "Ciśnienie": "15 bar",
+      "Rodzaj ekspresu": "automatyczny",
+      "Rodzaje kawy": "mielona, ziarnista",
+      "Automatycznie przygotowywane napoje": "Americano, Cappuccino, Espresso, Gorąca woda",
+      "Wbudowany młynek": "tak"
+    },
+    "imageCount": 8,
+    "descriptionProfile": {
+      "characters": 2451,
+      "words": 292,
+      "sha256": "939386e8381afcb8f81975124375e02aa6bc5ed61a1d9b34914f93f00a63c331",
+      "headings": [],
+      "paragraphs": 0,
+      "listItems": 0,
+      "inlineImages": 0
+    }
+  },
+  "validation": {
+    "rulesetId": "allegro-pl-2026-08-20.1",
+    "validatorVersion": "0.1.0",
+    "readyForGeneration": false,
+    "totals": {
+      "passed": 10,
+      "failed": 2,
+      "needs_review": 6,
+      "not_applicable": 0,
+      "not_evaluated": 1
+    },
+    "failedRuleIds": [
+      "ALG-DESC-008",
+      "ALG-PARAM-002"
+    ],
+    "needsReviewRuleIds": [
+      "ALG-TITLE-004",
+      "ALG-DESC-003",
+      "ALG-DESC-004",
+      "ALG-DESC-005",
+      "ALG-DESC-006",
+      "ALG-DESC-012"
+    ],
+    "notEvaluatedRuleIds": [
+      "ALG-PARAM-001"
+    ]
+  },
+  "assertions": [
+    {
+      "id": "offer_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "18408342168",
+      "observed": "18408342168"
+    },
+    {
+      "id": "product_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "05e2d777-45ea-4b30-9c7b-0fe2bb627ea4",
+      "observed": "05e2d777-45ea-4b30-9c7b-0fe2bb627ea4"
+    },
+    {
+      "id": "title_coverage",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": ">=0.35",
+      "observed": 1
+    },
+    {
+      "id": "description_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=80",
+      "observed": 2451
+    },
+    {
+      "id": "parameters_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=4",
+      "observed": 8
+    },
+    {
+      "id": "product_images_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=1",
+      "observed": 8
+    },
+    {
+      "id": "gtin_checksum",
+      "kind": "quality_signal",
+      "status": "not_evaluated",
+      "expected": true
+    }
+  ],
+  "extractionPassed": true,
+  "geoInputComplete": true
+}

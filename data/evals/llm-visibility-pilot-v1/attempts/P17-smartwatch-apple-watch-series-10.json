@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0.0",
+  "testId": "P17-smartwatch-apple-watch-series-10",
+  "category": "smartwatches",
+  "query": "Poleć konkretne oferty Allegro na Apple Watch Series 10. Podaj bezpośrednie linki do ofert sprzedawców.",
+  "target": {
+    "offerId": "18331590310",
+    "productId": "e617685f-64fd-44af-bb0d-f3426f004a46"
+  },
+  "observation": {
+    "retrievalClass": "main_market_listing",
+    "targetOfferVisible": false,
+    "targetProductVisible": false,
+    "allegroSurfaceVisible": true
+  },
+  "attempt": {
+    "attemptId": "codex-web:P17-smartwatch-apple-watch-series-10:r1",
+    "offerId": "18331590310",
+    "promptId": "VIS-P17-smartwatch-apple-watch-series-10",
+    "repetition": 1,
+    "status": "success",
+    "capturedAt": "2026-08-20T20:26:44.2616511+02:00",
+    "engine": {
+      "provider": "openai",
+      "model": "codex-runtime-unspecified",
+      "surface": "llm_web_retrieval",
+      "consumerAnswerCaptured": false
+    },
+    "appearances": [
+      {
+        "rank": 1,
+        "entityType": "domain",
+        "url": "https://allegro.pl/listing?string=apple+watch+series+10+46mm",
+        "identityMatch": "uncertain",
+        "cited": true
+      }
+    ]
+  },
+  "metrics": {
+    "offerId": "18331590310",
+    "successfulAttempts": 1,
+    "excludedAttempts": 0,
+    "matchedAttempts": 0,
+    "uncertainAppearances": 1,
+    "mentionRate": 0,
+    "offerLinkRate": 0,
+    "top1Share": 0,
+    "top3Share": 0,
+    "top5Share": 0,
+    "meanReciprocalRank": 0
+  }
+}

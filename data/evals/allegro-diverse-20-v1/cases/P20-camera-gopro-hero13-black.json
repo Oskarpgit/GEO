@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "1.1.0",
+  "testId": "P20-camera-gopro-hero13-black",
+  "category": "action-cameras",
+  "source": {
+    "url": "https://allegro.pl/produkt/kamera-sportowa-gopro-hero13-black-4k-uhd-9efdb84e-511f-48a7-a96c-407c04b1487c?offerId=18816079967",
+    "capturedAt": "2026-08-20T18:16:39.220Z",
+    "rawEvidenceSha256": "ba35e9100392f81914d4ec578bfe404d2502efd5ae0422d57b7a258831bfc50b",
+    "rawEvidenceBytes": 350228,
+    "rawEvidenceCommitted": false,
+    "firecrawlStatusCode": 200
+  },
+  "expected": {
+    "title": "Kamera sportowa GoPro HERO13 Black 4K UHD",
+    "offerId": "18816079967",
+    "productId": "9efdb84e-511f-48a7-a96c-407c04b1487c"
+  },
+  "observed": {
+    "offerId": "18816079967",
+    "productId": "9efdb84e-511f-48a7-a96c-407c04b1487c",
+    "title": "Kamera sportowa GoPro HERO13 Black 4K UHD",
+    "brand": "GoPro",
+    "model": "HERO13 Black",
+    "categoryPath": [
+      "Zaloguj się",
+      "Dla kupującego",
+      "Dla sprzedającego",
+      "Elektronika",
+      "RTV i AGD",
+      "Kamery",
+      "Kamery sportowe",
+      "Kamery",
+      "Kamera sportowa GoPro HERO13 Black 4K UHD",
+      "GoPro",
+      "DJI",
+      "Insta360"
+    ],
+    "seller": {
+      "ratingCount": 487171,
+      "superSeller": false,
+      "officialStore": false
+    },
+    "commerce": {
+      "price": 1480,
+      "currency": "PLN",
+      "smart": true
+    },
+    "productGroup": {},
+    "parameters": {
+      "Stan": "NowyNowyoznacza Towar całkowicie nowy, kompletny, nieużywany bez jakichkolwiek wad lub defektów (np. rys, wgnieceń, minimalnych uszkodzeń). Towar znajduje się w opakowaniu (tam, gdzie ma to zastosowanie) które jest oryginalne, nieotwarte i nieuszkodzone wraz z nienaruszonymi zabezpieczeniami lub identyfikatorami producenta (takimi jak plomby na pudełkach czy metki na ubraniach).",
+      "Faktura": "Wystawiam fakturę VAT",
+      "Marka": "GoPro",
+      "Model": "HERO13 Black",
+      "Szerokość produktu": "7.18 cm",
+      "Wysokość produktu": "5.08 cm",
+      "Głębokość produktu": "3.36 cm",
+      "Waga produktu": "154 g"
+    },
+    "imageCount": 6,
+    "descriptionProfile": {
+      "characters": 0,
+      "words": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "headings": [],
+      "paragraphs": 0,
+      "listItems": 0,
+      "inlineImages": 0
+    }
+  },
+  "validation": {
+    "rulesetId": "allegro-pl-2026-08-20.1",
+    "validatorVersion": "0.1.0",
+    "readyForGeneration": false,
+    "totals": {
+      "passed": 4,
+      "failed": 2,
+      "needs_review": 1,
+      "not_applicable": 0,
+      "not_evaluated": 12
+    },
+    "failedRuleIds": [
+      "ALG-DESC-001",
+      "ALG-PARAM-002"
+    ],
+    "needsReviewRuleIds": [
+      "ALG-TITLE-004"
+    ],
+    "notEvaluatedRuleIds": [
+      "ALG-DESC-002",
+      "ALG-DESC-003",
+      "ALG-DESC-004",
+      "ALG-DESC-005",
+      "ALG-DESC-006",
+      "ALG-DESC-007",
+      "ALG-DESC-008",
+      "ALG-DESC-009",
+      "ALG-DESC-010",
+      "ALG-DESC-011",
+      "ALG-DESC-012",
+      "ALG-PARAM-001"
+    ]
+  },
+  "assertions": [
+    {
+      "id": "offer_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "18816079967",
+      "observed": "18816079967"
+    },
+    {
+      "id": "product_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "9efdb84e-511f-48a7-a96c-407c04b1487c",
+      "observed": "9efdb84e-511f-48a7-a96c-407c04b1487c"
+    },
+    {
+      "id": "title_coverage",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": ">=0.35",
+      "observed": 1
+    },
+    {
+      "id": "description_present",
+      "kind": "geo_input",
+      "status": "failed",
+      "expected": ">=80",
+      "observed": 0
+    },
+    {
+      "id": "parameters_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=4",
+      "observed": 8
+    },
+    {
+      "id": "product_images_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=1",
+      "observed": 6
+    },
+    {
+      "id": "gtin_checksum",
+      "kind": "quality_signal",
+      "status": "not_evaluated",
+      "expected": true
+    }
+  ],
+  "extractionPassed": true,
+  "geoInputComplete": false
+}

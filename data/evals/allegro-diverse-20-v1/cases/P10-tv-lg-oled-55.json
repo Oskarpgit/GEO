@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "1.1.0",
+  "testId": "P10-tv-lg-oled-55",
+  "category": "televisions",
+  "source": {
+    "url": "https://allegro.pl/produkt/telewizor-oled-evo-ai-lg-oled55c54la-55-4k-144hz-webos-color-grafitowy-aa006793-6692-4f44-8960-16ad254d6b54?offerId=18040885794",
+    "capturedAt": "2026-08-20T18:16:39.220Z",
+    "rawEvidenceSha256": "d89bab089c7442b7458fe6b70d9f510566c56cf0a443aa8b3843ee73f5b79018",
+    "rawEvidenceBytes": 986796,
+    "rawEvidenceCommitted": false,
+    "firecrawlStatusCode": 200
+  },
+  "expected": {
+    "title": "Telewizor OLED evo AI LG OLED55C54LA 55 cali 4K 144Hz",
+    "offerId": "18040885794",
+    "productId": "aa006793-6692-4f44-8960-16ad254d6b54"
+  },
+  "observed": {
+    "offerId": "18040885794",
+    "productId": "aa006793-6692-4f44-8960-16ad254d6b54",
+    "title": "Telewizor 55 cali OLED LG OLED55C54LA 4K UHD czarny",
+    "categoryPath": [
+      "Zaloguj się",
+      "Dla kupującego",
+      "Dla sprzedającego",
+      "Elektronika",
+      "RTV i AGD",
+      "TV i Video",
+      "Telewizory",
+      "Telewizor OLED evo AI LG OLED55C54LA 55\" 4K 144Hz webOS Color Grafitowy",
+      "LG",
+      "Samsung",
+      "Philips"
+    ],
+    "seller": {
+      "name": "Allegro",
+      "superSeller": true,
+      "officialStore": true
+    },
+    "commerce": {
+      "price": 4099,
+      "currency": "PLN",
+      "smart": true
+    },
+    "productGroup": {},
+    "parameters": {
+      "Stan": "NowyNowyoznacza Towar całkowicie nowy, kompletny, nieużywany bez jakichkolwiek wad lub defektów (np. rys, wgnieceń, minimalnych uszkodzeń). Towar znajduje się w opakowaniu (tam, gdzie ma to zastosowanie) które jest oryginalne, nieotwarte i nieuszkodzone wraz z nienaruszonymi zabezpieczeniami lub identyfikatorami producenta (takimi jak plomby na pudełkach czy metki na ubraniach).",
+      "Typ telewizora": "OLED",
+      "Przekątna ekranu (cale)": "55\"",
+      "Rozdzielczość ekranu (px)": "3840 x 2160",
+      "Smart TV": "WebOS",
+      "Złącza": "Common Interface, cyfrowe wyjście optyczne, HDMI, RJ-45, USB",
+      "Odświeżanie obrazu": "120 Hz",
+      "Standard kodowania": "MPEG-4, H.264 (MPEG-4 AVC), H.265/HEVC"
+    },
+    "imageCount": 8,
+    "descriptionProfile": {
+      "characters": 3469,
+      "words": 384,
+      "sha256": "46ad465373357cee64547cdaaa950519e9138ed312b030a3988cc6825a3caa3b",
+      "headings": [],
+      "paragraphs": 0,
+      "listItems": 0,
+      "inlineImages": 0
+    }
+  },
+  "validation": {
+    "rulesetId": "allegro-pl-2026-08-20.1",
+    "validatorVersion": "0.1.0",
+    "readyForGeneration": false,
+    "totals": {
+      "passed": 11,
+      "failed": 1,
+      "needs_review": 6,
+      "not_applicable": 0,
+      "not_evaluated": 1
+    },
+    "failedRuleIds": [
+      "ALG-PARAM-002"
+    ],
+    "needsReviewRuleIds": [
+      "ALG-TITLE-004",
+      "ALG-DESC-003",
+      "ALG-DESC-004",
+      "ALG-DESC-005",
+      "ALG-DESC-006",
+      "ALG-DESC-012"
+    ],
+    "notEvaluatedRuleIds": [
+      "ALG-PARAM-001"
+    ]
+  },
+  "assertions": [
+    {
+      "id": "offer_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "18040885794",
+      "observed": "18040885794"
+    },
+    {
+      "id": "product_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "aa006793-6692-4f44-8960-16ad254d6b54",
+      "observed": "aa006793-6692-4f44-8960-16ad254d6b54"
+    },
+    {
+      "id": "title_coverage",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": ">=0.35",
+      "observed": 0.7
+    },
+    {
+      "id": "description_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=80",
+      "observed": 3469
+    },
+    {
+      "id": "parameters_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=4",
+      "observed": 8
+    },
+    {
+      "id": "product_images_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=1",
+      "observed": 8
+    },
+    {
+      "id": "gtin_checksum",
+      "kind": "quality_signal",
+      "status": "not_evaluated",
+      "expected": true
+    }
+  ],
+  "extractionPassed": true,
+  "geoInputComplete": true
+}

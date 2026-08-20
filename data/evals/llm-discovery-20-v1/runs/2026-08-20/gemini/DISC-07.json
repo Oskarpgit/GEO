@@ -1,0 +1,30 @@
+{
+  "promptId": "DISC-07",
+  "category": "headphones",
+  "intent": "anc_travel",
+  "engine": "gemini",
+  "prompt": "Jakie słuchawki nauszne z bardzo dobrym ANC warto kupić do podróży? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://gemini.google.com/app/537c15785c2b4403",
+  "completed": true,
+  "capturedAt": "2026-08-20T19:00:08.766Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/oferta/sluchawki-bose-quietcomfort-anc-bialy-etui-17608241327",
+      "text": "Bose QuietComfort Headphones"
+    },
+    {
+      "href": "https://allegro.pl/oferta/sluchawki-bezprzewodowe-sony-wh-1000xm5-srebrne-14482671581",
+      "text": "Sony WH-1000XM5"
+    },
+    {
+      "href": "https://allegro.pl/oferta/sluchawki-sennheiser-momentum-4-czarno-grafitowe-17893898991",
+      "text": "Sennheiser Momentum 4 Wireless"
+    },
+    {
+      "href": "https://allegro.pl/oferta/sluchawki-bezprzewodowe-anker-soundcore-space-q45-anc-bluetooth-5-3-18666398858",
+      "text": "Anker Soundcore Space Q45"
+    }
+  ],
+  "responseText": "Treść wiadomości Gemini\n\nW podróży najlepiej sprawdzają się modele łączące topową izolację akustyczną, wygodę wielogodzinnego noszenia i kompaktowość.  \nAllegro\n\nRekomendowane oferty na Allegro\n\nBose QuietComfort Headphones – 1. miejsce: Bezkonkurencyjny komfort noszenia (brak ucisku głowy), w pełni składana konstrukcja zajmująca mało miejsca w bagażu oraz doskonałe pasywne i aktywne tłumienie dudnienia silników samolotu czy pociągu.  \nAllegro\n\nSony WH-1000XM5 – 2. miejsce: Prawdopodobnie najskuteczniejsze ANC na rynku (świetnie odcina rozmowy współpasażerów i szumy), z rozbudowaną aplikacją i świetnym dźwiękiem, choć obudowa składa się jedynie na płasko.  \nAllegro\n\nSennheiser Momentum 4 Wireless – 3. miejsce: Rewelacyjna jakość dźwięku klasy premium oraz rekordowy czas pracy na baterii (aż do 60 godzin), co eliminuje konieczność częstego ładowania w długich trasach.\n\nAnker Soundcore Space Q45 – 4. miejsce: Najlepszy stosunek ceny do jakości; oferuje bardzo przyzwoite adaptacyjne ANC, sztywne etui podróżne i długi czas pracy za ułamek ceny flagowców."
+}
+

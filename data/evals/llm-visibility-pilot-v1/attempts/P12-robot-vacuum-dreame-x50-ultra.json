@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0.0",
+  "testId": "P12-robot-vacuum-dreame-x50-ultra",
+  "category": "robot-vacuums",
+  "query": "Poleć konkretne oferty Allegro na Dreame X50 Ultra. Podaj bezpośrednie linki do ofert sprzedawców.",
+  "target": {
+    "offerId": "18539421029",
+    "productId": "83510dd3-d07d-4c37-91ad-5f9adf84aaa7"
+  },
+  "observation": {
+    "retrievalClass": "allegro_lokalnie",
+    "targetOfferVisible": false,
+    "targetProductVisible": false,
+    "allegroSurfaceVisible": true
+  },
+  "attempt": {
+    "attemptId": "codex-web:P12-robot-vacuum-dreame-x50-ultra:r1",
+    "offerId": "18539421029",
+    "promptId": "VIS-P12-robot-vacuum-dreame-x50-ultra",
+    "repetition": 1,
+    "status": "success",
+    "capturedAt": "2026-08-20T20:26:44.2616511+02:00",
+    "engine": {
+      "provider": "openai",
+      "model": "codex-runtime-unspecified",
+      "surface": "llm_web_retrieval",
+      "consumerAnswerCaptured": false
+    },
+    "appearances": [
+      {
+        "rank": 1,
+        "entityType": "offer",
+        "url": "https://allegrolokalnie.pl/oferta/dreame-x50-ultra-complete",
+        "identityMatch": "uncertain",
+        "cited": true
+      }
+    ]
+  },
+  "metrics": {
+    "offerId": "18539421029",
+    "successfulAttempts": 1,
+    "excludedAttempts": 0,
+    "matchedAttempts": 0,
+    "uncertainAppearances": 1,
+    "mentionRate": 0,
+    "offerLinkRate": 0,
+    "top1Share": 0,
+    "top3Share": 0,
+    "top5Share": 0,
+    "meanReciprocalRank": 0
+  }
+}

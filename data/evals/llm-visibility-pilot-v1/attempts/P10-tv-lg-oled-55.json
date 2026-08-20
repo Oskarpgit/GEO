@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "testId": "P10-tv-lg-oled-55",
+  "category": "televisions",
+  "query": "Poleć konkretne oferty Allegro na telewizor LG OLED 55 cali. Podaj bezpośrednie linki do ofert sprzedawców.",
+  "target": {
+    "offerId": "18040885794",
+    "productId": "aa006793-6692-4f44-8960-16ad254d6b54"
+  },
+  "observation": {
+    "retrievalClass": "archived_other_offer",
+    "targetOfferVisible": false,
+    "targetProductVisible": false,
+    "allegroSurfaceVisible": true
+  },
+  "attempt": {
+    "attemptId": "codex-web:P10-tv-lg-oled-55:r1",
+    "offerId": "18040885794",
+    "promptId": "VIS-P10-tv-lg-oled-55",
+    "repetition": 1,
+    "status": "success",
+    "capturedAt": "2026-08-20T20:26:44.2616511+02:00",
+    "engine": {
+      "provider": "openai",
+      "model": "codex-runtime-unspecified",
+      "surface": "llm_web_retrieval",
+      "consumerAnswerCaptured": false
+    },
+    "appearances": [
+      {
+        "rank": 1,
+        "entityType": "offer",
+        "url": "https://archiwum.allegro.pl/oferta/telewizor-lg-oled55c32la-55-cali-oled-i14883194933.html",
+        "detectedOfferId": "14883194933",
+        "identityMatch": "unmatched",
+        "cited": true
+      }
+    ]
+  },
+  "metrics": {
+    "offerId": "18040885794",
+    "successfulAttempts": 1,
+    "excludedAttempts": 0,
+    "matchedAttempts": 0,
+    "uncertainAppearances": 0,
+    "mentionRate": 0,
+    "offerLinkRate": 0,
+    "top1Share": 0,
+    "top3Share": 0,
+    "top5Share": 0,
+    "meanReciprocalRank": 0
+  }
+}

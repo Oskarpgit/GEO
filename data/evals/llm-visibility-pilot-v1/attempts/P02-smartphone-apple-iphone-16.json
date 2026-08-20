@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.0.0",
+  "testId": "P02-smartphone-apple-iphone-16",
+  "category": "smartphones",
+  "query": "Poleć konkretne oferty Allegro na Apple iPhone 16. Podaj bezpośrednie linki do ofert sprzedawców.",
+  "target": {
+    "offerId": "18721238546",
+    "productId": "6d7b7ffa-215f-4df8-a78c-12ff0e9a1036"
+  },
+  "observation": {
+    "retrievalClass": "none",
+    "targetOfferVisible": false,
+    "targetProductVisible": false,
+    "allegroSurfaceVisible": false
+  },
+  "attempt": {
+    "attemptId": "codex-web:P02-smartphone-apple-iphone-16:r1",
+    "offerId": "18721238546",
+    "promptId": "VIS-P02-smartphone-apple-iphone-16",
+    "repetition": 1,
+    "status": "success",
+    "capturedAt": "2026-08-20T20:26:44.2616511+02:00",
+    "engine": {
+      "provider": "openai",
+      "model": "codex-runtime-unspecified",
+      "surface": "llm_web_retrieval",
+      "consumerAnswerCaptured": false
+    },
+    "appearances": []
+  },
+  "metrics": {
+    "offerId": "18721238546",
+    "successfulAttempts": 1,
+    "excludedAttempts": 0,
+    "matchedAttempts": 0,
+    "uncertainAppearances": 0,
+    "mentionRate": 0,
+    "offerLinkRate": 0,
+    "top1Share": 0,
+    "top3Share": 0,
+    "top5Share": 0,
+    "meanReciprocalRank": 0
+  }
+}

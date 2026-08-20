@@ -1,0 +1,42 @@
+{
+  "promptId": "DISC-16",
+  "category": "smartwatches",
+  "intent": "android_health",
+  "engine": "gemini",
+  "prompt": "Jaki smartwatch do telefonu z Androidem najlepiej monitoruje zdrowie, sen i treningi? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://gemini.google.com/app/9f80901654a258e3",
+  "completed": true,
+  "capturedAt": "2026-08-20T19:03:40.264Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/oferta/smartwatch-samsung-galaxy-watch-7-sm-l310-kpl-18093715036",
+      "text": "Allegro\nSmartwatch Samsung Galaxy Watch 7 SM-L310 kpl - Allegro\n„Kup teraz ✓ Używany Smartwatch Samsung Galaxy Watch 7 SM-L310 kpl (kod producenta - 8806095660684) za 599.00PLN - w kategorii Smartwatche - Smartwatche i akceso...”"
+    },
+    {
+      "href": "https://allegro.pl/produkt/zegarek-sportowy-smartwatch-garmin-forerunner-265-czarny-de549b39-2798-48a2-9317-2d27010e6603#:~:text=Opis.%20Garmin%20Forerunner%20265%20%E2%80%93%20Smartwatch%20GPS,os%C3%B3b%20prowadz%C4%85cych%20aktywny%20tryb%20%C5%BCycia.%20Najwa%C5%BCniejsze%20cechy.",
+      "text": "Allegro\nZegarek sportowy Smartwatch Garmin FORERUNNER 265 czarny - Allegro\n„Opis. Garmin Forerunner 265 – Smartwatch GPS AMOLED dla biegaczy i sportowców. 010-02810-10. Garmin Forerunner 265 to zaawansowany zegarek sportowy wyposażony w...”"
+    },
+    {
+      "href": "https://allegro.pl/oferta/garmin-venu-3-whitestone-silver-010-02784-00-17158162613",
+      "text": "Garmin Venu 3 (Biały/Srebrny – Nowy)"
+    },
+    {
+      "href": "https://www.google.com/search?q=https://allegro.pl/oferta/smartwatch-garmin-venu-3-czarny-010-02784-01-18109249684",
+      "text": "Garmin Venu 3 (Czarny – Nowy / Oferta 18109249684)"
+    },
+    {
+      "href": "https://allegro.pl/oferta/zegarek-sportowy-garmin-forerunner-265-niebieski-17141255208",
+      "text": "Garmin Forerunner 265 (Niebieski – Nowy)"
+    },
+    {
+      "href": "https://allegro.pl/oferta/smartwatch-google-pixel-watch-3-45mm-wifi-czarny-18558185119",
+      "text": "Google Pixel Watch 3 (45 mm Wi-Fi Czarny – Oferta 18558185119)"
+    },
+    {
+      "href": "https://allegro.pl/oferta/smartwatch-samsung-galaxy-watch-7-sm-l300nz-40mm-zielony-18456716652",
+      "text": "Samsung Galaxy Watch 7 (40 mm Zielony – Oferta 18456716652)"
+    }
+  ],
+  "responseText": "Treść wiadomości Gemini\n\nW ekosystemie Androida najlepszy bilans zaawansowanej analityki sportowo-zdrowotnej i funkcji smart oferuje Garmin Venu 3, tuż przed stricte biegowym modelem Forerunner 265 oraz zegarkami Google Pixel Watch 3 i Samsung Galaxy Watch 7.  \nAllegro Lokalnie\n\nUzasadnienie kolejności modeli  \nAllegro\n\nGarmin Venu 3 / Forerunner 265 – Bezkonkurencyjny w monitorowaniu regeneracji (Body Battery, HRV Status, wykrywanie drzemek), precyzji GPS oraz metrykach obciążenia treningowego. Nie wymaga codziennego ładowania (bateria trzyma 10–14 dni), co przekłada się na ciągłe, nieprzerwane dane snu i zdrowia.  \nAllegro\n+ 2\n\nGoogle Pixel Watch 3 – Najwyższa precyzja algorytmów analizy faz snu i tętna spoczynkowego na Wear OS (integracja z platformą Fitbit), świetne funkcje gotowości do treningu, kosztem baterii wymagającej ładowania co 1–1,5 dnia.  \nAllegro\n\nSamsung Galaxy Watch 7 – Bardzo dobry czujnik BioActive (skład ciała BIA, EKG, ciśnienie tętnicze, wskaźnik AGEs), jednak część zaawansowanych funkcji zdrowotnych (EKG/ciśnienie) jest ograniczona wyłącznie do telefonów marki Samsung.  \nAllegro\n+ 1\nAllegro\nSmartwatch Samsung Galaxy Watch 7 SM-L310 kpl - Allegro\n„Kup teraz ✓ Używany Smartwatch Samsung Galaxy Watch 7 SM-L310 kpl (kod producenta - 8806095660684) za 599.00PLN - w kategorii Smartwatche - Smartwatche i akceso...”\nAllegro\nZegarek sportowy Smartwatch Garmin FORERUNNER 265 czarny - Allegro\n„Opis. Garmin Forerunner 265 – Smartwatch GPS AMOLED dla biegaczy i sportowców. 010-02810-10. Garmin Forerunner 265 to zaawansowany zegarek sportowy wyposażony w...”\n\nOferty konkretnych sprzedawców na Allegro  \nAllegro\n\nGarmin Venu 3 (Biały/Srebrny – Nowy)  \nAllegro\n\nGarmin Venu 3 (Czarny – Nowy / Oferta 18109249684)\n\nGarmin Forerunner 265 (Niebieski – Nowy)  \nAllegro\n\nGoogle Pixel Watch 3 (45 mm Wi-Fi Czarny – Oferta 18558185119)  \nAllegro\n\nSamsung Galaxy Watch 7 (40 mm Zielony – Oferta 18456716652)  \nAllegro\n\nChcesz porównać różnice w algorytmach analizy snu między Garminem a Fitbit/Wear OS?\nTak"
+}
+

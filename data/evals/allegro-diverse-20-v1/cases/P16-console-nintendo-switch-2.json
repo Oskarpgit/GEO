@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "1.1.0",
+  "testId": "P16-console-nintendo-switch-2",
+  "category": "consoles",
+  "source": {
+    "url": "https://allegro.pl/produkt/konsola-nintendo-switch-2-black-9772ef1c-b0d1-49b7-a865-2dd2aa710a67?offerId=18744198200",
+    "capturedAt": "2026-08-20T18:16:39.220Z",
+    "rawEvidenceSha256": "64bb595e85f2be42c16d3827123c03f681094fd3246790b2a8f2796f6a3c6122",
+    "rawEvidenceBytes": 970811,
+    "rawEvidenceCommitted": false,
+    "firecrawlStatusCode": 200
+  },
+  "expected": {
+    "title": "Konsola Nintendo Switch 2 Black",
+    "offerId": "18744198200",
+    "productId": "9772ef1c-b0d1-49b7-a865-2dd2aa710a67"
+  },
+  "observed": {
+    "offerId": "18744198200",
+    "productId": "9772ef1c-b0d1-49b7-a865-2dd2aa710a67",
+    "title": "Konsola Nintendo Switch 2 Czarna",
+    "manufacturerCode": "Switch 2 Black",
+    "gtin": "045496321444",
+    "categoryPath": [
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Dla kupującego",
+      "Dla sprzedającego",
+      "Elektronika",
+      "Konsole i automaty",
+      "Nintendo Switch 2",
+      "Konsole",
+      "Konsola Nintendo Switch 2 Black",
+      "Nintendo",
+      "ArmorCase",
+      "Alogy"
+    ],
+    "seller": {
+      "name": "Myrotech",
+      "recommendedPercent": 85.7,
+      "ratingCount": 495285,
+      "superSeller": false,
+      "officialStore": false
+    },
+    "commerce": {
+      "price": 2069.22,
+      "currency": "PLN",
+      "smart": true
+    },
+    "productGroup": {},
+    "parameters": {
+      "Stan": "NowyNowyoznacza Towar całkowicie nowy, kompletny, nieużywany bez jakichkolwiek wad lub defektów (np. rys, wgnieceń, minimalnych uszkodzeń). Towar znajduje się w opakowaniu (tam, gdzie ma to zastosowanie) które jest oryginalne, nieotwarte i nieuszkodzone wraz z nienaruszonymi zabezpieczeniami lub identyfikatorami producenta (takimi jak plomby na pudełkach czy metki na ubraniach).",
+      "Faktura": "Wystawiam fakturę VAT",
+      "Producent": "Nintendo",
+      "EAN (GTIN)": "045496321444",
+      "Kod producenta": "Switch 2 Black",
+      "Gry w zestawie": "nie",
+      "Liczba kontrolerów w zestawie": "brak",
+      "Komunikacja": "Bluetooth, Wi-Fi"
+    },
+    "imageCount": 18,
+    "descriptionProfile": {
+      "characters": 3090,
+      "words": 385,
+      "sha256": "5e40eb1df151aa642904aec100accb69bc406f8066e59b8d78b5b5d9e7965f97",
+      "headings": [],
+      "paragraphs": 0,
+      "listItems": 0,
+      "inlineImages": 0
+    }
+  },
+  "validation": {
+    "rulesetId": "allegro-pl-2026-08-20.1",
+    "validatorVersion": "0.1.0",
+    "readyForGeneration": false,
+    "totals": {
+      "passed": 12,
+      "failed": 1,
+      "needs_review": 6,
+      "not_applicable": 0,
+      "not_evaluated": 0
+    },
+    "failedRuleIds": [
+      "ALG-PARAM-002"
+    ],
+    "needsReviewRuleIds": [
+      "ALG-TITLE-004",
+      "ALG-DESC-003",
+      "ALG-DESC-004",
+      "ALG-DESC-005",
+      "ALG-DESC-006",
+      "ALG-DESC-012"
+    ],
+    "notEvaluatedRuleIds": []
+  },
+  "assertions": [
+    {
+      "id": "offer_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "18744198200",
+      "observed": "18744198200"
+    },
+    {
+      "id": "product_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "9772ef1c-b0d1-49b7-a865-2dd2aa710a67",
+      "observed": "9772ef1c-b0d1-49b7-a865-2dd2aa710a67"
+    },
+    {
+      "id": "title_coverage",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": ">=0.35",
+      "observed": 0.75
+    },
+    {
+      "id": "description_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=80",
+      "observed": 3090
+    },
+    {
+      "id": "parameters_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=4",
+      "observed": 8
+    },
+    {
+      "id": "product_images_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=1",
+      "observed": 18
+    },
+    {
+      "id": "gtin_checksum",
+      "kind": "quality_signal",
+      "status": "passed",
+      "expected": true,
+      "observed": "045496321444"
+    }
+  ],
+  "extractionPassed": true,
+  "geoInputComplete": true
+}

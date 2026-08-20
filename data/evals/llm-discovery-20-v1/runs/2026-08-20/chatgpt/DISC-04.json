@@ -1,0 +1,54 @@
+{
+  "promptId": "DISC-04",
+  "category": "laptops",
+  "intent": "gaming_value",
+  "engine": "chatgpt",
+  "prompt": "Jaki laptop gamingowy z najlepszym stosunkiem wydajności do ceny warto kupić do 6000 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://chatgpt.com/c/6a874b88-abb8-83eb-a5a5-a6be03839cd3",
+  "completed": true,
+  "capturedAt": "2026-08-20T18:47:01.382Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/kategoria/laptopy-491?marka=MSI&string=laptop+z+rtx%E2%80%AF5060",
+      "text": "allegro.pl"
+    },
+    {
+      "href": "https://allegro.pl/oferta/msi-katana-15-hx-b14wfk-605xpl-i7-14650hx-16-gb-512-gb-rtx-5060-18428018823?utm_source=chatgpt.com",
+      "text": "allegro.pl"
+    },
+    {
+      "href": "https://allegro.pl/oferta/msi-katana-15-hx-b14wfk-605xpl-i7-14650hx-16-gb-512-gb-rtx-5060-18428018823?utm_source=chatgpt.com",
+      "text": "Sprawdź ofertę Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/asus-tuf-gaming-f16-fx608jmr-i5-14450hx-16gb-512pcie-16-165hz-rtx5060-w11-18583635100?utm_source=chatgpt.com",
+      "text": "allegro.pl"
+    },
+    {
+      "href": "https://allegro.pl/oferta/asus-tuf-gaming-f16-fx608jmr-i5-14450hx-16gb-512pcie-16-165hz-rtx5060-w11-18583635100?utm_source=chatgpt.com",
+      "text": "Sprawdź ofertę Allegro"
+    },
+    {
+      "href": "https://allegro.pl/listing?string=msi+katana+15+i5+14450hx+16gb+512+rtx5060+144hz&utm_source=chatgpt.com",
+      "text": "allegro.pl"
+    },
+    {
+      "href": "https://allegro.pl/oferta/laptop-msi-katana-i5-14450hx-rtx5060-16gb-ram-ssd-512gb-15-6-144hz-win11-18157810639?utm_source=chatgpt.com",
+      "text": "Sprawdź ofertę Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/asus-tuf-gaming-f16-fx608jmr-i7161w-i7-14650hx-16gb-1-1tb-win11h-rtx5060-18305431938?utm_source=chatgpt.com",
+      "text": "allegro.pl"
+    },
+    {
+      "href": "https://allegro.pl/oferta/asus-tuf-gaming-f16-fx608jmr-i7161w-i7-14650hx-16gb-1-1tb-win11h-rtx5060-18305431938?utm_source=chatgpt.com",
+      "text": "Sprawdź ofertę Allegro"
+    },
+    {
+      "href": "https://allegro.pl/kategoria/laptopy-491?marka=MSI&string=laptop+z+rtx%E2%80%AF5060",
+      "text": "allegro.pl"
+    }
+  ],
+  "responseText": "Jaki laptop gamingowy z najlepszym stosunkiem wydajności do ceny warto kupić do 6000 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.\nPrzetwarzano przez 19s\n\nPrzy budżecie do 6000 zł celowałbym przede wszystkim w RTX 5060 — obecnie to zdecydowanie lepszy wybór niż kupowanie RTX 4050/4060 w podobnej cenie. Na dzisiejszym Allegro znalazłem m.in. kilka konfiguracji RTX 5060 poniżej 5000 zł. \nallegro.pl\n\nMoje TOP 5\n\nMSI Katana 15 HX — i7-14650HX / RTX 5060 / 16 GB / 512 GB / 144 Hz — ok. 4697 zł\nBardzo mocny procesor i RTX 5060; moim zdaniem najlepszy stosunek czystej wydajności do ceny. \nallegro.pl\n\nSprawdź ofertę Allegro\n\nASUS TUF Gaming F16 — i5-14450HX / RTX 5060 / 16 GB / 512 GB / 165 Hz — 4599 zł\nŚwietna alternatywa: RTX 5060 115 W, ekran 165 Hz, 100% sRGB i bateria 90 Wh. To bardzo uniwersalny laptop gamingowy. \nallegro.pl\n\nSprawdź ofertę Allegro\n\nMSI Katana 15 HX — i5-14450HX / RTX 5060 / 16 GB / 512 GB / 144 Hz — 4499 zł\nTrochę słabszy CPU od pozycji nr 1, ale bardzo atrakcyjna cena za RTX 5060. Jeśli zależy Ci głównie na FPS-ach, jest to świetny zakup. \nallegro.pl\n\nSprawdź ofertę Allegro\n\nASUS TUF Gaming F16 — i7-14650HX / RTX 5060 / 16 GB / 1 TB — 5990 zł\nNajdroższa propozycja, ale dostajesz i7 oraz 1 TB SSD, więc ma sens, jeśli nie chcesz później rozbudowywać dysku. \nallegro.pl\n\nSprawdź ofertę Allegro\n\nMSI Cyborg 15 — Core 7 240H / RTX 5060 / 16 GB / 512 GB — 3999 zł\nNajtańszy sposób na wejście w RTX 5060 z aktualnie widocznych ofert. Cyborg ma jednak słabszą konstrukcję/chłodzenie niż TUF czy Katana, dlatego daję go na 5. miejscu. Allegro pokazuje tę konfigurację za 3999 zł. \nallegro.pl\n\nMój wybór: brałbym MSI Katana 15 HX z i7-14650HX za ~4697 zł. Jeśli bardziej zależy Ci na jakości ekranu, baterii i obudowie, wybrałbym ASUS TUF Gaming F16 za 4599 zł.\n\nUwaga: ceny i dostępność ofert Allegro potrafią zmienić się w ciągu dnia; przed zakupem warto sprawdzić, czy konkretna oferta nadal jest aktywna.\n\nChatGPT może popełniać błędy. Sprawdź ważne informacje.\n\nMyślenie"
+}
+

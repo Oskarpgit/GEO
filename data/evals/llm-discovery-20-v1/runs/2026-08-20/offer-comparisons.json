@@ -1,0 +1,605 @@
+{
+  "schemaVersion": "1.0.0",
+  "runId": "2026-08-20",
+  "updatedAt": "2026-08-20T19:28:47.522Z",
+  "rawEvidenceCommitted": false,
+  "requestedControlsPerWinner": 4,
+  "observations": [
+    {
+      "promptId": "DISC-01",
+      "engine": "chatgpt",
+      "category": "smartphones",
+      "intent": "camera_value",
+      "prompt": "Jaki smartfon z bardzo dobrym aparatem warto kupić do 3500 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+      "status": "complete",
+      "winner": {
+        "offerId": "18459925351",
+        "productId": "a193b22e-5cc8-4841-901a-7a3589194c37",
+        "sourceUrl": "https://allegro.pl/oferta/samsung-galaxy-s24-ultra-256gb-czarny-18459925351",
+        "title": "Samsung Galaxy S24 Ultra 256GB Czarny",
+        "seller": {
+          "name": "melofone",
+          "recommendedPercent": 98.7,
+          "superSeller": true,
+          "officialStore": false
+        },
+        "commerce": {
+          "price": 2249,
+          "currency": "PLN",
+          "smart": true
+        },
+        "productGroup": {
+          "comparedOfferCount": 67
+        },
+        "parameterCount": 8,
+        "imageCount": 31,
+        "description": {
+          "sha256": "f2fbe01166fff728dfe83a5940ff76e632963edcce9a77376836076834c5868c",
+          "characters": 1987,
+          "words": 230,
+          "headings": [
+            "Oferujemy kompletny zestaw:",
+            "Stan techniczny:"
+          ],
+          "paragraphs": 1,
+          "listItems": 26,
+          "inlineImages": 13,
+          "numericFacts": 3,
+          "faqSignals": 0
+        },
+        "htmlSha256": "2c85d737af2885c939e52b9346b984cebe7e5b5fd6197d09d2e069eef5a524ca",
+        "capturedAt": "2026-08-20T19:20:58.893Z"
+      },
+      "controls": [
+        {
+          "offerId": "17636952339",
+          "productId": "a193b22e-5cc8-4841-901a-7a3589194c37",
+          "sourceUrl": "https://allegro.pl/oferta/smartfon-samsung-galaxy-s24-ultra-256gb-czarny-premium-a-gratisy-17636952339",
+          "title": "SMARTFON SAMSUNG GALAXY S24 ULTRA 256GB | CZARNY | PREMIUM A+ | GRATISY",
+          "brand": "Samsung",
+          "manufacturerCode": "SM-S928BZKGEUE",
+          "gtin": "8806095414584",
+          "seller": {
+            "name": "SUPPSEL",
+            "recommendedPercent": 99.7,
+            "superSeller": true,
+            "officialStore": false
+          },
+          "commerce": {
+            "price": 2548,
+            "currency": "PLN",
+            "smart": true
+          },
+          "productGroup": {
+            "comparedOfferCount": 67
+          },
+          "parameterCount": 8,
+          "imageCount": 14,
+          "description": {
+            "sha256": "0d400e39e3172c8aa0a0c3d2a656b0fbcaebe7d79ed62bc5da1e53cf762d1045",
+            "characters": 2787,
+            "words": 367,
+            "headings": [
+              "SMARTFON SAMSUNG GALAXY S24 ULTRA 256GB - GOTOWY NA KAŻDY TWÓJ MOMENT",
+              "Dostępne kolory:",
+              "Prezentujemy produkt klasy A+",
+              "Informacje na temat blokady:",
+              "Informacje na temat oprogramowania:",
+              "Funkcje Samsung Galaxy S24 Ultra",
+              "Przykładowe realne zdjęcia oferowanych przez nas telefonów:"
+            ],
+            "paragraphs": 13,
+            "listItems": 19,
+            "inlineImages": 6,
+            "numericFacts": 12,
+            "faqSignals": 1
+          },
+          "htmlSha256": "e48b96f468eb5b459a59c83272f341ebb9e27d966a51c62e849467d9f757e095",
+          "capturedAt": "2026-08-20T19:20:58.987Z",
+          "identityMatch": {
+            "result": "matched",
+            "confidence": 0.95,
+            "matcherVersion": "0.1.0",
+            "signals": [
+              {
+                "type": "product_id",
+                "matched": true,
+                "decisive": false
+              }
+            ],
+            "reasons": [
+              "Zgodny identyfikator produktu Allegro."
+            ]
+          }
+        },
+        {
+          "offerId": "17736768132",
+          "productId": "a193b22e-5cc8-4841-901a-7a3589194c37",
+          "sourceUrl": "https://allegro.pl/oferta/samsung-galaxy-s24-ultra-256gb-czarny-17736768132",
+          "title": "Samsung Galaxy S24 Ultra 256GB Czarny",
+          "seller": {
+            "name": "melofone",
+            "recommendedPercent": 98.7,
+            "superSeller": true,
+            "officialStore": false
+          },
+          "commerce": {
+            "price": 2349,
+            "currency": "PLN",
+            "smart": true
+          },
+          "productGroup": {},
+          "parameterCount": 8,
+          "imageCount": 23,
+          "description": {
+            "sha256": "008a05203a1e5d58ba621c321d00d2353247e2d02993be077a73c8acdc7e0ca1",
+            "characters": 1449,
+            "words": 159,
+            "headings": [
+              "Oferujemy kompletny zestaw:",
+              "Stan techniczny:"
+            ],
+            "paragraphs": 0,
+            "listItems": 27,
+            "inlineImages": 10,
+            "numericFacts": 1,
+            "faqSignals": 0
+          },
+          "htmlSha256": "38be19b74e3a48c7e7bc04f7f3ed97c7ef6ad17b59081fdfa40d5c68a81bab64",
+          "capturedAt": "2026-08-20T19:20:59.148Z",
+          "identityMatch": {
+            "result": "matched",
+            "confidence": 0.95,
+            "matcherVersion": "0.1.0",
+            "signals": [
+              {
+                "type": "product_id",
+                "matched": true,
+                "decisive": false
+              }
+            ],
+            "reasons": [
+              "Zgodny identyfikator produktu Allegro."
+            ]
+          }
+        },
+        {
+          "offerId": "18586809949",
+          "productId": "a193b22e-5cc8-4841-901a-7a3589194c37",
+          "sourceUrl": "https://allegro.pl/oferta/smartfon-samsung-galaxy-s24-ultra-256gb-czarny-szklo-etui-gratis-18586809949",
+          "title": "SMARTFON SAMSUNG GALAXY S24 ULTRA 256GB CZARNY | SZKŁO + ETUI | GRATIS",
+          "brand": "Samsung",
+          "manufacturerCode": "SM-S928BZKGEUE",
+          "gtin": "8806095414584",
+          "seller": {
+            "name": "_Tech_Point_",
+            "ratingCount": 485408,
+            "superSeller": true,
+            "officialStore": false
+          },
+          "commerce": {
+            "price": 2435,
+            "currency": "PLN",
+            "smart": true
+          },
+          "productGroup": {},
+          "parameterCount": 8,
+          "imageCount": 17,
+          "description": {
+            "sha256": "1126d6b1180772c20bc49a2208a03f2888bd3cec9dd03cb740dc4eff0817c514",
+            "characters": 3645,
+            "words": 479,
+            "headings": [
+              "SMARTFON SAMSUNG GALAXY S24 ULTRA 256GB CZARNY | SZKŁO + ETUI | GRATIS",
+              "NAJCZĘSZCZE PYTANIA NASZYCH KLIENTÓW"
+            ],
+            "paragraphs": 40,
+            "listItems": 12,
+            "inlineImages": 6,
+            "numericFacts": 7,
+            "faqSignals": 6
+          },
+          "htmlSha256": "4dacb98a745ff990b71913ef2366d4bb8e55e24cd40e318124d52ba783651df1",
+          "capturedAt": "2026-08-20T19:20:59.475Z",
+          "identityMatch": {
+            "result": "matched",
+            "confidence": 0.95,
+            "matcherVersion": "0.1.0",
+            "signals": [
+              {
+                "type": "product_id",
+                "matched": true,
+                "decisive": false
+              }
+            ],
+            "reasons": [
+              "Zgodny identyfikator produktu Allegro."
+            ]
+          }
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "offerId": "18418980195",
+          "reason": "Oferta wskazana przez LLM jest nieaktywna."
+        },
+        {
+          "offerId": "18744226097",
+          "reason": "Oferta kontrolna jest nieaktywna."
+        },
+        {
+          "offerId": "18798431037",
+          "reason": "Nie znaleziono tytułu oferty Allegro."
+        },
+        {
+          "offerId": "18632376573",
+          "reason": "Oferta kontrolna jest nieaktywna."
+        },
+        {
+          "offerId": "18618171820",
+          "reason": "Oferta kontrolna jest nieaktywna."
+        },
+        {
+          "offerId": "18798864825",
+          "reason": "Oferta kontrolna jest nieaktywna."
+        },
+        {
+          "offerId": "17994194157",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "18583444028",
+          "reason": "Oferta kontrolna jest nieaktywna."
+        },
+        {
+          "offerId": "17569093646",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "18752373333",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        }
+      ]
+    },
+    {
+      "promptId": "DISC-02",
+      "engine": "chatgpt",
+      "category": "smartphones",
+      "intent": "compact_premium",
+      "prompt": "Poleć kompaktowy smartfon klasy premium z dobrym czasem pracy. Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+      "status": "partial",
+      "winner": {
+        "offerId": "17284397005",
+        "productId": "c83a22f3-a166-424a-a266-1220fa141389",
+        "sourceUrl": "https://allegro.pl/oferta/samsung-galaxy-s25-5g-12-256gb-nfc-dualsim-zielony-s931-17284397005",
+        "title": "Samsung Galaxy S25 5G 12/256GB NFC DualSIM zielony (S931)",
+        "seller": {
+          "name": "Komputronik",
+          "recommendedPercent": 98.2,
+          "superSeller": true,
+          "officialStore": false
+        },
+        "commerce": {
+          "price": 3399,
+          "currency": "PLN",
+          "smart": true
+        },
+        "productGroup": {},
+        "parameterCount": 8,
+        "imageCount": 19,
+        "description": {
+          "sha256": "0b7fc896f8fc07902d7c017706851dc303ce134fcfd1f922198e63dcf8784677",
+          "characters": 1987,
+          "words": 278,
+          "headings": [
+            "Samsung Galaxy A36 w prezencie!",
+            "Kup na tej aukcji smartfon Galaxy w dniach od 17.11.2025 r. do 28.12.2025 r., a dodatkowy smartfon Samsung Galaxy A36 otrzymasz w prezencie!",
+            "Samsung Galaxy S25 5G 12/256GB NFC DualSIM zielony (S931)"
+          ],
+          "paragraphs": 2,
+          "listItems": 37,
+          "inlineImages": 4,
+          "numericFacts": 35,
+          "faqSignals": 0
+        },
+        "htmlSha256": "dc5f8d43424bd25fd26566ebbc6bd6ffd8a7679221d64caa5cba3e79141d6d30",
+        "capturedAt": "2026-08-20T19:21:08.124Z"
+      },
+      "controls": [],
+      "rejectedCandidates": [
+        {
+          "offerId": "18418951628",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "18799069366",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "18439448070",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "17873081428",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "18480519616",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "18306088104",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "18441715396",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "18841928460",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "18306088172",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "18415652505",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "18854352495",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "18654694823",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        }
+      ]
+    },
+    {
+      "promptId": "DISC-03",
+      "engine": "chatgpt",
+      "category": "laptops",
+      "intent": "office_mobility",
+      "prompt": "Jaki lekki laptop do pracy biurowej i podróży warto kupić do 4500 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+      "status": "negative",
+      "controls": [],
+      "rejectedCandidates": []
+    },
+    {
+      "promptId": "DISC-04",
+      "engine": "chatgpt",
+      "category": "laptops",
+      "intent": "gaming_value",
+      "prompt": "Jaki laptop gamingowy z najlepszym stosunkiem wydajności do ceny warto kupić do 6000 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+      "status": "partial",
+      "winner": {
+        "offerId": "18428018823",
+        "productId": "b42e5a31-3a04-4c83-841a-ee2f1bec5a75",
+        "sourceUrl": "https://allegro.pl/oferta/msi-katana-15-hx-b14wfk-605xpl-i7-14650hx-16-gb-512-gb-rtx-5060-18428018823",
+        "title": "MSI Katana 15 HX B14WFK-605XPL i7-14650HX / 16 GB / 512 GB / RTX 5060 /",
+        "brand": "MSI",
+        "model": "Katana 15 HX",
+        "manufacturerCode": "B14WFK-605XPL",
+        "seller": {
+          "name": "MoreleMTO",
+          "recommendedPercent": 97.4,
+          "superSeller": false,
+          "officialStore": false
+        },
+        "commerce": {
+          "price": 4498,
+          "currency": "PLN",
+          "smart": true
+        },
+        "productGroup": {},
+        "parameterCount": 8,
+        "imageCount": 5,
+        "description": {
+          "sha256": "7cb6a97c74cea6fc9027bc06c0aaddce0242cca6cfd6e6d9ecac4ddce4feb257",
+          "characters": 1009,
+          "words": 130,
+          "headings": [
+            "Laptop MSI Katana 15 HX B14WFK-605XPL i7-14650HX / 16 GB / 512 GB / RTX 5060 / 144 Hz"
+          ],
+          "paragraphs": 1,
+          "listItems": 39,
+          "inlineImages": 1,
+          "numericFacts": 23,
+          "faqSignals": 0
+        },
+        "htmlSha256": "7692670f366f812e6ec71c2a803f530a9a189731138eb76168b8e9ca7da1e66c",
+        "capturedAt": "2026-08-20T19:23:08.687Z"
+      },
+      "controls": [],
+      "rejectedCandidates": [
+        {
+          "offerId": "15976375656",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "17697345851",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "17218821527",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "18299133125",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "17941965171",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "17972665809",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "17972562227",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "18509087396",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "18509090905",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "18509096715",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "17972663793",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "18509102390",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        }
+      ]
+    },
+    {
+      "promptId": "DISC-05",
+      "engine": "chatgpt",
+      "category": "tablets",
+      "intent": "study_notes",
+      "prompt": "Jaki tablet do nauki, notatek i oglądania filmów warto kupić do 2500 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+      "status": "partial",
+      "winner": {
+        "offerId": "18292778634",
+        "productId": "04496838-f609-4072-aace-7b69c9ed2961",
+        "sourceUrl": "https://allegro.pl/produkt/tablet-xiaomi-redmi-pad-2-pro-12-1-8-gb-256-gb-szary-120hz-12000mah-04496838-f609-4072-aace-7b69c9ed2961?fromInactiveOffer=archived",
+        "title": "Redmi Pad 2 Pro 8/256GB szary",
+        "brand": "Xiaomi",
+        "manufacturerCode": "70394",
+        "gtin": "6932554463786",
+        "seller": {
+          "name": "Auronix",
+          "recommendedPercent": 95.2,
+          "ratingCount": 494404,
+          "superSeller": true,
+          "officialStore": false
+        },
+        "commerce": {
+          "price": 1158.72,
+          "currency": "PLN",
+          "smart": true
+        },
+        "productGroup": {
+          "comparedOfferCount": 33
+        },
+        "parameterCount": 8,
+        "imageCount": 11,
+        "description": {
+          "sha256": "4c11d61861c5738e751fcb1424a0467d302add81be4641a52e49f75c2be4baf7",
+          "characters": 4512,
+          "words": 651,
+          "headings": [],
+          "paragraphs": 66,
+          "listItems": 0,
+          "inlineImages": 1,
+          "numericFacts": 56,
+          "faqSignals": 0
+        },
+        "htmlSha256": "9f5fe0c5bffea908e0a95b3dc51aef4e6be5d407c7652a4f5cf18c7ee5f04f43",
+        "capturedAt": "2026-08-20T19:26:43.473Z"
+      },
+      "controls": [],
+      "rejectedCandidates": [
+        {
+          "offerId": "18488633628",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "18292778249",
+          "reason": "unmatched: Sprzeczny GTIN."
+        },
+        {
+          "offerId": "18419270038",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        }
+      ]
+    },
+    {
+      "promptId": "DISC-06",
+      "engine": "chatgpt",
+      "category": "tablets",
+      "intent": "drawing",
+      "prompt": "Poleć tablet z rysikiem do rysowania i pracy kreatywnej. Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+      "status": "partial",
+      "winner": {
+        "offerId": "17814149563",
+        "productId": "5ac0dd41-eb96-46c2-b40f-31d45ee9bbe7",
+        "sourceUrl": "https://allegro.pl/oferta/huawei-matepad-11-5-2025-wifi-8-256gb-fioletowy-klawiatura-rysik-mpencil-17814149563",
+        "title": "HUAWEI MatePad 11.5 2025 WiFi 8/256GB Fioletowy + klawiatura, rysik MPencil",
+        "brand": "Huawei",
+        "seller": {
+          "name": "Huawei",
+          "recommendedPercent": 99.2,
+          "superSeller": true,
+          "officialStore": true
+        },
+        "commerce": {
+          "price": 1899,
+          "currency": "PLN",
+          "smart": true
+        },
+        "productGroup": {
+          "comparedOfferCount": 15
+        },
+        "parameterCount": 8,
+        "imageCount": 33,
+        "description": {
+          "sha256": "e8e96b73b8dfcccbe944f49aaab7c7a66c45df093eda4646c4ce96bfd11f10f7",
+          "characters": 11217,
+          "words": 1617,
+          "headings": [
+            "HUAWEI MatePad 11.5” 2025 + klawiatura i rysik MPencil",
+            "Kompletny zestaw dla ucznia i studenta",
+            "Główne zalety",
+            "Technologia PaperMatte",
+            "ZANURZ SIĘ W OBRAZIE...",
+            "...I DŹWIĘKU PRZEZ WIELE GODZIN",
+            "ZAPISZ KAŻDĄ MYŚL I INSPIRACJĘ",
+            "ZABIERZ GO ZE SOBĄ",
+            "KORZYSTAJ Z CAŁĄ RODZINĄ",
+            "WYDAJNOŚĆ PRZY WIELOZADANIOWOŚCI",
+            "OGROMNY WYBÓR APLIKACJI",
+            "HUAWEI Care – Ochrona Ekranu dla Huawei MatePad 11.5 2025",
+            "Specyfikacja",
+            "Jak zainstalować aplikacje na urządzeniach Huawei?",
+            "Możesz również zainstalować aplikacje przez Gbox"
+          ],
+          "paragraphs": 33,
+          "listItems": 27,
+          "inlineImages": 16,
+          "numericFacts": 93,
+          "faqSignals": 3
+        },
+        "htmlSha256": "e7a57bd21909a449d910e5f4c6c30832d087c606004976c6ed2a30b3cab3ad4e",
+        "capturedAt": "2026-08-20T19:27:53.905Z"
+      },
+      "controls": [],
+      "rejectedCandidates": [
+        {
+          "offerId": "17464701885",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "18560579221",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        },
+        {
+          "offerId": "18672802020",
+          "reason": "unmatched: Sprzeczny identyfikator produktu Allegro."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.1.0",
+  "testId": "P19-camera-canon-eos-r50",
+  "category": "cameras",
+  "source": {
+    "url": "https://allegro.pl/produkt/aparat-canon-eos-r50-rf-s-18-45-mm-f-4-5-6-3-is-stm-czarny-1cc369ca-afdf-4a56-a1b8-873f85388d35?offerId=18732278834",
+    "capturedAt": "2026-08-20T18:16:39.220Z",
+    "rawEvidenceSha256": "6be46e49e33fee00aae7137eac157052e6eb07e822ecb1bc3b0dc98c6064f5eb",
+    "rawEvidenceBytes": 1330668,
+    "rawEvidenceCommitted": false,
+    "firecrawlStatusCode": 200
+  },
+  "expected": {
+    "title": "Aparat Canon EOS R50 RF-S 18-45 mm",
+    "offerId": "18732278834",
+    "productId": "1cc369ca-afdf-4a56-a1b8-873f85388d35"
+  },
+  "observed": {
+    "offerId": "18732278834",
+    "productId": "1cc369ca-afdf-4a56-a1b8-873f85388d35",
+    "title": "Aparat Canon EOS R50 RF-S 18-45 mm f/4.5-6.3 IS STM czarny",
+    "model": "R50",
+    "categoryPath": [
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Dla kupującego",
+      "Dla sprzedającego",
+      "Elektronika",
+      "Fotografia",
+      "Aparaty cyfrowe",
+      "Bezlusterkowce",
+      "Aparat Canon EOS R50 RF-S 18-45 mm f/4.5-6.3 IS STM czarny",
+      "Canon",
+      "ZeeTech",
+      "Panasonic",
+      "Do kompletu"
+    ],
+    "seller": {
+      "name": "pasazfoto",
+      "recommendedPercent": 96.3,
+      "ratingCount": 49049,
+      "superSeller": true,
+      "officialStore": false
+    },
+    "commerce": {
+      "price": 2988,
+      "currency": "PLN",
+      "smart": true
+    },
+    "productGroup": {},
+    "parameters": {
+      "Stan": "NowyNowyoznacza Towar całkowicie nowy, kompletny, nieużywany bez jakichkolwiek wad lub defektów (np. rys, wgnieceń, minimalnych uszkodzeń). Towar znajduje się w opakowaniu (tam, gdzie ma to zastosowanie) które jest oryginalne, nieotwarte i nieuszkodzone wraz z nienaruszonymi zabezpieczeniami lub identyfikatorami producenta (takimi jak plomby na pudełkach czy metki na ubraniach).",
+      "Model": "R50",
+      "Rozdzielczość": "24.2 Mpx",
+      "W zestawie": "korpus + obiektyw",
+      "Mocowanie": "Canon RF",
+      "Rozmiar matrycy": "APS-C",
+      "Stabilizacja": "cyfrowa, mechaniczna matrycy, optyczna obiektywu",
+      "Jakość video": "4K"
+    },
+    "imageCount": 24,
+    "descriptionProfile": {
+      "characters": 8907,
+      "words": 1129,
+      "sha256": "311150f736eb1ebcb47f5df42891119e5e5299185af6014b0f0299f8cac6798d",
+      "headings": [],
+      "paragraphs": 0,
+      "listItems": 0,
+      "inlineImages": 0
+    }
+  },
+  "validation": {
+    "rulesetId": "allegro-pl-2026-08-20.1",
+    "validatorVersion": "0.1.0",
+    "readyForGeneration": false,
+    "totals": {
+      "passed": 10,
+      "failed": 2,
+      "needs_review": 6,
+      "not_applicable": 0,
+      "not_evaluated": 1
+    },
+    "failedRuleIds": [
+      "ALG-DESC-008",
+      "ALG-PARAM-002"
+    ],
+    "needsReviewRuleIds": [
+      "ALG-TITLE-004",
+      "ALG-DESC-003",
+      "ALG-DESC-004",
+      "ALG-DESC-005",
+      "ALG-DESC-006",
+      "ALG-DESC-012"
+    ],
+    "notEvaluatedRuleIds": [
+      "ALG-PARAM-001"
+    ]
+  },
+  "assertions": [
+    {
+      "id": "offer_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "18732278834",
+      "observed": "18732278834"
+    },
+    {
+      "id": "product_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "1cc369ca-afdf-4a56-a1b8-873f85388d35",
+      "observed": "1cc369ca-afdf-4a56-a1b8-873f85388d35"
+    },
+    {
+      "id": "title_coverage",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": ">=0.35",
+      "observed": 1
+    },
+    {
+      "id": "description_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=80",
+      "observed": 8907
+    },
+    {
+      "id": "parameters_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=4",
+      "observed": 8
+    },
+    {
+      "id": "product_images_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=1",
+      "observed": 24
+    },
+    {
+      "id": "gtin_checksum",
+      "kind": "quality_signal",
+      "status": "not_evaluated",
+      "expected": true
+    }
+  ],
+  "extractionPassed": true,
+  "geoInputComplete": true
+}

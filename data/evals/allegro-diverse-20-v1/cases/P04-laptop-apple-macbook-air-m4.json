@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "1.1.0",
+  "testId": "P04-laptop-apple-macbook-air-m4",
+  "category": "laptops",
+  "source": {
+    "url": "https://allegro.pl/produkt/laptop-apple-macbook-air-2025-13-6-apple-m4-16-gb-256-gb-niebieski-e53b81e7-e0ab-496a-babb-8c50fc47bff4?offerId=18160724536",
+    "capturedAt": "2026-08-20T18:16:39.220Z",
+    "rawEvidenceSha256": "a12574d370970e552d9b7c12defb17215b85d2a4b22338f787e8af0a02274829",
+    "rawEvidenceBytes": 988994,
+    "rawEvidenceCommitted": false,
+    "firecrawlStatusCode": 200
+  },
+  "expected": {
+    "title": "Laptop Apple MacBook Air 2025 13,6 cali Apple M4 16 GB / 256 GB",
+    "offerId": "18160724536",
+    "productId": "e53b81e7-e0ab-496a-babb-8c50fc47bff4"
+  },
+  "observed": {
+    "offerId": "18160724536",
+    "productId": "e53b81e7-e0ab-496a-babb-8c50fc47bff4",
+    "title": "Laptop Apple MacBook Air 2025 13,6'' M4 16GB 256GB SSD macOS Północ 10CPU",
+    "brand": "Apple",
+    "categoryPath": [
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Dla kupującego",
+      "Dla sprzedającego",
+      "Elektronika",
+      "Komputery",
+      "Laptopy",
+      "Laptop Apple MacBook Air 2025 13,6 \" Apple M4 16 GB / 256 GB niebieski",
+      "Apple",
+      "Lenovo",
+      "Dell"
+    ],
+    "seller": {
+      "name": "GoldGame2",
+      "recommendedPercent": 96.7,
+      "superSeller": true,
+      "officialStore": false
+    },
+    "commerce": {
+      "price": 5249,
+      "currency": "PLN",
+      "smart": true
+    },
+    "productGroup": {},
+    "parameters": {
+      "Stan": "NowyNowyoznacza Towar całkowicie nowy, kompletny, nieużywany bez jakichkolwiek wad lub defektów (np. rys, wgnieceń, minimalnych uszkodzeń). Towar znajduje się w opakowaniu (tam, gdzie ma to zastosowanie) które jest oryginalne, nieotwarte i nieuszkodzone wraz z nienaruszonymi zabezpieczeniami lub identyfikatorami producenta (takimi jak plomby na pudełkach czy metki na ubraniach).",
+      "Przekątna ekranu": "13.6\"",
+      "Rozdzielczość (px)": "2560 x 1664",
+      "Seria procesora": "Apple M4",
+      "Wielkość pamięci RAM": "16 GB",
+      "Pojemność dysku": "256 GB",
+      "Typ dysku twardego": "SSD",
+      "Marka": "Apple"
+    },
+    "imageCount": 9,
+    "descriptionProfile": {
+      "characters": 2602,
+      "words": 290,
+      "sha256": "252a0a621317f7085d2e8644247eb603c8d55bc418ca79645902c9019c06735e",
+      "headings": [],
+      "paragraphs": 0,
+      "listItems": 0,
+      "inlineImages": 0
+    }
+  },
+  "validation": {
+    "rulesetId": "allegro-pl-2026-08-20.1",
+    "validatorVersion": "0.1.0",
+    "readyForGeneration": false,
+    "totals": {
+      "passed": 11,
+      "failed": 1,
+      "needs_review": 6,
+      "not_applicable": 0,
+      "not_evaluated": 1
+    },
+    "failedRuleIds": [
+      "ALG-PARAM-002"
+    ],
+    "needsReviewRuleIds": [
+      "ALG-TITLE-004",
+      "ALG-DESC-003",
+      "ALG-DESC-004",
+      "ALG-DESC-005",
+      "ALG-DESC-006",
+      "ALG-DESC-012"
+    ],
+    "notEvaluatedRuleIds": [
+      "ALG-PARAM-001"
+    ]
+  },
+  "assertions": [
+    {
+      "id": "offer_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "18160724536",
+      "observed": "18160724536"
+    },
+    {
+      "id": "product_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "e53b81e7-e0ab-496a-babb-8c50fc47bff4",
+      "observed": "e53b81e7-e0ab-496a-babb-8c50fc47bff4"
+    },
+    {
+      "id": "title_coverage",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": ">=0.35",
+      "observed": 0.636
+    },
+    {
+      "id": "description_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=80",
+      "observed": 2602
+    },
+    {
+      "id": "parameters_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=4",
+      "observed": 8
+    },
+    {
+      "id": "product_images_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=1",
+      "observed": 9
+    },
+    {
+      "id": "gtin_checksum",
+      "kind": "quality_signal",
+      "status": "not_evaluated",
+      "expected": true
+    }
+  ],
+  "extractionPassed": true,
+  "geoInputComplete": true
+}

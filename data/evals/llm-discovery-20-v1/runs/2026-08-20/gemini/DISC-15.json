@@ -1,0 +1,26 @@
+{
+  "promptId": "DISC-15",
+  "category": "consoles",
+  "intent": "family_console",
+  "engine": "gemini",
+  "prompt": "Jaką konsolę najlepiej kupić rodzinie z dziećmi do wspólnego grania? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://gemini.google.com/app/eb78213e1e08afbf",
+  "completed": true,
+  "capturedAt": "2026-08-20T19:03:11.102Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/oferta/outlet-konsola-nintendo-switch-oled-wielokolorowy-18670293901",
+      "text": "Nintendo Switch OLED – Oferta 18670293901"
+    },
+    {
+      "href": "https://allegro.pl/oferta/konsola-microsoft-xbox-series-s-robot-white-18100083251",
+      "text": "Xbox Series S 1TB – Oferta 18100083251"
+    },
+    {
+      "href": "https://allegro.pl/oferta/konsola-sony-playstation-5-digital-edition-ps5-pad-dualsense-18108055528",
+      "text": "PlayStation 5 Digital Edition – Oferta 18108055528"
+    }
+  ],
+  "responseText": "Treść wiadomości Gemini\n\nNajlepszym wyborem dla rodziny z dziećmi jest Nintendo Switch (szczególnie model OLED lub V2). Posiada najbogatszą bibliotekę gier rodzinnych i imprezowych (Mario Kart, Super Mario Party, Just Dance, Nintendo Switch Sports), a odłączane kontrolery Joy-Con od razu pozwalają na wspólną zabawę dla 2 osób na jednym ekranie telewizora lub w podróży.  \nAllegro\n+ 1\n\nDrugą opcją wartą rozważenia pod kątem budżetu jest Xbox Series S z subskrypcją Xbox Game Pass, a trzecią PlayStation 5 (głównie dla starszych dzieci ze względu na zaawansowaną grafikę i gry AAA).  \nAllegro\n\nPropozycje ofert na Allegro:  \nAllegro\n\nNintendo Switch OLED – Oferta 18670293901 – Główny faworyt: Pełny model Switch z ekranem OLED i stacją dokującą do TV, idealny do gry kanapowej i podróży.\n\nXbox Series S 1TB – Oferta 18100083251 – Opcja ekonomiczna: Konsola stacjonarna do taniego grania w abonamencie Game Pass (wymaga dokupienia drugiego pada do kooperacji).\n\nPlayStation 5 Digital Edition – Oferta 18108055528 – Dla starszych graczy: Wyższa wydajność graficzna i hity narracyjne, choć z mniejszym naciskiem na typowo dziecięcy tryb kooperacji.\n\nUzasadnienie kolejności:  \nAllegro\n\nPozycja 1 (Nintendo): Bezkonkurencyjna baza bezpiecznych, pozbawionych przemocy gier rodzinnych z intuicyjnym sterowaniem ruchem i dwoma kontrolerami w zestawie fabrycznym.  \nAllegro\n\nPozycja 2 (Xbox): Bardzo niski próg wejścia finansowego dzięki abonamentowi z dziesiątkami gier wieloosobowych bez kupowania pojedynczych tytułów.\n\nPozycja 3 (PlayStation): Najdroższa i najbardziej zaawansowana graficznie, najlepiej sprawdzająca się, gdy w domu są też nastolatki lub dorośli gracze.  \nAllegro"
+}
+

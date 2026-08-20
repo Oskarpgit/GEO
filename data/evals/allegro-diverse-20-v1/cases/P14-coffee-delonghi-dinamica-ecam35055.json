@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "1.1.0",
+  "testId": "P14-coffee-delonghi-dinamica-ecam35055",
+  "category": "coffee-machines",
+  "source": {
+    "url": "https://allegro.pl/produkt/automatyczny-ekspres-cisnieniowy-de-longhi-ecam-350-55b-1450-w-czarny-be218d21-2030-4536-8ee3-2fcb5853ad96?offerId=18661934149",
+    "capturedAt": "2026-08-20T18:16:39.220Z",
+    "rawEvidenceSha256": "af9fcf5962176a5ed23de6655d19710a35ec63a4c444265fb1de4fe1ccdf4859",
+    "rawEvidenceBytes": 988193,
+    "rawEvidenceCommitted": false,
+    "firecrawlStatusCode": 200
+  },
+  "expected": {
+    "title": "Automatyczny ekspres ciśnieniowy DeLonghi ECAM 350.55B",
+    "offerId": "18661934149",
+    "productId": "be218d21-2030-4536-8ee3-2fcb5853ad96"
+  },
+  "observed": {
+    "offerId": "18661934149",
+    "productId": "be218d21-2030-4536-8ee3-2fcb5853ad96",
+    "title": "Automatyczny ekspres ciśnieniowy De'Longhi ECAM 350.55B 1450 W czarny",
+    "brand": "De'Longhi",
+    "model": "ECAM 350.55B",
+    "manufacturerCode": "ECAM 350.55.B",
+    "gtin": "8004399331167",
+    "categoryPath": [
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Dla kupującego",
+      "Dla sprzedającego",
+      "Elektronika",
+      "RTV i AGD",
+      "AGD drobne",
+      "Do kuchni",
+      "Ekspresy do kawy",
+      "Ekspresy ciśnieniowe",
+      "Automatyczny ekspres ciśnieniowy De'Longhi ECAM 350.55B 1450 W czarny",
+      "De'Longhi",
+      "Philips",
+      "Krups"
+    ],
+    "seller": {
+      "name": "Myrotech",
+      "recommendedPercent": 85.7,
+      "ratingCount": 4933175,
+      "superSeller": false,
+      "officialStore": false
+    },
+    "commerce": {
+      "price": 1999,
+      "currency": "PLN",
+      "smart": true
+    },
+    "productGroup": {},
+    "parameters": {
+      "Stan": "NowyNowyoznacza Towar całkowicie nowy, kompletny, nieużywany bez jakichkolwiek wad lub defektów (np. rys, wgnieceń, minimalnych uszkodzeń). Towar znajduje się w opakowaniu (tam, gdzie ma to zastosowanie) które jest oryginalne, nieotwarte i nieuszkodzone wraz z nienaruszonymi zabezpieczeniami lub identyfikatorami producenta (takimi jak plomby na pudełkach czy metki na ubraniach).",
+      "Faktura": "Wystawiam fakturę VAT",
+      "Marka": "De'Longhi",
+      "Kod producenta": "ECAM 350.55.B",
+      "Model": "ECAM 350.55B",
+      "EAN (GTIN)": "8004399331167",
+      "Certyfikaty zgodności": "CE",
+      "Kolor dominujący": "czarny"
+    },
+    "imageCount": 14,
+    "descriptionProfile": {
+      "characters": 4616,
+      "words": 560,
+      "sha256": "7fdb244c8fa2a27fe521d094f428da465f2f6d575b2addd218166dcf0d7a69b1",
+      "headings": [],
+      "paragraphs": 0,
+      "listItems": 0,
+      "inlineImages": 0
+    }
+  },
+  "validation": {
+    "rulesetId": "allegro-pl-2026-08-20.1",
+    "validatorVersion": "0.1.0",
+    "readyForGeneration": false,
+    "totals": {
+      "passed": 12,
+      "failed": 1,
+      "needs_review": 6,
+      "not_applicable": 0,
+      "not_evaluated": 0
+    },
+    "failedRuleIds": [
+      "ALG-DESC-008"
+    ],
+    "needsReviewRuleIds": [
+      "ALG-TITLE-004",
+      "ALG-DESC-003",
+      "ALG-DESC-004",
+      "ALG-DESC-005",
+      "ALG-DESC-006",
+      "ALG-DESC-012"
+    ],
+    "notEvaluatedRuleIds": []
+  },
+  "assertions": [
+    {
+      "id": "offer_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "18661934149",
+      "observed": "18661934149"
+    },
+    {
+      "id": "product_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "be218d21-2030-4536-8ee3-2fcb5853ad96",
+      "observed": "be218d21-2030-4536-8ee3-2fcb5853ad96"
+    },
+    {
+      "id": "title_coverage",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": ">=0.35",
+      "observed": 0.857
+    },
+    {
+      "id": "description_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=80",
+      "observed": 4616
+    },
+    {
+      "id": "parameters_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=4",
+      "observed": 8
+    },
+    {
+      "id": "product_images_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=1",
+      "observed": 14
+    },
+    {
+      "id": "gtin_checksum",
+      "kind": "quality_signal",
+      "status": "passed",
+      "expected": true,
+      "observed": "8004399331167"
+    }
+  ],
+  "extractionPassed": true,
+  "geoInputComplete": true
+}

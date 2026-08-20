@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0.0",
+  "testId": "P07-headphones-sony-wh-1000xm5",
+  "category": "headphones",
+  "query": "Poleć konkretne oferty Allegro na Sony WH-1000XM5. Podaj bezpośrednie linki do ofert sprzedawców.",
+  "target": {
+    "offerId": "18122778668",
+    "productId": "e120b95a-1e21-4fac-8c84-fead7a8769ba"
+  },
+  "observation": {
+    "retrievalClass": "main_market_listing",
+    "targetOfferVisible": false,
+    "targetProductVisible": false,
+    "allegroSurfaceVisible": true
+  },
+  "attempt": {
+    "attemptId": "codex-web:P07-headphones-sony-wh-1000xm5:r1",
+    "offerId": "18122778668",
+    "promptId": "VIS-P07-headphones-sony-wh-1000xm5",
+    "repetition": 1,
+    "status": "success",
+    "capturedAt": "2026-08-20T20:26:44.2616511+02:00",
+    "engine": {
+      "provider": "openai",
+      "model": "codex-runtime-unspecified",
+      "surface": "llm_web_retrieval",
+      "consumerAnswerCaptured": false
+    },
+    "appearances": [
+      {
+        "rank": 1,
+        "entityType": "domain",
+        "url": "https://allegro.pl/listing?string=s%C5%82uchawki+sonysony+wh+1000xm5",
+        "identityMatch": "uncertain",
+        "cited": true
+      }
+    ]
+  },
+  "metrics": {
+    "offerId": "18122778668",
+    "successfulAttempts": 1,
+    "excludedAttempts": 0,
+    "matchedAttempts": 0,
+    "uncertainAppearances": 1,
+    "mentionRate": 0,
+    "offerLinkRate": 0,
+    "top1Share": 0,
+    "top3Share": 0,
+    "top5Share": 0,
+    "meanReciprocalRank": 0
+  }
+}

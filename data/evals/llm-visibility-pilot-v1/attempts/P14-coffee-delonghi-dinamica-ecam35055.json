@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0.0",
+  "testId": "P14-coffee-delonghi-dinamica-ecam35055",
+  "category": "coffee-machines",
+  "query": "Poleć konkretne oferty Allegro na DeLonghi Dinamica ECAM 350.55B. Podaj bezpośrednie linki do ofert sprzedawców.",
+  "target": {
+    "offerId": "18661934149",
+    "productId": "be218d21-2030-4536-8ee3-2fcb5853ad96"
+  },
+  "observation": {
+    "retrievalClass": "foreign_market_product",
+    "targetOfferVisible": false,
+    "targetProductVisible": true,
+    "allegroSurfaceVisible": true
+  },
+  "attempt": {
+    "attemptId": "codex-web:P14-coffee-delonghi-dinamica-ecam35055:r1",
+    "offerId": "18661934149",
+    "promptId": "VIS-P14-coffee-delonghi-dinamica-ecam35055",
+    "repetition": 1,
+    "status": "success",
+    "capturedAt": "2026-08-20T20:26:44.2616511+02:00",
+    "engine": {
+      "provider": "openai",
+      "model": "codex-runtime-unspecified",
+      "surface": "llm_web_retrieval",
+      "consumerAnswerCaptured": false
+    },
+    "appearances": [
+      {
+        "rank": 1,
+        "entityType": "product",
+        "url": "https://allegro.sk/produkt/automaticky-kavovar-na-espresso-de-longhi-ecam-350-55b-1450-w-cierny-be218d21-2030-4536-8ee3-2fcb5853ad96?offerId=15478636669",
+        "detectedOfferId": "15478636669",
+        "detectedProductId": "be218d21-2030-4536-8ee3-2fcb5853ad96",
+        "identityMatch": "matched",
+        "cited": true
+      }
+    ]
+  },
+  "metrics": {
+    "offerId": "18661934149",
+    "successfulAttempts": 1,
+    "excludedAttempts": 0,
+    "matchedAttempts": 0,
+    "uncertainAppearances": 0,
+    "mentionRate": 0,
+    "offerLinkRate": 0,
+    "top1Share": 0,
+    "top3Share": 0,
+    "top5Share": 0,
+    "meanReciprocalRank": 0
+  }
+}

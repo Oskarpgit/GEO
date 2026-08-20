@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.1.0",
+  "testId": "P05-tablet-apple-ipad-11",
+  "category": "tablets",
+  "source": {
+    "url": "https://allegro.pl/produkt/tablet-apple-ipad-11th-gen-2025-11-6-gb-128-gb-srebrny-edb0705a-a2eb-4f17-9e32-377c6a41f8d6?offerId=17380406275",
+    "capturedAt": "2026-08-20T18:16:39.220Z",
+    "rawEvidenceSha256": "b48e7bb14677b894d08512b82dd8a9546cca00a625dc9cd57154660869fd41cf",
+    "rawEvidenceBytes": 1092037,
+    "rawEvidenceCommitted": false,
+    "firecrawlStatusCode": 200
+  },
+  "expected": {
+    "title": "Tablet Apple iPad 11th Gen 2025 11 cali 6 GB / 128 GB",
+    "offerId": "17380406275",
+    "productId": "edb0705a-a2eb-4f17-9e32-377c6a41f8d6"
+  },
+  "observed": {
+    "offerId": "17380406275",
+    "productId": "edb0705a-a2eb-4f17-9e32-377c6a41f8d6",
+    "title": "Tablet APPLE iPad 11\" 11 gen. 128 GB Wi-Fi Srebrny",
+    "categoryPath": [
+      "Zaloguj się",
+      "Dla kupującego",
+      "Dla sprzedającego",
+      "Elektronika",
+      "Komputery",
+      "Tablety",
+      "Urządzenia",
+      "Tablet Apple iPad (11th Gen 2025) 11\" 6 GB / 128 GB srebrny",
+      "Apple",
+      "DOOGEE",
+      "Pockam"
+    ],
+    "seller": {
+      "name": "ELECTROpl",
+      "recommendedPercent": 98.3,
+      "superSeller": true,
+      "officialStore": false
+    },
+    "commerce": {
+      "price": 1769,
+      "currency": "PLN",
+      "smart": true
+    },
+    "productGroup": {
+      "comparedOfferCount": 99
+    },
+    "parameters": {
+      "Stan": "NowyNowyoznacza Towar całkowicie nowy, kompletny, nieużywany bez jakichkolwiek wad lub defektów (np. rys, wgnieceń, minimalnych uszkodzeń). Towar znajduje się w opakowaniu (tam, gdzie ma to zastosowanie) które jest oryginalne, nieotwarte i nieuszkodzone wraz z nienaruszonymi zabezpieczeniami lub identyfikatorami producenta (takimi jak plomby na pudełkach czy metki na ubraniach).",
+      "Przekątna ekranu": "11\"",
+      "Model tabletu": "inny",
+      "Kolor": "srebrny",
+      "Komunikacja": "Bluetooth, Wi-Fi",
+      "Model procesora": "A16",
+      "Wbudowana pamięć": "128 GB",
+      "Pamięć RAM": "6 GB"
+    },
+    "imageCount": 27,
+    "descriptionProfile": {
+      "characters": 7339,
+      "words": 923,
+      "sha256": "5cccbc379a83991deb7d706a0c5cc43a83c4797ed7e0a44deb36309ef1299141",
+      "headings": [],
+      "paragraphs": 0,
+      "listItems": 0,
+      "inlineImages": 0
+    }
+  },
+  "validation": {
+    "rulesetId": "allegro-pl-2026-08-20.1",
+    "validatorVersion": "0.1.0",
+    "readyForGeneration": false,
+    "totals": {
+      "passed": 10,
+      "failed": 2,
+      "needs_review": 6,
+      "not_applicable": 0,
+      "not_evaluated": 1
+    },
+    "failedRuleIds": [
+      "ALG-DESC-008",
+      "ALG-PARAM-002"
+    ],
+    "needsReviewRuleIds": [
+      "ALG-TITLE-004",
+      "ALG-DESC-003",
+      "ALG-DESC-004",
+      "ALG-DESC-005",
+      "ALG-DESC-006",
+      "ALG-DESC-012"
+    ],
+    "notEvaluatedRuleIds": [
+      "ALG-PARAM-001"
+    ]
+  },
+  "assertions": [
+    {
+      "id": "offer_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "17380406275",
+      "observed": "17380406275"
+    },
+    {
+      "id": "product_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "edb0705a-a2eb-4f17-9e32-377c6a41f8d6",
+      "observed": "edb0705a-a2eb-4f17-9e32-377c6a41f8d6"
+    },
+    {
+      "id": "title_coverage",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": ">=0.35",
+      "observed": 0.7
+    },
+    {
+      "id": "description_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=80",
+      "observed": 7339
+    },
+    {
+      "id": "parameters_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=4",
+      "observed": 8
+    },
+    {
+      "id": "product_images_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=1",
+      "observed": 27
+    },
+    {
+      "id": "gtin_checksum",
+      "kind": "quality_signal",
+      "status": "not_evaluated",
+      "expected": true
+    }
+  ],
+  "extractionPassed": true,
+  "geoInputComplete": true
+}

@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "1.1.0",
+  "testId": "P11-vacuum-dyson-v15-detect",
+  "category": "vacuum-cleaners",
+  "source": {
+    "url": "https://allegro.pl/produkt/odkurzacz-pionowy-dyson-v15-detect-absolute-2026-srebrny-szary-e2427326-d154-4ef9-a817-c1aa19f84db5?offerId=18757686025",
+    "capturedAt": "2026-08-20T18:16:39.220Z",
+    "rawEvidenceSha256": "77ef9bb66fe259d83cc1fa51814d2667a48e307a537841b0027586acdbd63291",
+    "rawEvidenceBytes": 1008235,
+    "rawEvidenceCommitted": false,
+    "firecrawlStatusCode": 200
+  },
+  "expected": {
+    "title": "Odkurzacz pionowy Dyson V15 Detect Absolute 2026",
+    "offerId": "18757686025",
+    "productId": "e2427326-d154-4ef9-a817-c1aa19f84db5"
+  },
+  "observed": {
+    "offerId": "18757686025",
+    "productId": "e2427326-d154-4ef9-a817-c1aa19f84db5",
+    "title": "Pionowy odkurzacz bezprzewodowy Dyson V15 Detect Absolute 2026",
+    "brand": "Dyson",
+    "model": "V15 Detect Absolute 2026",
+    "categoryPath": [
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Dla kupującego",
+      "Dla sprzedającego",
+      "Elektronika",
+      "RTV i AGD",
+      "AGD drobne",
+      "Do domu",
+      "Odkurzacze",
+      "Odkurzacze pionowe",
+      "Odkurzacz pionowy Dyson V15 Detect Absolute 2026 srebrny/szary",
+      "Dyson",
+      "Dreame",
+      "Blossom"
+    ],
+    "seller": {
+      "name": "SmA_Dyson",
+      "recommendedPercent": 95.1,
+      "superSeller": true,
+      "officialStore": false
+    },
+    "commerce": {
+      "price": 2699,
+      "currency": "PLN",
+      "smart": true
+    },
+    "productGroup": {},
+    "parameters": {
+      "Stan": "NowyNowyoznacza Towar całkowicie nowy, kompletny, nieużywany bez jakichkolwiek wad lub defektów (np. rys, wgnieceń, minimalnych uszkodzeń). Towar znajduje się w opakowaniu (tam, gdzie ma to zastosowanie) które jest oryginalne, nieotwarte i nieuszkodzone wraz z nienaruszonymi zabezpieczeniami lub identyfikatorami producenta (takimi jak plomby na pudełkach czy metki na ubraniach).",
+      "Faktura": "Wystawiam fakturę VAT",
+      "Marka": "Dyson",
+      "Kolor dominujący": "srebrny/szary",
+      "Model": "V15 Detect Absolute 2026",
+      "Zasilanie": "akumulatorowe",
+      "Moc": "660 W",
+      "Pojemność zbiornika na kurz": "0.76 l"
+    },
+    "imageCount": 25,
+    "descriptionProfile": {
+      "characters": 5397,
+      "words": 616,
+      "sha256": "28595ab6bb12a5ad134b5b0ed8e4092061599f0d28c631907784b429ca0d4653",
+      "headings": [],
+      "paragraphs": 0,
+      "listItems": 0,
+      "inlineImages": 0
+    }
+  },
+  "validation": {
+    "rulesetId": "allegro-pl-2026-08-20.1",
+    "validatorVersion": "0.1.0",
+    "readyForGeneration": false,
+    "totals": {
+      "passed": 10,
+      "failed": 2,
+      "needs_review": 6,
+      "not_applicable": 0,
+      "not_evaluated": 1
+    },
+    "failedRuleIds": [
+      "ALG-DESC-008",
+      "ALG-PARAM-002"
+    ],
+    "needsReviewRuleIds": [
+      "ALG-TITLE-004",
+      "ALG-DESC-003",
+      "ALG-DESC-004",
+      "ALG-DESC-005",
+      "ALG-DESC-006",
+      "ALG-DESC-012"
+    ],
+    "notEvaluatedRuleIds": [
+      "ALG-PARAM-001"
+    ]
+  },
+  "assertions": [
+    {
+      "id": "offer_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "18757686025",
+      "observed": "18757686025"
+    },
+    {
+      "id": "product_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "e2427326-d154-4ef9-a817-c1aa19f84db5",
+      "observed": "e2427326-d154-4ef9-a817-c1aa19f84db5"
+    },
+    {
+      "id": "title_coverage",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": ">=0.35",
+      "observed": 1
+    },
+    {
+      "id": "description_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=80",
+      "observed": 5397
+    },
+    {
+      "id": "parameters_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=4",
+      "observed": 8
+    },
+    {
+      "id": "product_images_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=1",
+      "observed": 25
+    },
+    {
+      "id": "gtin_checksum",
+      "kind": "quality_signal",
+      "status": "not_evaluated",
+      "expected": true
+    }
+  ],
+  "extractionPassed": true,
+  "geoInputComplete": true
+}

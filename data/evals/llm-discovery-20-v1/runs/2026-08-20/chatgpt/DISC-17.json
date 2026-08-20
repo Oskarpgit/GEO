@@ -1,0 +1,46 @@
+{
+  "promptId": "DISC-17",
+  "category": "smartwatches",
+  "intent": "iphone_daily",
+  "engine": "chatgpt",
+  "prompt": "Jaki smartwatch do iPhone'a będzie najlepszy do codziennego używania i sportu? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://chatgpt.com/c/6a874d42-5f38-83eb-839e-be8b36a10051",
+  "completed": true,
+  "capturedAt": "2026-08-20T18:54:13.342Z",
+  "links": [
+    {
+      "href": "https://www.apple.com/apple-watch-ultra-3/?utm_source=chatgpt.com",
+      "text": "Apple"
+    },
+    {
+      "href": "https://allegro.pl/oferta/apple-watch-series-11-gps-42mm-rozowy-z-paskiem-s-m-nowy-18023983483?srsltid=AfmBOoqUZ9YfcFVCVujrRgM3RMGx2vyNj6snwjPBIPCwBkDzi08RQHIV&utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/apple-watch-series-11-gps-42mm-rozowy-z-paskiem-s-m-nowy-18023983483?utm_source=chatgpt.com",
+      "text": "Sprawdź ofertę na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/apple-watch-ultra-3-gps-cellular-49mm-natural-titanium-anchor-blue-ocean-18234442244?srsltid=AfmBOorOw_BOuON5xdKlMUJ4JKXIAWoo7EhNCrVL7--i9x6RRFiQlyo-&utm_source=chatgpt.com",
+      "text": "Allegro\n+1"
+    },
+    {
+      "href": "https://allegro.pl/oferta/apple-watch-ultra-3-gps-cellular-49mm-natural-titanium-anchor-blue-ocean-18234442244?utm_source=chatgpt.com",
+      "text": "Sprawdź ofertę na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/apple-watch-series-11-42mm-srebrny-fioletowy-pasek-gumowy-s-m-17913982558?srsltid=AfmBOopSSVG2iGno0o228SH4SPdXugQD6rh47W85PZODDzwbSq4Y6hRm&utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/apple-watch-series-11-42mm-srebrny-fioletowy-pasek-gumowy-s-m-17913982558?utm_source=chatgpt.com",
+      "text": "Sprawdź ofertę na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/apple-watch-se-3-40mm-band-s-m-esim-midnight-18780755453?srsltid=AfmBOooAB3LHwt7g_SMQUzwasnb7EqHDLB9FwSyt6-clMDRvh2hSpGRJ&utm_source=chatgpt.com",
+      "text": "Allegro"
+    }
+  ],
+  "responseText": "Jaki smartwatch do iPhone'a będzie najlepszy do codziennego używania i sportu? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.\n\nDo iPhone’a najlepszym wyborem ogólnie jest Apple Watch Series 11 — daje najlepszy balans między codziennym używaniem, zdrowiem i sportem. Apple Watch Ultra 3 wygrywa sportowo i baterią, ale jest większy i znacznie droższy. Apple potwierdza m.in. do 42 h normalnego działania Ultra 3. \nApple\n\nMój ranking aktualnych ofert Allegro\n\nApple Watch Series 11 GPS 42 mm — 1599 zł\nNajlepszy wybór dla większości osób: kompaktowy, bardzo dobry do treningów, snu i codziennych powiadomień. Oferta iDream_pl, nowy egzemplarz. \nAllegro\n\nSprawdź ofertę na Allegro\n\nApple Watch Ultra 3 GPS + Cellular 49 mm — 3599 zł\nNajlepszy do intensywnego sportu: większy ekran, tytanowa koperta, GPS + Cellular i wyraźnie dłuższy czas pracy. Warto dopłacić, jeśli dużo biegasz, jeździsz na rowerze, pływasz lub trenujesz outdoor. \nAllegro\n+1\n\nSprawdź ofertę na Allegro\n\nApple Watch Series 11 GPS 42 mm — 1899 zł\nTańsza technicznie alternatywa nie daje przewagi nad pozycją nr 1 — dlatego umieszczam ją niżej, choć sama oferta ma bardzo dobre oceny. \nAllegro\n\nSprawdź ofertę na Allegro\n\nApple Watch SE 3 GPS + Cellular 40 mm — 1299 zł\nDobry budżetowy wybór do codziennych zastosowań i podstawowego sportu, ale ustępuje Series 11 pod względem możliwości zdrowotnych. Ta oferta jest dostępna z eSIM/Cellular. \nAllegro\n\nSprawdź ofertę na Allegro\n\nWerdykt: kupiłbym Series 11 42 mm za 1599 zł. To obecnie najbardziej sensowny Apple Watch do połączenia codziennego użytkowania + sportu, bez płacenia dużej premii za Ultra 3.\n\nChatGPT może popełniać błędy. Sprawdź ważne informacje.\n\nMyślenie"
+}
+

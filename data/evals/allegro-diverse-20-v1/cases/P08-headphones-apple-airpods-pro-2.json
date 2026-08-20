@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.1.0",
+  "testId": "P08-headphones-apple-airpods-pro-2",
+  "category": "headphones",
+  "source": {
+    "url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18833119412",
+    "capturedAt": "2026-08-20T18:16:39.220Z",
+    "rawEvidenceSha256": "1108477d7487c84213af72c9f5e92e20c45f07797cb6a0c87036faf6d57c2cbd",
+    "rawEvidenceBytes": 1110974,
+    "rawEvidenceCommitted": false,
+    "firecrawlStatusCode": 200
+  },
+  "expected": {
+    "title": "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C",
+    "offerId": "18833119412",
+    "productId": "58fbc6df-2280-42aa-8f87-4c63dbda1aac"
+  },
+  "observed": {
+    "offerId": "18833119412",
+    "productId": "58fbc6df-2280-42aa-8f87-4c63dbda1aac",
+    "title": "Słuchawki Apple AirPods Pro 2 gen.z MagSafe ANC USB-C BT Dokanałowe Białe",
+    "categoryPath": [
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Dla kupującego",
+      "Dla sprzedającego",
+      "Elektronika",
+      "RTV i AGD",
+      "Słuchawki",
+      "Bezprzewodowe",
+      "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokanałowe",
+      "Apple",
+      "JBL",
+      "Elonix",
+      "Do kompletu"
+    ],
+    "seller": {
+      "name": "Marevella",
+      "ratingCount": 4821114,
+      "superSeller": true,
+      "officialStore": false
+    },
+    "commerce": {
+      "price": 769.96,
+      "currency": "PLN",
+      "smart": true
+    },
+    "productGroup": {},
+    "parameters": {
+      "Stan": "NowyNowyoznacza Towar całkowicie nowy, kompletny, nieużywany bez jakichkolwiek wad lub defektów (np. rys, wgnieceń, minimalnych uszkodzeń). Towar znajduje się w opakowaniu (tam, gdzie ma to zastosowanie) które jest oryginalne, nieotwarte i nieuszkodzone wraz z nienaruszonymi zabezpieczeniami lub identyfikatorami producenta (takimi jak plomby na pudełkach czy metki na ubraniach).",
+      "Rodzaj słuchawek": "dokanałowe",
+      "Konstrukcja": "zamknięta",
+      "Mikrofon": "tak",
+      "Transmisja sygnału": "Bluetooth",
+      "Czas pracy": "6 h",
+      "Złącze ładowania": "USB typ C",
+      "Aktywne tłumienie hałasu": "tak"
+    },
+    "imageCount": 9,
+    "descriptionProfile": {
+      "characters": 1813,
+      "words": 207,
+      "sha256": "112cfc0eda2a4984c5f5a04c918c27b837ef549a12c209d7fc27bf4a265e7200",
+      "headings": [],
+      "paragraphs": 0,
+      "listItems": 0,
+      "inlineImages": 0
+    }
+  },
+  "validation": {
+    "rulesetId": "allegro-pl-2026-08-20.1",
+    "validatorVersion": "0.1.0",
+    "readyForGeneration": false,
+    "totals": {
+      "passed": 11,
+      "failed": 1,
+      "needs_review": 6,
+      "not_applicable": 0,
+      "not_evaluated": 1
+    },
+    "failedRuleIds": [
+      "ALG-PARAM-002"
+    ],
+    "needsReviewRuleIds": [
+      "ALG-TITLE-004",
+      "ALG-DESC-003",
+      "ALG-DESC-004",
+      "ALG-DESC-005",
+      "ALG-DESC-006",
+      "ALG-DESC-012"
+    ],
+    "notEvaluatedRuleIds": [
+      "ALG-PARAM-001"
+    ]
+  },
+  "assertions": [
+    {
+      "id": "offer_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "18833119412",
+      "observed": "18833119412"
+    },
+    {
+      "id": "product_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "58fbc6df-2280-42aa-8f87-4c63dbda1aac",
+      "observed": "58fbc6df-2280-42aa-8f87-4c63dbda1aac"
+    },
+    {
+      "id": "title_coverage",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": ">=0.35",
+      "observed": 1
+    },
+    {
+      "id": "description_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=80",
+      "observed": 1813
+    },
+    {
+      "id": "parameters_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=4",
+      "observed": 8
+    },
+    {
+      "id": "product_images_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=1",
+      "observed": 9
+    },
+    {
+      "id": "gtin_checksum",
+      "kind": "quality_signal",
+      "status": "not_evaluated",
+      "expected": true
+    }
+  ],
+  "extractionPassed": true,
+  "geoInputComplete": true
+}

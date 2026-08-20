@@ -1,0 +1,34 @@
+{
+  "promptId": "DISC-09",
+  "category": "televisions",
+  "intent": "oled_55_movies",
+  "engine": "gemini",
+  "prompt": "Jaki telewizor OLED 55 cali do filmów i seriali ma obecnie najlepszy stosunek jakości do ceny? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://gemini.google.com/app/15445ae890f4d77a",
+  "completed": true,
+  "capturedAt": "2026-08-20T19:00:57.349Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/oferta/telewizor-lg-oled55b56la-55-oled-4k-120hz-webos-tv-dolby-atmos-hdmi-2-1-18791197622",
+      "text": "Sprawdź ofertę na Allegro (LG OLED55B56LA)"
+    },
+    {
+      "href": "https://allegro.pl/oferta/telewizor-lg-oled-evo-ai-oled55c44la-55-4k-smart-tv-18232252307",
+      "text": "Sprawdź ofertę na Allegro (LG OLED55C44LA)"
+    },
+    {
+      "href": "https://allegro.pl/oferta/telewizor-smart-tv-55-philips-55oled820-4k-144hz-google-tv-dolby-ambilight-18447893591",
+      "text": "Sprawdź ofertę na Allegro (Philips 55OLED820 Ambilight)"
+    },
+    {
+      "href": "https://allegro.pl/oferta/telewizor-samsung-qe55s90f-55-oled-4k-144hz-tizen-tv-dolby-atmos-17602551214",
+      "text": "Sprawdź ofertę na Allegro (Samsung QE55S90F)"
+    },
+    {
+      "href": "https://allegro.pl/oferta/telewizor-oled-samsung-qe55s95f-55-4k-uhd-czarny-18442091495",
+      "text": "Sprawdź ofertę na Allegro (Samsung QE55S95F)"
+    }
+  ],
+  "responseText": "Treść wiadomości Gemini\n\nDo filmów i seriali kluczowe znaczenie mają: obsługa standardu Dolby Vision (dominującego na platformach Netflix, Disney+ i Apple TV+), precyzyjne mapowanie tonów HDR w ciemnych scenach oraz dobra jasność szczytowa matrycy.  \nWybierz.TV\n\nNajlepszy całościowy stosunek ceny do jakości oferuje seria LG OLED (B / C) oraz Philips OLED z Ambilight.  \nMedia Expert\n\n1. LG OLED55B56LA / B4 – Król opłacalności  \nMedia Expert\n\nDlaczego 1. miejsce: Bezkonkurencyjny próg wejścia w świat OLED-ów. Oferuje pełną obsługę Dolby Vision, Dolby Atmos, idealną czerń, szybki webOS i złącza HDMI 2.1 w najniższej cenie rynkowej.  \nMedia Expert\n+ 2\n\nOferta: Sprawdź ofertę na Allegro (LG OLED55B56LA)  \nWybierz.TV\n+ 1\n\n2. LG OLED evo OLED55C44LA / C5 – Najbardziej wszechstronny OLED\n\nDlaczego 2. miejsce: Posiada jaśniejszy panel OLED evo (Brightness Booster) oraz wydajniejszy procesor α9, który lepiej radzi sobie z upscalingiem starszych filmów i czyszczeniem szumów w ciemnych partiach obrazu.  \nMedia Expert\n+ 1\n\nOferta: Sprawdź ofertę na Allegro (LG OLED55C44LA)  \nMedia Markt\n+ 1\n\n3. Philips 55OLED820 / OLED809 – Najlepszy klimat kinowy (Ambilight + Google TV)\n\nDlaczego 3. miejsce: Obsługuje zarówno Dolby Vision, jak i HDR10+ oraz posiada system Google TV dający pełną swobodę instalacji aplikacji VOD i odtwarzaczy (np. Kodi, Stremio). Podświetlenie Ambilight optycznie powiększa ekran i redukuje zmęczenie oczu podczas nocnych seansów.  \nMedia Expert\n+ 2\n\nOferta: Sprawdź ofertę na Allegro (Philips 55OLED820 Ambilight)  \nAllegro\n\n4. Samsung QE55S90F / S90D – Najwyższa jasność i nasycenie kolorów  \nMedia Expert\n\nDlaczego 4. miejsce: Panel QD-OLED zapewnia wybitną jasność w HDR i soczyste barwy, wyprzedzając w jasnych scenach klasyczny W-OLED. Znajduje się niżej wyłącznie ze względu na brak obsługi formatu Dolby Vision (Samsung wspiera wyłącznie HDR10+).  \nMedia Expert\n+ 1\n\nOferta: Sprawdź ofertę na Allegro (Samsung QE55S90F)  \nAllegro\n+ 1\n\n5. Samsung QE55S95F / S95D – Klasa Premium (powłoka antyrefleksyjna)\n\nDlaczego 5. miejsce: Znakomity telewizor z matową powłoką antyrefleksyjną Glare-Free, eliminującą odbicia w jasnym pokoju. Zajmuje 5. pozycję, ponieważ wyższa cena sprawia, że stosunek jakości do ceny jest mniej korzystny w porównaniu z serią B i C od LG.  \nMedia Expert\n+ 2\n\nOferta: Sprawdź ofertę na Allegro (Samsung QE55S95F)  \nMedia Expert\n+ 1"
+}
+

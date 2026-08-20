@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.1.0",
+  "testId": "P03-laptop-lenovo-ideapad-slim-5",
+  "category": "laptops",
+  "source": {
+    "url": "https://allegro.pl/produkt/laptop-lenovo-ideapad-slim-5-16akp10-16-dotyk-ryzen-7-350-32gb-ssd1tb-w11-bf9acb74-ebfc-4eca-89f5-056c62e9cee8?offerId=18337597045",
+    "capturedAt": "2026-08-20T18:16:39.220Z",
+    "rawEvidenceSha256": "3114542515f3ec2f2883e4fee7b91865f26c74129b611524a6ba8830d4a1ee28",
+    "rawEvidenceBytes": 955954,
+    "rawEvidenceCommitted": false,
+    "firecrawlStatusCode": 200
+  },
+  "expected": {
+    "title": "Laptop Lenovo IdeaPad Slim 5 16AKP10 16 cali Ryzen 7 32GB 1TB",
+    "offerId": "18337597045",
+    "productId": "bf9acb74-ebfc-4eca-89f5-056c62e9cee8"
+  },
+  "observed": {
+    "offerId": "18337597045",
+    "productId": "bf9acb74-ebfc-4eca-89f5-056c62e9cee8",
+    "title": "Laptop Lenovo IdeaPad Slim 5 16AKP10 16\" Dotyk Ryzen 7 350 32GB SSD1TB W11",
+    "brand": "Lenovo",
+    "model": "IdeaPad Slim 5",
+    "manufacturerCode": "5-16AKP10K1-32G-S1TB",
+    "categoryPath": [
+      "Zaloguj się",
+      "Dla kupującego",
+      "Dla sprzedającego",
+      "Elektronika",
+      "Komputery",
+      "Laptopy",
+      "Laptop Lenovo IdeaPad Slim 5 16AKP10 16\" Dotyk Ryzen 7 350 32GB SSD1TB W11",
+      "Lenovo",
+      "Dell",
+      "HP"
+    ],
+    "seller": {
+      "name": "REMEDIAL",
+      "recommendedPercent": 98.6,
+      "superSeller": true,
+      "officialStore": false
+    },
+    "commerce": {
+      "price": 4399,
+      "currency": "PLN",
+      "smart": true
+    },
+    "productGroup": {},
+    "parameters": {
+      "Stan": "NowyNowyoznacza Towar całkowicie nowy, kompletny, nieużywany bez jakichkolwiek wad lub defektów (np. rys, wgnieceń, minimalnych uszkodzeń). Towar znajduje się w opakowaniu (tam, gdzie ma to zastosowanie) które jest oryginalne, nieotwarte i nieuszkodzone wraz z nienaruszonymi zabezpieczeniami lub identyfikatorami producenta (takimi jak plomby na pudełkach czy metki na ubraniach).",
+      "Faktura": "Wystawiam fakturę VAT",
+      "Marka": "Lenovo",
+      "Model": "IdeaPad Slim 5",
+      "Typ": "standardowy",
+      "Układ klawiatury": "US international (qwerty)",
+      "Kod producenta": "5-16AKP10K1-32G-S1TB",
+      "Przekątna ekranu": "16\""
+    },
+    "imageCount": 35,
+    "descriptionProfile": {
+      "characters": 7974,
+      "words": 960,
+      "sha256": "5c5aad6c1a8610a88cbd11449b7b221788cee93213e2d9b6a542d7d85ab86a0a",
+      "headings": [],
+      "paragraphs": 0,
+      "listItems": 0,
+      "inlineImages": 0
+    }
+  },
+  "validation": {
+    "rulesetId": "allegro-pl-2026-08-20.1",
+    "validatorVersion": "0.1.0",
+    "readyForGeneration": false,
+    "totals": {
+      "passed": 10,
+      "failed": 2,
+      "needs_review": 6,
+      "not_applicable": 0,
+      "not_evaluated": 1
+    },
+    "failedRuleIds": [
+      "ALG-DESC-008",
+      "ALG-PARAM-002"
+    ],
+    "needsReviewRuleIds": [
+      "ALG-TITLE-004",
+      "ALG-DESC-003",
+      "ALG-DESC-004",
+      "ALG-DESC-005",
+      "ALG-DESC-006",
+      "ALG-DESC-012"
+    ],
+    "notEvaluatedRuleIds": [
+      "ALG-PARAM-001"
+    ]
+  },
+  "assertions": [
+    {
+      "id": "offer_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "18337597045",
+      "observed": "18337597045"
+    },
+    {
+      "id": "product_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "bf9acb74-ebfc-4eca-89f5-056c62e9cee8",
+      "observed": "bf9acb74-ebfc-4eca-89f5-056c62e9cee8"
+    },
+    {
+      "id": "title_coverage",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": ">=0.35",
+      "observed": 0.8
+    },
+    {
+      "id": "description_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=80",
+      "observed": 7974
+    },
+    {
+      "id": "parameters_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=4",
+      "observed": 8
+    },
+    {
+      "id": "product_images_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=1",
+      "observed": 35
+    },
+    {
+      "id": "gtin_checksum",
+      "kind": "quality_signal",
+      "status": "not_evaluated",
+      "expected": true
+    }
+  ],
+  "extractionPassed": true,
+  "geoInputComplete": true
+}

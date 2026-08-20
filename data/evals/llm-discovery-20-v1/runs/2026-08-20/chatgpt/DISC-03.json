@@ -1,0 +1,38 @@
+{
+  "promptId": "DISC-03",
+  "category": "laptops",
+  "intent": "office_mobility",
+  "engine": "chatgpt",
+  "prompt": "Jaki lekki laptop do pracy biurowej i podróży warto kupić do 4500 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://chatgpt.com/c/6a874b73-7428-83ed-bcfa-2abf6cf5f072",
+  "completed": true,
+  "capturedAt": "2026-08-20T18:46:30.126Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/kategoria/laptopy-491?string=lenovo+thinkpad+t14+gen3&utm_source=chatgpt.com",
+      "text": "Allegro\n+1"
+    },
+    {
+      "href": "https://allegro.pl/kategoria/komputery?string=thinkpad+t14+gen3&utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/kategoria/laptopy-491?string=t14+gen3+thinkpad&utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/kategoria/laptopy-491?kolor=czarny&string=t14+gen2&zlacza=RJ-45&utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/listing?string=hp+elite+book+840g8&utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/listing?string=thinkpad+t14+gen3&utm_source=chatgpt.com",
+      "text": "Allegro\n+1"
+    }
+  ],
+  "responseText": "Jaki lekki laptop do pracy biurowej i podróży warto kupić do 4500 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.\n\nDo 4500 zł celowałbym przede wszystkim w 14-calowego ThinkPada/EliteBooka — są lekkie, solidne i dobrze nadają się do pracy biurowej oraz częstego wożenia. Aktualnie na Allegro najciekawiej wyglądają:\n\nLenovo ThinkPad T14 Gen 3, Ryzen 7, 16 GB / 512 GB — 3800 zł\nNajlepszy wybór ogólnie: bardzo dobry procesor, 16 GB RAM, 512 GB SSD i biznesowa konstrukcja. 14\" jest rozsądnym kompromisem między mobilnością a wygodą pracy. \nAllegro\n+1\n\nUwaga: wyszukiwarka pokazuje tę ofertę, ale nie zwróciła mi bezpośredniego URL-a oferty sprzedawcy, więc nie będę udawał, że mam pewny link.\n\nLenovo ThinkPad T14 Gen 3, i7 / 32 GB / 1 TB — 3999 zł\nNajlepszy, jeśli laptop ma służyć przez kilka lat i pracujesz na wielu aplikacjach jednocześnie. 32 GB RAM i 1 TB SSD to bardzo komfortowy zestaw. \nAllegro\n\nLenovo ThinkPad T14 Gen 3, i5 / 16 GB / 512 GB — ok. 2799 zł\nMoim zdaniem najlepszy stosunek ceny do jakości. Do Office, przeglądarki, Teams/Zoom, VPN i pracy z dokumentami nie ma potrzeby dopłacać do i7. \nAllegro\n\nLenovo ThinkPad T14 Gen 2, i7-1185G7 / 16 GB / 512 GB — 1289 zł\nBardzo atrakcyjna opcja budżetowa, szczególnie jeśli nie przeszkadza Ci sprzęt odnowiony. 14\", 16 GB RAM i 512 GB SSD spokojnie wystarczą do typowego biura. \nAllegro\n\nHP EliteBook 840 G8, i5-1145G7 / 16 GB / 256 GB / FHD — 989 zł\nNajtańsza sensowna opcja: biznesowa obudowa, 16 GB RAM i ekran 14\". Za tę cenę trudno oczekiwać lepszego laptopa do podstawowej pracy mobilnej. \nAllegro\n\nMój wybór: ThinkPad T14 Gen 3 z Ryzen 7. Jeśli chcesz wydać wyraźnie mniej, brałbym T14 Gen 3 z i5/16/512.\n\nProblem jest taki, że Allegro w wynikach wyszukiwania, które mam dostępne, zwraca głównie listingi zamiast stabilnych, bezpośrednich URL-i konkretnych ofert. Ponieważ poprosiłeś wyraźnie o linki bezpośrednie, nie chcę podawać linków do listingów pod pozorem spełnienia tego warunku. \nAllegro\n+1\n\nPodoba Ci się ta osobowość?\nChatGPT może popełniać błędy. Sprawdź ważne informacje.\n\nMyślenie"
+}
+

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0.0",
+  "testId": "P20-camera-gopro-hero13-black",
+  "category": "action-cameras",
+  "query": "Poleć konkretne oferty Allegro na GoPro HERO13 Black. Podaj bezpośrednie linki do ofert sprzedawców.",
+  "target": {
+    "offerId": "18816079967",
+    "productId": "9efdb84e-511f-48a7-a96c-407c04b1487c"
+  },
+  "observation": {
+    "retrievalClass": "main_market_listing",
+    "targetOfferVisible": false,
+    "targetProductVisible": false,
+    "allegroSurfaceVisible": true
+  },
+  "attempt": {
+    "attemptId": "codex-web:P20-camera-gopro-hero13-black:r1",
+    "offerId": "18816079967",
+    "promptId": "VIS-P20-camera-gopro-hero13-black",
+    "repetition": 1,
+    "status": "success",
+    "capturedAt": "2026-08-20T20:26:44.2616511+02:00",
+    "engine": {
+      "provider": "openai",
+      "model": "codex-runtime-unspecified",
+      "surface": "llm_web_retrieval",
+      "consumerAnswerCaptured": false
+    },
+    "appearances": [
+      {
+        "rank": 1,
+        "entityType": "domain",
+        "url": "https://allegro.pl/kategoria/kamery-sportowe-kamery-250946?string=gopro13",
+        "identityMatch": "uncertain",
+        "cited": true
+      }
+    ]
+  },
+  "metrics": {
+    "offerId": "18816079967",
+    "successfulAttempts": 1,
+    "excludedAttempts": 0,
+    "matchedAttempts": 0,
+    "uncertainAppearances": 1,
+    "mentionRate": 0,
+    "offerLinkRate": 0,
+    "top1Share": 0,
+    "top3Share": 0,
+    "top5Share": 0,
+    "meanReciprocalRank": 0
+  }
+}

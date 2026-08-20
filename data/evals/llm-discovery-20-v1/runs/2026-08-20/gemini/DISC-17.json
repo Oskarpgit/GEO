@@ -1,0 +1,34 @@
+{
+  "promptId": "DISC-17",
+  "category": "smartwatches",
+  "intent": "iphone_daily",
+  "engine": "gemini",
+  "prompt": "Jaki smartwatch do iPhone'a będzie najlepszy do codziennego używania i sportu? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://gemini.google.com/app/bdd4599bded74227",
+  "completed": true,
+  "capturedAt": "2026-08-20T19:03:59.158Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/oferta/apple-watch-series-10-gps-42mm-jet-black-16556066364",
+      "text": "Apple Watch Series 10 GPS 42mm Jet Black"
+    },
+    {
+      "href": "https://allegro.pl/oferta/smartwatch-apple-watch-series-9-gps-koperta-41mm-z-aluminium-mr8w3qp-a-18386384062",
+      "text": "Apple Watch Series 9 GPS 41mm Aluminium"
+    },
+    {
+      "href": "https://allegro.pl/oferta/smartwatch-garmin-venu-3-18744351494",
+      "text": "Garmin Venu 3 GPS Slate"
+    },
+    {
+      "href": "https://allegro.pl/oferta/garmin-forerunner-265-czarny-popielaty-010-02810-10-18544976699",
+      "text": "Garmin Forerunner 265 GPS 46mm"
+    },
+    {
+      "href": "https://allegro.pl/oferta/zegarek-apple-watch-ultra-2-49mm-gol-18398652443",
+      "text": "Apple Watch Ultra 2 GPS + Cellular 49mm Black Titanium"
+    }
+  ],
+  "responseText": "Treść wiadomości Gemini\n\nNajlepszym wyborem dla użytkownika iPhone'a do codziennych zadań i sportu rekreacyjnego są zegarki Apple Watch ze względu na pełną integrację z iOS (odpowiadanie na wiadomości, Siri, Apple Pay, płynna synchronizacja zdrowia). Jeśli priorytetem jest zaawansowana analityka treningowa i bateria trzymająca od kilkunastu dni zamiast 1–2 dni, bezkonkurencyjne są modele Garmin (działające na iOS w trybie odczytu powiadomień).  \nAllegro\n+ 1\n\n1. Apple Watch Series 10 GPS 42mm Jet Black  \nAllegro\n\nDlaczego 1. miejsce: Najnowszy, najbardziej wszechstronny smartwatch do iPhone'a. Ma smuklejszą obudowę, większy ekran szerokokątny OLED i zaawansowane czujniki (w tym głębokościomierz do pływania i monitorowanie bezdechu sennego). Idealny balans do biura i na trening.  \nAllegro\n+ 1\n\n2. Apple Watch Series 9 GPS 41mm Aluminium  \nAllegro\n\nDlaczego 2. miejsce: Najbardziej opłacalny wybór z ekosystemu Apple. Oferuje gest dwukrotnego stuknięcia palcami, precyzyjne GPS/tętno oraz pełną funkcjonalność smart w zauważalnie niższej cenie niż Series 10.  \nAllegro\n+ 2\n\n3. Garmin Venu 3 GPS Slate  \nAllegro\n\nDlaczego 3. miejsce: Najlepszy kompromis pomiędzy zegarkiem sportowym a smartwatchem. Oferuje mikrofon i głośnik do rozmów, ekran AMOLED, precyzyjny czujnik tętna Elevate 5 oraz baterię działającą do 14 dni, eliminując konieczność codziennego ładowania.  \nAllegro\n+ 1\n\n4. Garmin Forerunner 265 GPS 46mm  \nAllegro\n\nDlaczego 4. miejsce: Opcja dla osób stawiających trening na pierwszym miejscu (bieganie, kolarstwo, triathlon). Oferuje dwuzakresowy GPS, wskaźniki gotowości treningowej, status HRV i fizyczne przyciski ułatwiające obsługę w deszczu czy rękawiczkach.  \nAllegro\n+ 2\n\n5. Apple Watch Ultra 2 GPS + Cellular 49mm Black Titanium  \nAllegro\n\nDlaczego 5. miejsce: Sprzęt bezkompromisowy pod kątem wytrzymałości (tytan, szafir), baterii (do 3 dni) i jasności ekranu (3000 nitów). Zamyka zestawienie głównie ze względu na gabaryty koperty (49 mm) oraz najwyższą cenę.  \nAllegro\n+ 1"
+}
+

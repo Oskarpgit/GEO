@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.1.0",
+  "testId": "P17-smartwatch-apple-watch-series-10",
+  "category": "smartwatches",
+  "source": {
+    "url": "https://allegro.pl/produkt/smartwatch-apple-watch-series-10-gps-koperta-46mm-z-aluminium-srebrny-e617685f-64fd-44af-bb0d-f3426f004a46?offerId=18331590310",
+    "capturedAt": "2026-08-20T18:16:39.220Z",
+    "rawEvidenceSha256": "b4c05a381c4d370971851f73006eaff123f6b4fc92a9e018038d77210dcde220",
+    "rawEvidenceBytes": 991826,
+    "rawEvidenceCommitted": false,
+    "firecrawlStatusCode": 200
+  },
+  "expected": {
+    "title": "Smartwatch Apple Watch Series 10 GPS 46mm",
+    "offerId": "18331590310",
+    "productId": "e617685f-64fd-44af-bb0d-f3426f004a46"
+  },
+  "observed": {
+    "offerId": "18331590310",
+    "productId": "e617685f-64fd-44af-bb0d-f3426f004a46",
+    "title": "Apple Watch Series 10 GPS 46mm Srebrny S/M",
+    "brand": "Apple",
+    "model": "Watch Series 10 GPS",
+    "gtin": "195949553479",
+    "categoryPath": [
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Dla kupującego",
+      "Dla sprzedającego",
+      "Elektronika",
+      "Telefony i Akcesoria",
+      "Smartwatche i akcesoria",
+      "Smartwatche",
+      "Smartwatch Apple Watch Series 10 GPS koperta 46mm z aluminium srebrny",
+      "Apple",
+      "Xiaomi",
+      "JG Smart"
+    ],
+    "seller": {
+      "name": "lantre_pl",
+      "recommendedPercent": 97.4,
+      "superSeller": true,
+      "officialStore": false
+    },
+    "commerce": {
+      "price": 1899,
+      "currency": "PLN",
+      "smart": true
+    },
+    "productGroup": {},
+    "parameters": {
+      "Stan": "NowyNowyoznacza Towar całkowicie nowy, kompletny, nieużywany bez jakichkolwiek wad lub defektów (np. rys, wgnieceń, minimalnych uszkodzeń). Towar znajduje się w opakowaniu (tam, gdzie ma to zastosowanie) które jest oryginalne, nieotwarte i nieuszkodzone wraz z nienaruszonymi zabezpieczeniami lub identyfikatorami producenta (takimi jak plomby na pudełkach czy metki na ubraniach).",
+      "Faktura": "Wystawiam fakturę VAT",
+      "Stan opakowania": "oryginalne",
+      "Rodzaj": "smartwatch",
+      "EAN (GTIN)": "195949553479",
+      "Marka": "Apple",
+      "Model": "Watch Series 10 GPS",
+      "Certyfikaty zgodności": "CE"
+    },
+    "imageCount": 8,
+    "descriptionProfile": {
+      "characters": 3315,
+      "words": 374,
+      "sha256": "8d9d1574381aa9d9f3ff3b62a5637d25bce9731f7abaa06e8e474a146ff1b43c",
+      "headings": [],
+      "paragraphs": 0,
+      "listItems": 0,
+      "inlineImages": 0
+    }
+  },
+  "validation": {
+    "rulesetId": "allegro-pl-2026-08-20.1",
+    "validatorVersion": "0.1.0",
+    "readyForGeneration": false,
+    "totals": {
+      "passed": 10,
+      "failed": 3,
+      "needs_review": 6,
+      "not_applicable": 0,
+      "not_evaluated": 0
+    },
+    "failedRuleIds": [
+      "ALG-DESC-008",
+      "ALG-DESC-010",
+      "ALG-PARAM-002"
+    ],
+    "needsReviewRuleIds": [
+      "ALG-TITLE-004",
+      "ALG-DESC-003",
+      "ALG-DESC-004",
+      "ALG-DESC-005",
+      "ALG-DESC-006",
+      "ALG-DESC-012"
+    ],
+    "notEvaluatedRuleIds": []
+  },
+  "assertions": [
+    {
+      "id": "offer_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "18331590310",
+      "observed": "18331590310"
+    },
+    {
+      "id": "product_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "e617685f-64fd-44af-bb0d-f3426f004a46",
+      "observed": "e617685f-64fd-44af-bb0d-f3426f004a46"
+    },
+    {
+      "id": "title_coverage",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": ">=0.35",
+      "observed": 0.857
+    },
+    {
+      "id": "description_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=80",
+      "observed": 3315
+    },
+    {
+      "id": "parameters_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=4",
+      "observed": 8
+    },
+    {
+      "id": "product_images_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=1",
+      "observed": 8
+    },
+    {
+      "id": "gtin_checksum",
+      "kind": "quality_signal",
+      "status": "passed",
+      "expected": true,
+      "observed": "195949553479"
+    }
+  ],
+  "extractionPassed": true,
+  "geoInputComplete": true
+}

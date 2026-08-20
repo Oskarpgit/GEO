@@ -1,0 +1,38 @@
+{
+  "promptId": "DISC-08",
+  "category": "headphones",
+  "intent": "sports_earbuds",
+  "engine": "chatgpt",
+  "prompt": "Jakie bezprzewodowe słuchawki douszne do biegania i treningu warto kupić do 800 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://chatgpt.com/c/6a874c18-a760-83ed-9a89-ad22986cc6cc",
+  "completed": true,
+  "capturedAt": "2026-08-20T18:49:20.301Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/kategoria/sluchawki-66887?string=soundcore+sport+x20&utm_source=chatgpt.com",
+      "text": "Allegro\n+1"
+    },
+    {
+      "href": "https://allegro.pl/oferta/sportowe-sluchawki-douszne-bluetooth-ip68-48-h-anc-regulowane-zaczepy-uszne-17945543716?utm_source=chatgpt.com",
+      "text": "Kup Soundcore Sport X20 na Allegro – konkretna oferta"
+    },
+    {
+      "href": "https://allegro.pl/listing?string=s%C5%82uchawki+jabra+elite+8+active&utm_source=chatgpt.com",
+      "text": "Allegro\n+1"
+    },
+    {
+      "href": "https://allegro.pl/oferta/sluchawki-bezprzewodowe-dokanalowe-jabra-elite-8-active-18025711211?utm_source=chatgpt.com",
+      "text": "Kup Jabra Elite 8 Active – konkretna oferta Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/anker-soundcore-sport-x20-zielony-16908019027?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/anker-soundcore-sport-x20-zielony-16908019027?utm_source=chatgpt.com",
+      "text": "Kup Soundcore Sport X20 zielone – konkretna oferta Allegro"
+    }
+  ],
+  "responseText": "Jakie bezprzewodowe słuchawki douszne do biegania i treningu warto kupić do 800 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.\nPrzetwarzano przez 14s\n\nDo 800 zł do biegania i treningu stawiałbym przede wszystkim na pewne trzymanie w uchu, odporność na pot/wodę i wygodę podczas ruchu. Z aktualnie znalezionych ofert Allegro najlepsze są:\n\nSoundcore Sport X20 – ok. 345 zł — mój wybór nr 1. Mają regulowane zaczepy zauszne, ANC i wysoką odporność na wodę; bardzo dobry stosunek ceny do możliwości. \nAllegro\n+1\n\nKup Soundcore Sport X20 na Allegro – konkretna oferta\n\nJabra Elite 8 Active – 299 zł — świetne do biegania: bardzo dobre trzymanie, konstrukcja nastawiona na sport i wysoka odporność. Ta oferta jest powystawowa, ale ma bardzo dobre oceny. \nAllegro\n+1\n\nKup Jabra Elite 8 Active – konkretna oferta Allegro\n\nSoundcore Sport X20 – zielone, 479 zł — ten sam bardzo udany model, ale droższa konkretna oferta; warto tylko jeśli zależy Ci na tym wariancie kolorystycznym. \nAllegro\n\nKup Soundcore Sport X20 zielone – konkretna oferta Allegro\n\nCo wybrałbym? Sport X20 za ~345 zł. Do biegania zaczepy są dużą zaletą, a zaoszczędzone ~450 zł względem budżetu nie daje tu proporcjonalnie gorszych wrażeń. Jeśli natomiast znajdziesz Jabra Elite 8 Active nowe w podobnej cenie, brałbym Jabry.\n\nUwaga: nie podaję Beats Fit Pro ani Sony WF-C700N mimo że mieszczą się w budżecie — do intensywnego biegania ich konstrukcja jest mniej przekonująca niż modele z mocniejszym mocowaniem.\n\nChatGPT może popełniać błędy. Sprawdź ważne informacje.\n\nMyślenie"
+}
+

@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.1.0",
+  "testId": "P01-smartphone-samsung-galaxy-s25",
+  "category": "smartphones",
+  "source": {
+    "url": "https://allegro.pl/produkt/smartfon-samsung-galaxy-s25-12-gb-256-gb-5g-niebieski-f5e9b862-2981-40dd-b7cc-92f4a83956fd?offerId=18762904428",
+    "capturedAt": "2026-08-20T18:16:39.220Z",
+    "rawEvidenceSha256": "93198ba33a5d329f2cb12220e29d63daf1ebb7addc246303e7b2ba551cfb8f4b",
+    "rawEvidenceBytes": 1030008,
+    "rawEvidenceCommitted": false,
+    "firecrawlStatusCode": 200
+  },
+  "expected": {
+    "title": "Smartfon Samsung Galaxy S25 12 GB / 256 GB 5G niebieski",
+    "offerId": "18762904428",
+    "productId": "f5e9b862-2981-40dd-b7cc-92f4a83956fd"
+  },
+  "observed": {
+    "offerId": "18762904428",
+    "productId": "f5e9b862-2981-40dd-b7cc-92f4a83956fd",
+    "title": "Smartfon Samsung Galaxy S25 12 GB / 256 GB 5G niebieski",
+    "categoryPath": [
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Dla kupującego",
+      "Dla sprzedającego",
+      "Elektronika",
+      "Telefony i Akcesoria",
+      "Smartfony i telefony komórkowe",
+      "Samsung",
+      "Galaxy S25",
+      "Smartfon Samsung Galaxy S25 12 GB / 256 GB 5G niebieski",
+      "Samsung",
+      "Apple",
+      "Xiaomi"
+    ],
+    "seller": {
+      "name": "AMPQ_PL",
+      "recommendedPercent": 99.5,
+      "superSeller": true,
+      "officialStore": false
+    },
+    "commerce": {
+      "price": 2615,
+      "currency": "PLN",
+      "smart": true
+    },
+    "productGroup": {},
+    "parameters": {
+      "Stan": "NowyNowyoznacza Towar całkowicie nowy, kompletny, nieużywany bez jakichkolwiek wad lub defektów (np. rys, wgnieceń, minimalnych uszkodzeń). Towar znajduje się w opakowaniu (tam, gdzie ma to zastosowanie) które jest oryginalne, nieotwarte i nieuszkodzone wraz z nienaruszonymi zabezpieczeniami lub identyfikatorami producenta (takimi jak plomby na pudełkach czy metki na ubraniach).",
+      "Kolor": "niebieski",
+      "Przekątna ekranu": "6.2\"",
+      "Rozdzielczość aparatu tylnego": "50 Mpx",
+      "Wbudowana pamięć": "256 GB",
+      "Pamięć RAM": "12 GB",
+      "Pojemność akumulatora": "4000 mAh",
+      "Transmisja danych": "5G"
+    },
+    "imageCount": 13,
+    "descriptionProfile": {
+      "characters": 2961,
+      "words": 325,
+      "sha256": "f86ce8f29bdbb6bdf67f5e8420ccfb9f098e8aa47a24ae05f1d8cdedca43366f",
+      "headings": [],
+      "paragraphs": 0,
+      "listItems": 0,
+      "inlineImages": 0
+    }
+  },
+  "validation": {
+    "rulesetId": "allegro-pl-2026-08-20.1",
+    "validatorVersion": "0.1.0",
+    "readyForGeneration": false,
+    "totals": {
+      "passed": 11,
+      "failed": 1,
+      "needs_review": 6,
+      "not_applicable": 0,
+      "not_evaluated": 1
+    },
+    "failedRuleIds": [
+      "ALG-PARAM-002"
+    ],
+    "needsReviewRuleIds": [
+      "ALG-TITLE-004",
+      "ALG-DESC-003",
+      "ALG-DESC-004",
+      "ALG-DESC-005",
+      "ALG-DESC-006",
+      "ALG-DESC-012"
+    ],
+    "notEvaluatedRuleIds": [
+      "ALG-PARAM-001"
+    ]
+  },
+  "assertions": [
+    {
+      "id": "offer_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "18762904428",
+      "observed": "18762904428"
+    },
+    {
+      "id": "product_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "f5e9b862-2981-40dd-b7cc-92f4a83956fd",
+      "observed": "f5e9b862-2981-40dd-b7cc-92f4a83956fd"
+    },
+    {
+      "id": "title_coverage",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": ">=0.35",
+      "observed": 1
+    },
+    {
+      "id": "description_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=80",
+      "observed": 2961
+    },
+    {
+      "id": "parameters_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=4",
+      "observed": 8
+    },
+    {
+      "id": "product_images_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=1",
+      "observed": 13
+    },
+    {
+      "id": "gtin_checksum",
+      "kind": "quality_signal",
+      "status": "not_evaluated",
+      "expected": true
+    }
+  ],
+  "extractionPassed": true,
+  "geoInputComplete": true
+}

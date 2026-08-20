@@ -1,0 +1,54 @@
+{
+  "promptId": "DISC-12",
+  "category": "robot-vacuums",
+  "intent": "thresholds_mopping",
+  "engine": "chatgpt",
+  "prompt": "Jaki robot sprzątający z dobrym mopowaniem i pokonywaniem progów warto kupić? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://chatgpt.com/c/6a874c8a-7e50-83eb-b37e-83553ee79fde",
+  "completed": true,
+  "capturedAt": "2026-08-20T18:51:07.067Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/produkt/robot-sprzatajacy-roborock-qrevo-curv-5a1-mopowanie-stacja-oczyszczajaca-4b14f22e-ceae-4b2f-ad7d-38bb20ba39ee?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/robot-sprzatajacy-roborock-qrevo-curv-5a1-17355520398?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/robot-sprzatajacy-roborock-qrevo-curv-5a1-17355520398?utm_source=chatgpt.com",
+      "text": "Kup na Allegro — Roborock Qrevo Curv 5A1"
+    },
+    {
+      "href": "https://allegro.pl/oferta/robot-sprzatajacy-dreame-l50-ultra-z-mopowaniem-18179161927?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/robot-sprzatajacy-dreame-l50-ultra-z-mopowaniem-18179161927?utm_source=chatgpt.com",
+      "text": "Kup na Allegro — Dreame L50 Ultra"
+    },
+    {
+      "href": "https://allegro.pl/oferta/automatyczny-robot-sprzatajacy-dreame-l50-ultra-mop-stacja-oczyszczajaca-18088185188?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/automatyczny-robot-sprzatajacy-dreame-l50-ultra-mop-stacja-oczyszczajaca-18088185188?utm_source=chatgpt.com",
+      "text": "Kup na Allegro — Dreame L50 Ultra / OleOle"
+    },
+    {
+      "href": "https://allegro.pl/oferta/robot-sprzatajacy-roborock-qrevo-curv-5a1-mopowanie-stacja-oczyszczajaca-18439100230?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/robot-sprzatajacy-roborock-qrevo-curv-5a1-mopowanie-stacja-oczyszczajaca-18439100230?utm_source=chatgpt.com",
+      "text": "Kup na Allegro — Roborock Qrevo Curv 5A1"
+    },
+    {
+      "href": "https://allegro.pl/oferta/robot-sprzatajacy-roborock-qrevo-curv-5a1-17355520398?utm_source=chatgpt.com",
+      "text": "Allegro\n+1"
+    }
+  ],
+  "responseText": "Jaki robot sprzątający z dobrym mopowaniem i pokonywaniem progów warto kupić? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.\n\nJeśli priorytetem są dobre mopowanie + pokonywanie progów, na pierwszym miejscu postawiłbym Roborock Qrevo Curv 5A1. Ten model jest deklarowany jako zdolny pokonywać standardowe progi do ok. 3 cm, a nawet dwuwarstwowe do 4 cm. \nAllegro\n\nMój ranking aktualnych ofert Allegro\n\nRoborock Qrevo Curv 5A1 — 1999,99 zł\n\nNajlepszy wybór: bardzo dobre mopowanie, obrotowe mopy i świetna baza, a przede wszystkim wyjątkowo dobre radzenie sobie z progami.\n\nOferta od avans__pl, Super Sprzedawca 98,4%, dostępnych było 13 szt. \nAllegro\n\nKup na Allegro — Roborock Qrevo Curv 5A1\n\nDreame L50 Ultra — 2539,98 zł\n\nBardzo mocna alternatywa: dobre mopowanie i konstrukcja nastawiona na pokonywanie przeszkód/progów. Oferta od Neonet, ocena sprzedawcy 97,1%. \nAllegro\n\nKup na Allegro — Dreame L50 Ultra\n\nDreame L50 Ultra — 2599 zł\n\nTen sam bardzo dobry model, ale inna konkretna oferta — od OleOle. Warto rozważyć, jeśli korzystniejsze okażą się dostawa lub warunki gwarancji. \nAllegro\n\nKup na Allegro — Dreame L50 Ultra / OleOle\n\nRoborock Qrevo Curv 5A1 — 2199,98 zł\n\nIdentyczny model jak nr 1, ale droższa oferta. Ma sens jako alternatywa, jeśli zmienią się stany magazynowe lub warunki dostawy. \nAllegro\n\nKup na Allegro — Roborock Qrevo Curv 5A1\n\nWerdykt: brałbym Qrevo Curv 5A1 za 1999,99 zł. Przy Twoich kryteriach jest szczególnie atrakcyjny, bo nie trzeba wybierać między dobrym mopowaniem a zdolnością pokonywania progów. Dodatkowo aktualna oferta jest wyraźnie tańsza od znalezionego L50 Ultra. \nAllegro\n+1\n\nUwaga: ceny i dostępność ofert Allegro mogą zmieniać się bardzo szybko; powyżej podaję konkretne oferty sprzedawców, a nie listingi.\n\nChatGPT może popełniać błędy. Sprawdź ważne informacje.\n\nMyślenie"
+}
+

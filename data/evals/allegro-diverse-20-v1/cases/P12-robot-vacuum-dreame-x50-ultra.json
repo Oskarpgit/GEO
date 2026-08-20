@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "1.1.0",
+  "testId": "P12-robot-vacuum-dreame-x50-ultra",
+  "category": "robot-vacuums",
+  "source": {
+    "url": "https://allegro.pl/produkt/robot-sprzatajacy-dreame-x50-ultra-complete-czarny-83510dd3-d07d-4c37-91ad-5f9adf84aaa7?offerId=18539421029",
+    "capturedAt": "2026-08-20T18:16:39.220Z",
+    "rawEvidenceSha256": "2411ea96efe976af49cc8abe55c317f67bdca567c0e4dc9a16cd5402a8aae553",
+    "rawEvidenceBytes": 1084086,
+    "rawEvidenceCommitted": false,
+    "firecrawlStatusCode": 200
+  },
+  "expected": {
+    "title": "Robot sprzątający Dreame X50 Ultra Complete czarny",
+    "offerId": "18539421029",
+    "productId": "83510dd3-d07d-4c37-91ad-5f9adf84aaa7"
+  },
+  "observed": {
+    "offerId": "18539421029",
+    "productId": "83510dd3-d07d-4c37-91ad-5f9adf84aaa7",
+    "title": "Dreame X50 Ultra Complete Czarny",
+    "brand": "Dreame",
+    "model": "X50",
+    "categoryPath": [
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Dla kupującego",
+      "Dla sprzedającego",
+      "Elektronika",
+      "RTV i AGD",
+      "AGD drobne",
+      "Do domu",
+      "Odkurzacze",
+      "Roboty sprzątające",
+      "Robot sprzątający Dreame X50 Ultra Complete czarny",
+      "Dreame",
+      "Roborock",
+      "Medion",
+      "Do kompletu"
+    ],
+    "seller": {
+      "name": "extremecompNO",
+      "recommendedPercent": 97.4,
+      "superSeller": false,
+      "officialStore": false
+    },
+    "commerce": {
+      "price": 2990,
+      "currency": "PLN",
+      "smart": true
+    },
+    "productGroup": {},
+    "parameters": {
+      "Stan": "NowyNowyoznacza Towar całkowicie nowy, kompletny, nieużywany bez jakichkolwiek wad lub defektów (np. rys, wgnieceń, minimalnych uszkodzeń). Towar znajduje się w opakowaniu (tam, gdzie ma to zastosowanie) które jest oryginalne, nieotwarte i nieuszkodzone wraz z nienaruszonymi zabezpieczeniami lub identyfikatorami producenta (takimi jak plomby na pudełkach czy metki na ubraniach).",
+      "Faktura": "Wystawiam fakturę VAT",
+      "Marka": "Dreame",
+      "Kolor dominujący": "czarny",
+      "Model": "X50",
+      "Typ akumulatora": "litowo-jonowy",
+      "Pojemność zbiornika na kurz": "0.4 l",
+      "Filtr": "Tak"
+    },
+    "imageCount": 3,
+    "descriptionProfile": {
+      "characters": 4262,
+      "words": 487,
+      "sha256": "1e17bf0ea3c29214eaa8fec2a9804cff1f2c647e69df3e2492b680172023dd5d",
+      "headings": [],
+      "paragraphs": 0,
+      "listItems": 0,
+      "inlineImages": 0
+    }
+  },
+  "validation": {
+    "rulesetId": "allegro-pl-2026-08-20.1",
+    "validatorVersion": "0.1.0",
+    "readyForGeneration": false,
+    "totals": {
+      "passed": 11,
+      "failed": 1,
+      "needs_review": 6,
+      "not_applicable": 0,
+      "not_evaluated": 1
+    },
+    "failedRuleIds": [
+      "ALG-PARAM-002"
+    ],
+    "needsReviewRuleIds": [
+      "ALG-TITLE-004",
+      "ALG-DESC-003",
+      "ALG-DESC-004",
+      "ALG-DESC-005",
+      "ALG-DESC-006",
+      "ALG-DESC-012"
+    ],
+    "notEvaluatedRuleIds": [
+      "ALG-PARAM-001"
+    ]
+  },
+  "assertions": [
+    {
+      "id": "offer_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "18539421029",
+      "observed": "18539421029"
+    },
+    {
+      "id": "product_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "83510dd3-d07d-4c37-91ad-5f9adf84aaa7",
+      "observed": "83510dd3-d07d-4c37-91ad-5f9adf84aaa7"
+    },
+    {
+      "id": "title_coverage",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": ">=0.35",
+      "observed": 0.714
+    },
+    {
+      "id": "description_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=80",
+      "observed": 4262
+    },
+    {
+      "id": "parameters_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=4",
+      "observed": 8
+    },
+    {
+      "id": "product_images_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=1",
+      "observed": 3
+    },
+    {
+      "id": "gtin_checksum",
+      "kind": "quality_signal",
+      "status": "not_evaluated",
+      "expected": true
+    }
+  ],
+  "extractionPassed": true,
+  "geoInputComplete": true
+}

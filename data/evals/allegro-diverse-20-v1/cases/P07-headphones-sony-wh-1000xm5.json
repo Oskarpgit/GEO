@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.1.0",
+  "testId": "P07-headphones-sony-wh-1000xm5",
+  "category": "headphones",
+  "source": {
+    "url": "https://allegro.pl/produkt/sluchawki-bezprzewodowe-wokoluszne-sony-wh-1000xm5-anc-e120b95a-1e21-4fac-8c84-fead7a8769ba?offerId=18122778668",
+    "capturedAt": "2026-08-20T18:16:39.220Z",
+    "rawEvidenceSha256": "2f907fe6f6eb36e97857591631c16e378662f363d6e83677685d952bd8dc50d9",
+    "rawEvidenceBytes": 1002760,
+    "rawEvidenceCommitted": false,
+    "firecrawlStatusCode": 200
+  },
+  "expected": {
+    "title": "Słuchawki bezprzewodowe wokółuszne Sony WH-1000XM5 ANC",
+    "offerId": "18122778668",
+    "productId": "e120b95a-1e21-4fac-8c84-fead7a8769ba"
+  },
+  "observed": {
+    "offerId": "18122778668",
+    "productId": "e120b95a-1e21-4fac-8c84-fead7a8769ba",
+    "title": "Słuchawki bezprzewodowe wokółuszne Sony WH-1000XM5 Twarde Etui",
+    "brand": "Sony",
+    "model": "WH-1000XM5",
+    "categoryPath": [
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Dla kupującego",
+      "Dla sprzedającego",
+      "Elektronika",
+      "RTV i AGD",
+      "Słuchawki",
+      "Bezprzewodowe",
+      "Słuchawki bezprzewodowe wokółuszne Sony WH-1000XM5 ANC",
+      "Sony",
+      "JBL",
+      "Elonix"
+    ],
+    "seller": {
+      "name": "enter24pl",
+      "recommendedPercent": 97.1,
+      "ratingCount": 481293,
+      "superSeller": false,
+      "officialStore": false
+    },
+    "commerce": {
+      "price": 799,
+      "currency": "PLN",
+      "smart": true
+    },
+    "productGroup": {},
+    "parameters": {
+      "Stan": "NowyNowyoznacza Towar całkowicie nowy, kompletny, nieużywany bez jakichkolwiek wad lub defektów (np. rys, wgnieceń, minimalnych uszkodzeń). Towar znajduje się w opakowaniu (tam, gdzie ma to zastosowanie) które jest oryginalne, nieotwarte i nieuszkodzone wraz z nienaruszonymi zabezpieczeniami lub identyfikatorami producenta (takimi jak plomby na pudełkach czy metki na ubraniach).",
+      "Faktura": "Wystawiam fakturę VAT",
+      "Marka": "Sony",
+      "Model": "WH-1000XM5",
+      "Rodzaj słuchawek": "wokółuszne",
+      "Kolor dominujący": "czarny",
+      "Szerokość produktu": "21.3 cm",
+      "Wysokość produktu": "7.3 cm"
+    },
+    "imageCount": 17,
+    "descriptionProfile": {
+      "characters": 5332,
+      "words": 639,
+      "sha256": "c23078193d1e0e48898730e3fad7a0ea03f1d59d38e2662118dbb6ae288c19dc",
+      "headings": [],
+      "paragraphs": 0,
+      "listItems": 0,
+      "inlineImages": 0
+    }
+  },
+  "validation": {
+    "rulesetId": "allegro-pl-2026-08-20.1",
+    "validatorVersion": "0.1.0",
+    "readyForGeneration": false,
+    "totals": {
+      "passed": 10,
+      "failed": 2,
+      "needs_review": 6,
+      "not_applicable": 0,
+      "not_evaluated": 1
+    },
+    "failedRuleIds": [
+      "ALG-DESC-008",
+      "ALG-PARAM-002"
+    ],
+    "needsReviewRuleIds": [
+      "ALG-TITLE-004",
+      "ALG-DESC-003",
+      "ALG-DESC-004",
+      "ALG-DESC-005",
+      "ALG-DESC-006",
+      "ALG-DESC-012"
+    ],
+    "notEvaluatedRuleIds": [
+      "ALG-PARAM-001"
+    ]
+  },
+  "assertions": [
+    {
+      "id": "offer_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "18122778668",
+      "observed": "18122778668"
+    },
+    {
+      "id": "product_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "e120b95a-1e21-4fac-8c84-fead7a8769ba",
+      "observed": "e120b95a-1e21-4fac-8c84-fead7a8769ba"
+    },
+    {
+      "id": "title_coverage",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": ">=0.35",
+      "observed": 0.857
+    },
+    {
+      "id": "description_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=80",
+      "observed": 5332
+    },
+    {
+      "id": "parameters_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=4",
+      "observed": 8
+    },
+    {
+      "id": "product_images_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=1",
+      "observed": 17
+    },
+    {
+      "id": "gtin_checksum",
+      "kind": "quality_signal",
+      "status": "not_evaluated",
+      "expected": true
+    }
+  ],
+  "extractionPassed": true,
+  "geoInputComplete": true
+}

@@ -1,0 +1,18 @@
+{
+  "promptId": "DISC-12",
+  "category": "robot-vacuums",
+  "intent": "thresholds_mopping",
+  "engine": "gemini",
+  "prompt": "Jaki robot sprzątający z dobrym mopowaniem i pokonywaniem progów warto kupić? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://gemini.google.com/app/da782b019e8aabf3",
+  "completed": true,
+  "capturedAt": "2026-08-20T19:02:07.454Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/oferta/robot-sprzatajacy-dreame-l10s-pro-ultra-heat-funkcja-mopowania-18547415879",
+      "text": "Dreame L10s Pro Ultra Heat na Allegro"
+    }
+  ],
+  "responseText": "Treść wiadomości Gemini\n\nDo domów z wysokimi progami i wymogiem bardzo dobrego mopowania kluczowe są dwa parametry: aktywne zawieszenie (pokonywanie progów powyżej standardowych 20 mm) oraz obrotowe mopy z wysuwanym ramieniem docierającym do krawędzi.\n\n1. Roborock Qrevo Curv / Edge (Najlepszy do wysokich progów)\n\nZdolności progowe: Podwozie AdaptiLift pokonuje standardowe progi do 30 mm, a w układzie dwustopniowym nawet do 40 mm.\n\nMopowanie: Dwa obrotowe mopy z wysuwanym ramieniem FlexiArm, docisk do podłoża oraz mycie padów gorącą wodą (75°C).  \nAllegro\n\n2. Dreame X40 Ultra (Najbardziej zaawansowany flagowiec)\n\nZdolności progowe: Standardowe przeszkody do 22 mm.  \nAllegro\n\nMopowanie: Wysuwany mop do krawędzi i listew, unoszona szczotka boczna, mycie mopów w 70°C i automatyczne dozowanie detergentu.  \nAllegro\n+ 1\n\n3. Dreame L10s Pro Ultra Heat (Najlepszy stosunek ceny do jakości)  \nAllegro\n\nZdolności progowe: Przeszkody do 20 mm.  \nAllegro\n\nMopowanie: Technologia MopExtend (wysuwany pad), mycie mopów ciepłą wodą (58°C) i pełna stacja z automatycznym opróżnianiem.  \nAllegro\n\nBezpośrednia oferta na Allegro:  \nAllegro\n\nDreame L10s Pro Ultra Heat na Allegro  \nAllegro\n\nUzasadnienie kolejności:\n\nRoborock Qrevo Curv / Edge zajmuje 1. miejsce, ponieważ jako jedyny na rynku realnie rozwiązuje problem progów wyższych niż 2 cm dzięki unoszonemu podwoziu.  \nAllegro\n\nDreame X40 Ultra jest 2., oferując bezkonkurencyjną precyzję mycia narożników i zaawansowaną stację, lecz ma standardowy limit progów (ok. 22 mm).  \nAllegro\n+ 1\n\nDreame L10s Pro Ultra Heat zamyka stawkę jako najbardziej opłacalny wybór, który zapewnia kluczowe technologie mopowania (wysuwany pad, ciepła woda) w znacznie niższej cenie.  \nAllegro\n+ 1"
+}
+

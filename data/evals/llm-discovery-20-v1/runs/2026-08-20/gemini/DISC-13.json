@@ -1,0 +1,34 @@
+{
+  "promptId": "DISC-13",
+  "category": "coffee-machines",
+  "intent": "automatic_value",
+  "engine": "gemini",
+  "prompt": "Jaki automatyczny ekspres do kawy warto kupić do 2500 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://gemini.google.com/app/c49b24b43014d0d4",
+  "completed": true,
+  "capturedAt": "2026-08-20T19:02:26.663Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/oferta/ekspres-cisnieniowy-siemens-te651209rw-eq-6-plus-s100-17167073679",
+      "text": "Siemens EQ.6 Plus s100 (TE651209RW)"
+    },
+    {
+      "href": "https://allegro.pl/oferta/ekspres-do-kawy-automatyczny-philips-lattego-5500-czarny-chrom-ep5547-90-15664591213",
+      "text": "Philips LatteGo 5500 (EP5547/90)"
+    },
+    {
+      "href": "https://allegro.pl/oferta/ekspres-automatyczny-nivona-cafe-romatica-797-17400963444",
+      "text": "Nivona CafeRomatica 797"
+    },
+    {
+      "href": "https://allegro.pl/oferta/ekspres-automatyczny-siemens-eq-500-tp516rx3-1500w-15758402969",
+      "text": "Siemens EQ.500 Classic (TP516RX3)"
+    },
+    {
+      "href": "https://allegro.pl/oferta/ekspres-cisnieniowy-philips-ep4443-70-lattego-16877857114",
+      "text": "Philips LatteGo 4400 (EP4443/70)"
+    }
+  ],
+  "responseText": "Treść wiadomości Gemini\n\nW budżecie do 2500 zł najlepszy stosunek jakości parzenia, niezawodności i wygody czyszczenia oferują modele marek Siemens, De'Longhi, Philips oraz Nivona.  \nAllegro\n\nSiemens EQ.6 Plus s100 (TE651209RW) (~1769 zł)  \nMedia Expert\n\nDlaczego 1. miejsce: Najlepsza kultura pracy i jakość pianki mlecznej w tej cenie. Ceramiczny młynek pracuje cicho, system autoMilk Clean parowo czyści obieg mleka po każdym napoju, a jednostka zaparzająca jest łatwo wyjmowalna do płukania.  \nMedia Expert\n+ 2\n\nPhilips LatteGo 5500 (EP5547/90) (~2399 zł)  \nAllegro\n+ 1\n\nDlaczego 2. miejsce: Bezkonkurencyjny pod kątem higieny i szybkości czyszczenia. System spieniania mleka LatteGo składa się z zaledwie dwóch części bez żadnych rurek (mycie w 10 sekund pod bieżącą wodą lub w zmywarce). Seria 5500 oferuje szeroki wybór przepisów (w tym kawy mrożone) i intuicyjny kolorowy ekran.  \nMedia Expert\n+ 3\n\nNivona CafeRomatica 797 (~2399 zł)  \nAllegro\n+ 1\n\nDlaczego 3. miejsce: Wybór nastawiony na najwyższą jakość samego espresso. System Aroma Balance pozwala precyzyjnie zmieniać profil ekstrakcji (z tych samych ziaren można wyciągnąć nuty bardziej owocowe lub orzechowo-czekoladowe).  \nMedia Expert\n+ 1\n\nSiemens EQ.500 Classic (TP516RX3) (~2139 zł)  \nVideoTesty\n+ 1\n\nDlaczego 4. miejsce: Solidna alternatywa z obsługą przez aplikację Home Connect i przejrzystym panelem coffeeSelect. Podobnie jak EQ.6 oferuje świetny system spieniania i automatyczne czyszczenie parą.  \nVideoTesty\n\nPhilips LatteGo 4400 (EP4443/70) (~2099 zł)  \nAllegro\n\nDlaczego 5. miejsce: Bardziej przystępny cenowo wariant bezrurkowego systemu LatteGo, zapewniający niemal identyczną funkcjonalność i jakość napojów mlecznych co seria 5500, przy nieco mniejszej liczbie predefiniowanych przepisów.  \nMedia Expert\n+ 1\n\nPodsumowanie doboru:  \nAllegro\n\nJeśli priorytetem jest cicha praca i idealne cappuccino/flat white → wybierz Siemens EQ.6.\n\nJeśli zależy Ci na maksymalnej prostocie mycia systemu mlecznego → wybierz Philips LatteGo 5500/4400.  \nAllegro\n\nJeśli najważniejszy jest głęboki smak czarnej kawy i zaawansowana regulacja profilu parzenia → wybierz Nivonę 797.  \nAllegro\n\nChcesz porównać koszty filtrów i codziennej eksploatacji tych modeli?\nTak"
+}
+

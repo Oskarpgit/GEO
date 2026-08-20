@@ -1,0 +1,58 @@
+{
+  "promptId": "DISC-14",
+  "category": "coffee-machines",
+  "intent": "milk_easy_clean",
+  "engine": "chatgpt",
+  "prompt": "Poleć automatyczny ekspres do kaw mlecznych, który jest łatwy w czyszczeniu. Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://chatgpt.com/c/6a874cbd-2adc-83ed-b06b-c52b0503dbd0",
+  "completed": true,
+  "capturedAt": "2026-08-20T18:52:35.228Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/oferta/ekspres-do-kawy-automatyczny-philips-lattego-5500-czarny-chrom-ep5547-90-15664591213?srsltid=AfmBOorqwmxR5_s-VSmbLsYUuJbYOGdO8tE37y5Gt55sNmp7UkGNO_f1&utm_source=chatgpt.com",
+      "text": "Allegro\n+1"
+    },
+    {
+      "href": "https://allegro.pl/oferta/ekspres-do-kawy-automatyczny-philips-lattego-5500-czarny-chrom-ep5547-90-15664591213?srsltid=AfmBOorqwmxR5_s-VSmbLsYUuJbYOGdO8tE37y5Gt55sNmp7UkGNO_f1&utm_source=chatgpt.com",
+      "text": "Allegro\n+1"
+    },
+    {
+      "href": "https://allegro.pl/oferta/ekspres-do-kawy-automatyczny-philips-lattego-5500-czarny-chrom-ep5547-90-15664591213?utm_source=chatgpt.com",
+      "text": "Sprawdź konkretną ofertę na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/ekspres-automatyczny-de-longhi-magnifica-evo-ecam292-81-b-lattecrema-18707741099?srsltid=AfmBOoqprVSfjOG_0oBQKzC-5mJMj-Sc6uFxrWD9uJEfRe01xChVDFc3&utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/ekspres-automatyczny-de-longhi-magnifica-evo-ecam292-81-b-lattecrema-18707741099?utm_source=chatgpt.com",
+      "text": "Sprawdź konkretną ofertę na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/automatyczny-ekspres-cisnieniowy-philips-ep5546-70-1500-w-czarny-17603125371?srsltid=AfmBOooj8BqhJy4ecPAjm81MEruExweXNDIdqQ3oBaCUM4kfvdFEVoYi&utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/automatyczny-ekspres-cisnieniowy-philips-ep5546-70-1500-w-czarny-17603125371?utm_source=chatgpt.com",
+      "text": "Sprawdź konkretną ofertę na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/ekspres-delonghi-dinamica-plus-ecam370-70-b-18625292392?srsltid=AfmBOooI_YvZNc-ww3xeyZUzmp0vyFq79TVovTqlEt3dn43UK3YhK81v&utm_source=chatgpt.com",
+      "text": "Allegro\n+1"
+    },
+    {
+      "href": "https://allegro.pl/oferta/ekspres-delonghi-dinamica-plus-ecam370-70-b-18625292392?utm_source=chatgpt.com",
+      "text": "Sprawdź konkretną ofertę na Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/ekspres-delonghi-dinamica-plus-380-85-sb-18689012416?srsltid=AfmBOoo_NLsXEuNQmL2l62O9ggKvyT4wYDXOKz1afanh47BlyKWRtYLO&utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/ekspres-delonghi-dinamica-plus-380-85-sb-18689012416?utm_source=chatgpt.com",
+      "text": "Sprawdź konkretną ofertę na Allegro"
+    }
+  ],
+  "responseText": "Poleć automatyczny ekspres do kaw mlecznych, który jest łatwy w czyszczeniu. Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.\n\nJeśli priorytetem są kawy mleczne + łatwe czyszczenie, na Allegro najlepiej wypadają obecnie modele z systemami LatteGo (Philips) i LatteCrema (De’Longhi). Szczególnie wyróżnia się Philips, bo jego karafka LatteGo ma bardzo prostą konstrukcję i jest łatwa do mycia. \nAllegro\n+1\n\nMoja kolejność\n\nPhilips LatteGo 5500 EP5547/90 — najlepszy wybór do łatwego czyszczenia\n20 napojów, system LatteGo, automatyczne programy i deklarowane łatwe czyszczenie. To mój wybór nr 1, jeśli chcesz minimum zabawy z układem mlecznym. Aktualna oferta na Allegro pokazuje 2399 zł. \nAllegro\n+1\n\nSprawdź konkretną ofertę na Allegro\n\nDe’Longhi Magnifica Evo ECAM292.81.B — najlepszy stosunek ceny do możliwości\nLatteCrema, automatyczne płukanie, program czyszczenia systemu mlecznego, wyjmowany blok zaparzający i elementy przystosowane do mycia w zmywarce. Oferta kosztuje 1499,99 zł. \nAllegro\n\nSprawdź konkretną ofertę na Allegro\n\nPhilips LatteGo EP5546/70 — bardzo dobra alternatywa dla 5500\n20 przepisów, LatteGo i proste czyszczenie układu mlecznego; aktualna oferta jest dostępna bezpośrednio na Allegro. \nAllegro\n\nSprawdź konkretną ofertę na Allegro\n\nDe’Longhi Dinamica Plus ECAM370.70.B — najlepszy, jeśli ważniejsza jest jakość kaw mlecznych\nSystem LatteCrema daje bardzo dobrą, kremową piankę; Dinamica Plus oferuje też więcej możliwości personalizacji. Ta konkretna oferta jest jednak używana za 900 zł, więc przed zakupem dokładnie sprawdziłbym stan i gwarancję. \nAllegro\n+1\n\nSprawdź konkretną ofertę na Allegro\n\nDe’Longhi Dinamica Plus ECAM380.85.SB — opcja premium\nBardziej rozbudowany model z LatteCrema i dużą liczbą programów; warto rozważyć, jeśli chcesz więcej automatycznych napojów i personalizacji. \nAllegro\n\nSprawdź konkretną ofertę na Allegro\n\nW skrócie: jeśli chcesz przede wszystkim łatwego czyszczenia, brałbym Philips LatteGo 5500. Jeśli chcesz wydać mniej, De’Longhi Magnifica Evo ECAM292.81.B za ~1500 zł jest obecnie bardzo mocną alternatywą.\n\nChatGPT może popełniać błędy. Sprawdź ważne informacje.\n\nMyślenie"
+}
+

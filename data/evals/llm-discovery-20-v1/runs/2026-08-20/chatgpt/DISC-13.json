@@ -1,0 +1,54 @@
+{
+  "promptId": "DISC-13",
+  "category": "coffee-machines",
+  "intent": "automatic_value",
+  "engine": "chatgpt",
+  "prompt": "Jaki automatyczny ekspres do kawy warto kupić do 2500 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://chatgpt.com/c/6a874ca6-ede0-83eb-a617-6b342a90c021",
+  "completed": true,
+  "capturedAt": "2026-08-20T18:51:35.523Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/oferta/ekspres-cisnieniowy-de-longhi-ecam290-61-b-1450-w-15-bar-od-l01-17518404261?srsltid=AfmBOoplDiVIljm8b-W-p85kDbWGO9RHjfX0Ib29X5kQlH7X8aijxle2&utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/automatyczny-ekspres-do-kawy-philips-lattego-ep3343-50-seria-3300-18816720297?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/automatyczny-ekspres-cisnieniowy-krups-ea8901-1450-w-bialy-17643567024?srsltid=AfmBOor3AvxKat5ij5CmxPBN7osjUWd58uL0rfCjG2VcwWmz2xMJ_dfQ&utm_source=chatgpt.com",
+      "text": "Allegro\n+1"
+    },
+    {
+      "href": "https://allegro.pl/oferta/ekspres-do-kawy-automatyczny-philips-lattego-5500-czarny-chrom-ep5547-90-15664591213?utm_source=chatgpt.com",
+      "text": "Allegro"
+    },
+    {
+      "href": "https://allegro.pl/oferta/ekspres-cisnieniowy-de-longhi-ecam290-61-b-1450-w-15-bar-od-l01-17518404261?srsltid=AfmBOoplDiVIljm8b-W-p85kDbWGO9RHjfX0Ib29X5kQlH7X8aijxle2&utm_source=chatgpt.com",
+      "text": "De’Longhi Magnifica Evo ECAM290.61.B — 1199 zł"
+    },
+    {
+      "href": "https://allegro.pl/oferta/automatyczny-ekspres-do-kawy-philips-lattego-ep3343-50-seria-3300-18816720297?utm_source=chatgpt.com",
+      "text": "Philips Series 3300 LatteGo EP3343/50"
+    },
+    {
+      "href": "https://allegro.pl/oferta/ekspres-cisnieniowy-delonghi-ecam-290-81-tb-18742290590?srsltid=AfmBOorUJxi8pY8YhcFbzotyR2-fNDUrjdXjl24CzIgUq7O7UpbfUF1R&utm_source=chatgpt.com",
+      "text": "De’Longhi Magnifica Evo ECAM290.81.TB"
+    },
+    {
+      "href": "https://allegro.pl/oferta/automatyczny-ekspres-cisnieniowy-krups-ea8901-1450-w-bialy-17643567024?srsltid=AfmBOor3AvxKat5ij5CmxPBN7osjUWd58uL0rfCjG2VcwWmz2xMJ_dfQ&utm_source=chatgpt.com",
+      "text": "Krups Evidence EA8901"
+    },
+    {
+      "href": "https://allegro.pl/oferta/ekspres-do-kawy-automatyczny-philips-lattego-5500-czarny-chrom-ep5547-90-15664591213?utm_source=chatgpt.com",
+      "text": "Philips LatteGo 5500 EP5547/90 — 2399 zł"
+    },
+    {
+      "href": "https://allegro.pl/oferta/ekspres-delonghi-magnifica-evo-ecam290-81-tb-tytanowy-outlet-18158110108?srsltid=AfmBOopoRIEWootXpoOnwsXhFXcmZOaMDQBaHlyQOrtoG-NKyVF66zQc&utm_source=chatgpt.com",
+      "text": "Allegro"
+    }
+  ],
+  "responseText": "Jaki automatyczny ekspres do kawy warto kupić do 2500 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.\n\nPrzejrzałem aktualne oferty Allegro i modele mieszczące się w budżecie 2500 zł. Najbardziej opłacalny wybór to De’Longhi Magnifica Evo — szczególnie jeśli zależy Ci na dobrej kawie czarnej i prostym, trwałym automacie.\n\nMiejsce\tModel / oferta\tCena*\tDlaczego\n1. 🥇\tDe’Longhi Magnifica Evo ECAM290.61.B\t1199 zł\tBardzo dobry stosunek jakości do ceny, młynek, 15 bar, automatyczne napoje mleczne; obecnie jedna z ciekawszych ofert. \nAllegro\n\n2. 🥈\tPhilips Series 3300 LatteGo EP3343/50\tok. 1300 zł\tNajlepszy wybór, jeśli pijesz dużo cappuccino/latte — system LatteGo jest wyjątkowo łatwy w czyszczeniu. \nAllegro\n\n3. 🥉\tDe’Longhi Magnifica Evo ECAM290.81.TB\tok. 1600 zł\tLepsze wyposażenie i więcej napojów niż 290.61; świetny kompromis między funkcjami a ceną.\n4.\tKrups Evidence EA8901\tok. 1350–1800 zł\tDużo gotowych napojów, dobry wybór dla osób preferujących kawy mleczne; warto zwrócić uwagę na stan konkretnej oferty. \nAllegro\n+1\n\n5.\tPhilips LatteGo 5500 EP5547/90\t2399 zł\tNajbardziej rozbudowany z zestawienia — dużo napojów i bardzo wygodny LatteGo. Przy maksymalnym budżecie ma sens. \nAllegro\n\n*Ceny są cenami widocznymi podczas wyszukiwania i mogą się zmienić.\n\nMoja rekomendacja\n\nDo ~1200 zł → De’Longhi Magnifica Evo ECAM290.61.B. To mój faworyt pod względem opłacalności.\n\nDo ~1600 zł → De’Longhi Magnifica Evo ECAM290.81.TB — dopłata ma sens, jeśli chcesz więcej możliwości przygotowywania kaw.\n\nJeśli głównie latte/cappuccino → Philips 3300 LatteGo EP3343/50.\n\nJeśli chcesz wydać całe 2500 zł → Philips LatteGo 5500 EP5547/90, ale moim zdaniem nie jest konieczne wydawanie takiej kwoty, żeby dostać bardzo dobry automat.\n\nBezpośrednie oferty Allegro\n\nDe’Longhi Magnifica Evo ECAM290.61.B — 1199 zł\n\nPhilips Series 3300 LatteGo EP3343/50\n\nDe’Longhi Magnifica Evo ECAM290.81.TB\n\nKrups Evidence EA8901\n\nPhilips LatteGo 5500 EP5547/90 — 2399 zł\n\nUwaga: odrzuciłem oferty używane/outletowe tam, gdzie było to wyraźnie zaznaczone. Przykładowo znaleziony De’Longhi ECAM290.81.TB za 1249 zł był oznaczony jako „nowy z defektem”, a oferta jest już zakończona. \nAllegro\n\nChatGPT może popełniać błędy. Sprawdź ważne informacje.\n\nMyślenie"
+}
+

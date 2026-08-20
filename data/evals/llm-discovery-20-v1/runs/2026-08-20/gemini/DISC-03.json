@@ -1,0 +1,34 @@
+{
+  "promptId": "DISC-03",
+  "category": "laptops",
+  "intent": "office_mobility",
+  "engine": "gemini",
+  "prompt": "Jaki lekki laptop do pracy biurowej i podróży warto kupić do 4500 zł? Znajdź aktualne oferty na Allegro i podaj maksymalnie 5 bezpośrednich linków do konkretnych ofert sprzedawców, nie do listingu ani karty produktu. Krótko uzasadnij kolejność.",
+  "conversationUrl": "https://gemini.google.com/app/435cbf1c8ddafc2a",
+  "completed": true,
+  "capturedAt": "2026-08-20T18:58:41.830Z",
+  "links": [
+    {
+      "href": "https://allegro.pl/oferta/macbook-air-13-m2-8-10-16gb-1tb-us-szary-18821989552",
+      "text": "Apple MacBook Air 13 M2 (16 GB / 1 TB SSD)"
+    },
+    {
+      "href": "https://allegro.pl/oferta/laptop-asus-zenbook-14-ux3402va-intel-i9-13-16gb-ssd-1tb-oled-win-11-dotyk-17314557796",
+      "text": "ASUS Zenbook 14 OLED UX3402VA (Intel Core i9 / 16 GB / 1 TB SSD)"
+    },
+    {
+      "href": "https://allegro.pl/oferta/2w1-hp-envy-14-x360-2-8k-oled-120hz-ryzen-5-8640hs-16-512gb-ssd-win11-pen-18608188454",
+      "text": "HP ENVY 14 x360 2w1 (Ryzen 5 8640HS / 16 GB / 512 GB SSD / OLED 120 Hz)"
+    },
+    {
+      "href": "https://allegro.pl/oferta/dell-plus-14-2w1-ryzen-ai-5-340-16gb-2tb-14-fhd-dotyk-w11-midnight-blue-18363718367",
+      "text": "Dell Plus 14 2w1 (AMD Ryzen AI 5 340 / 16 GB / 2 TB SSD)"
+    },
+    {
+      "href": "https://allegro.pl/oferta/lenovo-thinkbook-14-a-g4-amd-ryzen-7-5825u-16gb-512gb-win-18377812541",
+      "text": "Lenovo ThinkBook 14 G4 (Ryzen 7 5825U / 16 GB / 512 GB SSD)"
+    }
+  ],
+  "responseText": "Treść wiadomości Gemini\n\nDo pracy biurowej i częstych podróży kluczowe są: niska waga (do 1,4 kg), długi czas pracy na baterii, minimum 16 GB pamięci RAM oraz jasny ekran.  \nAllegro\n\nApple MacBook Air 13 M2 (16 GB / 1 TB SSD)  \nAllegro\n\nWaga: 1,24 kg | Bateria: do 15–18 h realnej pracy  \nAllegro\n\nDlaczego warto: Bezkonkurencyjny czas pracy na jednym ładowaniu, pasywne (całkowicie bezgłośne) chłodzenie, solidna aluminiowa obudowa i bardzo wygodny gładzik, co czyni go najlepszym ultrabookiem do pracy w pociągu czy kawiarni.  \nAllegro\n\nASUS Zenbook 14 OLED UX3402VA (Intel Core i9 / 16 GB / 1 TB SSD)\n\nWaga: ok. 1,39 kg | Ekran: 14\" OLED dotykowy  \nAllegro\n+ 2\n\nDlaczego warto: Najwyższy komfort dla oczu przy wielogodzinnej pracy z dokumentami i arkuszami dzięki doskonałemu kontrastowi matrycy OLED. Do tego wysoka wydajność procesora i duży dysk 1 TB.  \nAllegro\n\nHP ENVY 14 x360 2w1 (Ryzen 5 8640HS / 16 GB / 512 GB SSD / OLED 120 Hz)\n\nWaga: ok. 1,39 kg | Konstrukcja: Obrotowa 360° z obsługą rysika  \nAllegro\n+ 1\n\nDlaczego warto: Energooszczędny procesor Ryzen serii 8000 oraz funkcja tabletu, która ułatwia prezentowanie danych klientom w podróży i robienie odręcznych notatek.  \nAllegro\n\nDell Plus 14 2w1 (AMD Ryzen AI 5 340 / 16 GB / 2 TB SSD)  \nAllegro\n\nWaga: ok. 1,5 kg | Dysk: 2 TB SSD  \nAllegro\n+ 2\n\nDlaczego warto: Bardzo pojemny dysk na duże bazy danych i projekty offline, solidne zawiasy oraz wsparcie dla standardu Wi-Fi 7 przy pracy zdalnej w nowoczesnych sieciach.  \nAllegro\n+ 1\n\nLenovo ThinkBook 14 G4 (Ryzen 7 5825U / 16 GB / 512 GB SSD)  \nAllegro\n\nWaga: ok. 1,4 kg | Profil: Budżetowy wół roboczy  \nAllegro\n\nDlaczego warto: Najbardziej ekonomiczna opcja z pełnym zestawem fizycznych portów (brak konieczności noszenia adapterów/hubów USB-C w torbie) oraz wygodną klawiaturą biurową.  \nAllegro\n\nUzasadnienie kolejności:  \nAllegro\n\nPozycje 1–2 to czołówka mobilności: MacBook Air oferuje bezkonkurencyjną kulturę pracy i czas na baterii w środowisku macOS, a Zenbook stanowi jego odpowiednik na Windowsie z ekranem OLED.  \nAllegro\n\nPozycje 3–4 oferują elastyczność formatu 2w1 (tryb tabletu / dotyk) i duży zapas pamięci.\n\nPozycja 5 to opcja czysto użytkowa i ekonomiczna z klasyczną ergonomią portów biurowych."
+}
+

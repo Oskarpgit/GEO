@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.1.0",
+  "testId": "P09-tv-samsung-oled-55",
+  "category": "televisions",
+  "source": {
+    "url": "https://allegro.pl/produkt/telewizor-oled-samsung-qe55s90fae-55-4k-uhd-czarny-2fbcd250-1916-4572-81f1-af892c804608?offerId=18425831388",
+    "capturedAt": "2026-08-20T18:16:39.220Z",
+    "rawEvidenceSha256": "48c95b8411c8eb1b807c30f5eb1172c904cb0fa4e8545451a5c788e984fb1009",
+    "rawEvidenceBytes": 1308581,
+    "rawEvidenceCommitted": false,
+    "firecrawlStatusCode": 200
+  },
+  "expected": {
+    "title": "Telewizor OLED Samsung QE55S90FAE 55 cali 4K UHD",
+    "offerId": "18425831388",
+    "productId": "2fbcd250-1916-4572-81f1-af892c804608"
+  },
+  "observed": {
+    "offerId": "18425831388",
+    "productId": "2fbcd250-1916-4572-81f1-af892c804608",
+    "title": "Telewizor OLED Samsung QE55S90FAE 55\" 4K UHD czarny",
+    "categoryPath": [
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Zarejestruj się",
+      "Zaloguj się",
+      "Dla kupującego",
+      "Dla sprzedającego",
+      "Elektronika",
+      "RTV i AGD",
+      "TV i Video",
+      "Telewizory",
+      "Telewizor OLED Samsung QE55S90FAE 55\" 4K UHD czarny",
+      "Samsung",
+      "Philips",
+      "Kruger&Matz",
+      "Do kompletu"
+    ],
+    "seller": {
+      "name": "MixSlawno",
+      "recommendedPercent": 99.3,
+      "ratingCount": 485136,
+      "superSeller": true,
+      "officialStore": false
+    },
+    "commerce": {
+      "price": 3357,
+      "currency": "PLN",
+      "smart": true
+    },
+    "productGroup": {},
+    "parameters": {
+      "Stan": "NowyNowyoznacza Towar całkowicie nowy, kompletny, nieużywany bez jakichkolwiek wad lub defektów (np. rys, wgnieceń, minimalnych uszkodzeń). Towar znajduje się w opakowaniu (tam, gdzie ma to zastosowanie) które jest oryginalne, nieotwarte i nieuszkodzone wraz z nienaruszonymi zabezpieczeniami lub identyfikatorami producenta (takimi jak plomby na pudełkach czy metki na ubraniach).",
+      "Typ telewizora": "OLED",
+      "Przekątna ekranu (cale)": "55\"",
+      "Rozdzielczość ekranu (px)": "3840 x 2160",
+      "Smart TV": "Tizen",
+      "Złącza": "Common Interface, HDMI, RJ-45, USB",
+      "Odświeżanie obrazu": "144 Hz",
+      "Standard kodowania": "H.265/HEVC"
+    },
+    "imageCount": 22,
+    "descriptionProfile": {
+      "characters": 10162,
+      "words": 1296,
+      "sha256": "4966cc00693e4ad187f2b578736f2609b3e3487376113f1634ada4312cdcaf66",
+      "headings": [],
+      "paragraphs": 0,
+      "listItems": 0,
+      "inlineImages": 0
+    }
+  },
+  "validation": {
+    "rulesetId": "allegro-pl-2026-08-20.1",
+    "validatorVersion": "0.1.0",
+    "readyForGeneration": false,
+    "totals": {
+      "passed": 10,
+      "failed": 2,
+      "needs_review": 6,
+      "not_applicable": 0,
+      "not_evaluated": 1
+    },
+    "failedRuleIds": [
+      "ALG-DESC-008",
+      "ALG-PARAM-002"
+    ],
+    "needsReviewRuleIds": [
+      "ALG-TITLE-004",
+      "ALG-DESC-003",
+      "ALG-DESC-004",
+      "ALG-DESC-005",
+      "ALG-DESC-006",
+      "ALG-DESC-012"
+    ],
+    "notEvaluatedRuleIds": [
+      "ALG-PARAM-001"
+    ]
+  },
+  "assertions": [
+    {
+      "id": "offer_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "18425831388",
+      "observed": "18425831388"
+    },
+    {
+      "id": "product_id",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": "2fbcd250-1916-4572-81f1-af892c804608",
+      "observed": "2fbcd250-1916-4572-81f1-af892c804608"
+    },
+    {
+      "id": "title_coverage",
+      "kind": "parser_integrity",
+      "status": "passed",
+      "expected": ">=0.35",
+      "observed": 0.875
+    },
+    {
+      "id": "description_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=80",
+      "observed": 10162
+    },
+    {
+      "id": "parameters_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=4",
+      "observed": 8
+    },
+    {
+      "id": "product_images_present",
+      "kind": "geo_input",
+      "status": "passed",
+      "expected": ">=1",
+      "observed": 22
+    },
+    {
+      "id": "gtin_checksum",
+      "kind": "quality_signal",
+      "status": "not_evaluated",
+      "expected": true
+    }
+  ],
+  "extractionPassed": true,
+  "geoInputComplete": true
+}
