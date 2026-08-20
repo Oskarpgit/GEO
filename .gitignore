@@ -3,4 +3,3 @@ pdfvenv/
 __pycache__/
 *.pyc
 .venv/
-
