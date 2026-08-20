@@ -1,34 +1,62 @@
-# shoppalyzer_geo
+# Shoppalyzer GEO
 
-Moduł widoczności w AI dla sprzedawców e-commerce. Audyt sprawdzający, czy asystenci AI wskazują produkt sprzedawcy, i co konkretnie zmienić, żeby zaczęły.
+System audytu ofert Allegro i pomiaru widoczności konkretnego `offer_id` w odpowiedziach modeli językowych.
 
-**Status:** faza brainstormingu, przed spisaniem specyfikacji. Zero kodu produktowego. Architektura świadomie niezależna od Shoppalyzera.
+## Kierunek produktu
 
-## Zacznij tutaj
+Pierwszy rynek to `allegro.pl`, a pierwsza kategoria pilotażowa to automatyczne ekspresy do kawy. Główna interwencja dotyczy opisu oferty. Cena, dostawa, promocja, zdjęcia, parametry i jakość sprzedawcy są zapisywane jako zmienne kontrolne.
 
-**[HANDOFF-widocznosc-ai.md](HANDOFF-widocznosc-ai.md)** zawiera wszystko: skąd wziął się pomysł, ustalenia z researchu z podziałem na potwierdzone i sprzeczne, twarde ograniczenia prawne i dostępowe po stronie Allegro, dziennik decyzji wraz z odrzuconymi kierunkami, architekturę, katalog rekomendacji, model kosztowy, pytania otwarte oraz instrukcję odtworzenia sesji na innym urządzeniu.
+Sprzedaż nie jest etykietą jakości GEO. System mierzy pojawienie, pozycję, link do konkretnej oferty, poprawność tożsamości i stabilność wyniku między powtórzeniami.
 
-Jedno pytanie blokuje przejście do specyfikacji i nie da się go rozstrzygnąć researchem. Opisane w sekcji 10.1 handoffu. Przeczytaj je przed jakąkolwiek pracą nad tym projektem.
+## Stan implementacji
 
-## Zawartość
+Wersja `0.1.0` zawiera:
 
-```
-HANDOFF-widocznosc-ai.md    pełny handoff, 13 sekcji
-build_onepager.py           skład one-pagera dla partnerów (reportlab)
-debrief-partnerzy-*.pdf     one-pager, wersje
-podglad-v2-brand.png        podgląd bieżącej wersji
-assets/fonts/               Geist i Sora, SIL OFL 1.1
-```
+- typy domenowe dla snapshotów ofert, dowodów, reguł i prób pomiarowych;
+- parser publicznej strony oferty Allegro;
+- wersjonowany rejestr reguł tytułu, opisu i parametrów;
+- deterministyczny walidator oddzielający `failed`, `needs_review` i `not_evaluated`;
+- dopasowanie tożsamości po GTIN, `product_id`, marce, modelu i liczbie sztuk;
+- metryki widoczności konkretnego `offer_id`, które pomijają nieudane próby;
+- testy na fixture Philips EP2334/10 oraz na zapisanym wyniku Firecrawl.
 
-## Przebudowa one-pagera
+## Uruchomienie
+
+Wymagany jest Node.js 24 lub nowszy.
 
 ```bash
-python3 -m venv /tmp/pdfvenv && /tmp/pdfvenv/bin/pip install reportlab
-python3 -c "pass" && /tmp/pdfvenv/bin/python3 build_onepager.py
+npm install
+npm run typecheck
+npm test
 ```
 
-Fonty są w repo, więc build nie wymaga sieci. Paleta i logo pochodzą z `shoppalyzer-landing/src/index.css` i `public/shoppalyzer-mark.svg` w repo landingu, wartości wypisane w sekcji 11 handoffu.
+## Struktura
 
-## Konwencje
+```text
+src/
+  domain/       kontrakty i stany
+  identity/     dopasowanie produktu i oferty
+  measurement/  metryki widoczności LLM
+  parser/       ekstrakcja publicznej strony Allegro
+  rules/        wersjonowane reguły i silnik walidacji
+test/
+  fixtures/     małe, zanonimizowane dokumenty testowe
+HANDOFF-widocznosc-ai.md
+```
 
-Bez długich pauz w treści dokumentów, półpauzy w zakresach liczbowych są w porządku. Teksty przechodzą przez zasady anti-ai-writing.
+## Ważne zasady
+
+- Nieudana próba pomiarowa nie jest brakiem widoczności.
+- Strona produktu nie jest linkiem do konkretnej oferty.
+- Sprzeczny GTIN oznacza brak dopasowania.
+- Wielopak nie jest tym samym wariantem co jedna sztuka.
+- Reguła wymagająca oceny semantycznej nie może otrzymać automatycznie `passed`.
+- Kandydat opisu z błędem `blocker` albo `error` nie jest gotowy do użycia.
+- Treści konkurencyjnych ofert służą do wykrywania cech i luk, nigdy do kopiowania.
+
+## Materiały koncepcyjne
+
+[HANDOFF-widocznosc-ai.md](HANDOFF-widocznosc-ai.md) zachowuje historię researchu, decyzji i ograniczeń. Kierunek Allegro-first oraz aktualne kontrakty mają pierwszeństwo przed wcześniejszym założeniem, że ścieżką główną będzie własny sklep.
+
+Repo zawiera również generator i pliki wcześniejszego one-pagera partnerskiego. Nie są one częścią runtime produktu.
+

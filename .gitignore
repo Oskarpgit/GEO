@@ -3,3 +3,11 @@ pdfvenv/
 __pycache__/
 *.pyc
 .venv/
+node_modules/
+.npm-cache/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+
