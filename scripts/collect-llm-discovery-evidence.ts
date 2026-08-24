@@ -97,6 +97,10 @@ const keyFile = args.get("keys-file") || process.env.FIRECRAWL_KEYS_FILE;
 const observationLimit = Number(args.get("limit") || "0");
 const controlsTarget = Number(args.get("controls") || "4");
 const candidatesLimit = Number(args.get("candidates") || "12");
+const requestTimeoutMs = Number(args.get("timeout-ms") || "30000");
+const maxRequestAttempts = Number(args.get("attempts") || "3");
+const retryPartial = args.get("retry-partial") === "true";
+const useIdentitySearch = args.get("identity-search") === "true";
 const runRoot = path.join(
   repositoryRoot,
   "data",
@@ -222,20 +226,29 @@ async function scrape(url: string, offerId: string): Promise<FirecrawlResponse> 
   }
 
   let lastError = "Nieznany błąd Firecrawl.";
-  for (let attempt = 0; attempt < keys.length + 2; attempt += 1) {
+  for (let attempt = 0; attempt < maxRequestAttempts; attempt += 1) {
     const key = keys[keyIndex % keys.length]!;
-    const response = await fetch("https://api.firecrawl.dev/v2/scrape", {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${key}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        url,
-        formats: ["html"],
-        onlyMainContent: false,
-      }),
-    });
+    let response: Response;
+    try {
+      response = await fetch("https://api.firecrawl.dev/v2/scrape", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${key}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          url,
+          formats: ["html"],
+          onlyMainContent: false,
+        }),
+        signal: AbortSignal.timeout(requestTimeoutMs),
+      });
+    } catch (error) {
+      lastError = error instanceof Error ? error.message : String(error);
+      keyIndex = (keyIndex + 1) % keys.length;
+      await new Promise((resolve) => setTimeout(resolve, 1000 * (attempt + 1)));
+      continue;
+    }
     const text = await response.text();
     let payload: FirecrawlResponse;
     try {
@@ -276,24 +289,124 @@ async function searchOffers(winner: OfferSnapshot): Promise<string[]> {
   const query = `site:allegro.pl/oferta "${title.slice(0, 380)}"`;
   let lastError = "Nieznany błąd wyszukiwania Firecrawl.";
 
-  for (let attempt = 0; attempt < keys.length + 2; attempt += 1) {
+  for (let attempt = 0; attempt < maxRequestAttempts; attempt += 1) {
     const key = keys[keyIndex % keys.length]!;
-    const response = await fetch("https://api.firecrawl.dev/v2/search", {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${key}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        query,
-        limit: 10,
-        sources: ["web"],
-        includeDomains: ["allegro.pl"],
-        country: "PL",
-        location: "Poland",
-        ignoreInvalidURLs: true,
-      }),
-    });
+    let response: Response;
+    try {
+      response = await fetch("https://api.firecrawl.dev/v2/search", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${key}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          query,
+          limit: 10,
+          sources: ["web"],
+          includeDomains: ["allegro.pl"],
+          country: "PL",
+          location: "Poland",
+          ignoreInvalidURLs: true,
+        }),
+        signal: AbortSignal.timeout(requestTimeoutMs),
+      });
+    } catch (error) {
+      lastError = error instanceof Error ? error.message : String(error);
+      keyIndex = (keyIndex + 1) % keys.length;
+      await new Promise((resolve) => setTimeout(resolve, 1000 * (attempt + 1)));
+      continue;
+    }
+    const text = await response.text();
+    let payload: {
+      success?: boolean;
+      error?: string;
+      data?: { web?: Array<{ url?: string }> };
+    };
+    try {
+      payload = JSON.parse(text) as typeof payload;
+    } catch {
+      payload = { success: false, error: text.slice(0, 500) };
+    }
+
+    if (response.ok && payload.success) {
+      const urls = [
+        ...new Set(
+          (payload.data?.web ?? [])
+            .map((item) => item.url)
+            .filter((value): value is string => Boolean(value && directOfferUrl(value)))
+            .map(normalizeUrl),
+        ),
+      ];
+      await writeFile(
+        searchPath,
+        `${JSON.stringify({ query, capturedAt: new Date().toISOString(), urls }, null, 2)}\n`,
+        "utf8",
+      );
+      return urls;
+    }
+
+    lastError = `HTTP ${response.status}: ${payload.error ?? "brak wyników"}`;
+    if ([401, 402, 429].includes(response.status)) keyIndex = (keyIndex + 1) % keys.length;
+    if (response.status >= 500 || response.status === 429) {
+      await new Promise((resolve) => setTimeout(resolve, 1000 * (attempt + 1)));
+      continue;
+    }
+    break;
+  }
+
+  throw new Error(lastError);
+}
+
+async function searchIdentityOffers(winner: OfferSnapshot): Promise<string[]> {
+  if (!useIdentitySearch) return [];
+  const identityTerm = winner.identity.gtin
+    ?? winner.identity.manufacturerCode
+    ?? (winner.identity.brand && winner.identity.model
+      ? `${winner.identity.brand} ${winner.identity.model}`
+      : undefined);
+  if (!identityTerm) return [];
+
+  const searchPath = path.join(searchDir, `${winner.offerId}-identity.json`);
+  try {
+    const cached = JSON.parse(await readFile(searchPath, "utf8")) as {
+      urls?: string[];
+    };
+    if (cached.urls) return cached.urls;
+  } catch {
+    // Cache miss: search below.
+  }
+
+  const query = `site:allegro.pl/oferta "${identityTerm.replace(/["\\]/gu, " ").trim()}"`;
+  let lastError = "Nieznany błąd wyszukiwania Firecrawl.";
+
+  for (let attempt = 0; attempt < maxRequestAttempts; attempt += 1) {
+    const key = keys[keyIndex % keys.length]!;
+    let response: Response;
+    try {
+      response = await fetch("https://api.firecrawl.dev/v2/search", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${key}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          query,
+          limit: 10,
+          sources: ["web"],
+          includeDomains: ["allegro.pl"],
+          country: "PL",
+          location: "Poland",
+          ignoreInvalidURLs: true,
+        }),
+        signal: AbortSignal.timeout(requestTimeoutMs),
+      });
+    } catch (error) {
+      lastError = error instanceof Error ? error.message : String(error);
+      keyIndex = (keyIndex + 1) % keys.length;
+      await new Promise((resolve) => setTimeout(resolve, 1000 * (attempt + 1)));
+      continue;
+    }
+
     const text = await response.text();
     let payload: {
       success?: boolean;
@@ -366,9 +479,52 @@ async function loadDiscoveryResults(): Promise<DiscoveryResult[]> {
 
 const discoveryResults = await loadDiscoveryResults();
 const selected = (observationLimit > 0 ? discoveryResults.slice(0, observationLimit) : discoveryResults);
-const comparisons: ComparisonRecord[] = [];
+let comparisons: ComparisonRecord[] = [];
+
+try {
+  const existing = JSON.parse(await readFile(safeOutputPath, "utf8")) as {
+    observations?: ComparisonRecord[];
+  };
+  comparisons = existing.observations ?? [];
+} catch {
+  // No checkpoint yet. Start a new collection below.
+}
+
+async function writeCheckpoint(): Promise<void> {
+  await writeFile(
+    safeOutputPath,
+    `${JSON.stringify(
+      {
+        schemaVersion: "1.0.0",
+        runId,
+        updatedAt: new Date().toISOString(),
+        rawEvidenceCommitted: false,
+        requestedControlsPerWinner: controlsTarget,
+        observations: comparisons,
+      },
+      null,
+      2,
+    )}\n`,
+    "utf8",
+  );
+}
 
 for (const [index, result] of selected.entries()) {
+  const existingIndex = comparisons.findIndex(
+    (item) => item.engine === result.engine && item.promptId === result.promptId,
+  );
+  const previousComparison = existingIndex >= 0 ? comparisons[existingIndex] : undefined;
+  const shouldRetryPartial = retryPartial && previousComparison?.status === "partial";
+  if (
+    existingIndex >= 0
+    && comparisons[existingIndex]!.status !== "failed"
+    && !shouldRetryPartial
+  ) {
+    console.log(`[${index + 1}/${selected.length}] ${result.engine} ${result.promptId}: preserved`);
+    continue;
+  }
+  if (existingIndex >= 0) comparisons.splice(existingIndex, 1);
+
   const winnerUrls = [
     ...new Set(
       result.links
@@ -388,15 +544,24 @@ for (const [index, result] of selected.entries()) {
       controls: [],
       rejectedCandidates: [],
     });
+    await writeCheckpoint();
     console.log(`[${index + 1}/${selected.length}] ${result.engine} ${result.promptId}: negative`);
     continue;
   }
 
   try {
     let selectedWinner:
-      | { url: string; offerId: string; raw: FirecrawlResponse; html: string }
+      | {
+          url: string;
+          offerId: string;
+          raw: FirecrawlResponse;
+          html: string;
+          snapshot: OfferSnapshot;
+        }
       | undefined;
-    const rejectedCandidates: ComparisonRecord["rejectedCandidates"] = [];
+    const rejectedCandidates: ComparisonRecord["rejectedCandidates"] = shouldRetryPartial
+      ? [...(previousComparison?.rejectedCandidates ?? [])]
+      : [];
 
     for (const candidateWinnerUrl of winnerUrls) {
       const candidateWinnerId = offerIdFromUrl(candidateWinnerUrl);
@@ -404,13 +569,27 @@ for (const [index, result] of selected.entries()) {
       const candidateWinnerRaw = await scrape(candidateWinnerUrl, candidateWinnerId);
       const candidateWinnerHtml = candidateWinnerRaw.data!.html!;
       if (isActiveOffer(candidateWinnerHtml)) {
-        selectedWinner = {
-          url: candidateWinnerUrl,
-          offerId: candidateWinnerId,
-          raw: candidateWinnerRaw,
-          html: candidateWinnerHtml,
-        };
-        break;
+        try {
+          const snapshot = parseAllegroOffer({
+            url: candidateWinnerRaw.data?.metadata?.url ?? candidateWinnerUrl,
+            html: candidateWinnerHtml,
+            capturedAt: new Date().toISOString(),
+          });
+          selectedWinner = {
+            url: candidateWinnerUrl,
+            offerId: candidateWinnerId,
+            raw: candidateWinnerRaw,
+            html: candidateWinnerHtml,
+            snapshot,
+          };
+          break;
+        } catch (error) {
+          rejectedCandidates.push({
+            offerId: candidateWinnerId,
+            reason: error instanceof Error ? error.message : String(error),
+          });
+          continue;
+        }
       }
       rejectedCandidates.push({
         offerId: candidateWinnerId,
@@ -430,24 +609,31 @@ for (const [index, result] of selected.entries()) {
         rejectedCandidates,
         error: "Brak aktywnej bezpośredniej oferty w odpowiedzi LLM.",
       });
+      await writeCheckpoint();
       continue;
     }
 
-    const winnerRaw = selectedWinner.raw;
     const winnerHtml = selectedWinner.html;
-    const capturedAt = new Date().toISOString();
-    const winnerSnapshot = parseAllegroOffer({
-      url: winnerRaw.data?.metadata?.url ?? selectedWinner.url,
-      html: winnerHtml,
-      capturedAt,
-    });
-    const controls: ComparisonRecord["controls"] = [];
+    const winnerSnapshot = selectedWinner.snapshot;
+    const controls: ComparisonRecord["controls"] =
+      shouldRetryPartial && previousComparison?.winner?.offerId === winnerSnapshot.offerId
+        ? [...previousComparison.controls]
+        : [];
+    const identityUrls = await searchIdentityOffers(winnerSnapshot);
     const searchedUrls = await searchOffers(winnerSnapshot);
     const embeddedUrls = candidateOfferIds(winnerHtml, winnerSnapshot.offerId).map(
       (offerId) => `https://allegro.pl/oferta/${offerId}`,
     );
-    const candidates = [...new Set([...searchedUrls, ...embeddedUrls])]
+    const knownOfferIds = new Set([
+      ...controls.map((control) => control.offerId),
+      ...rejectedCandidates.map((candidate) => candidate.offerId),
+    ]);
+    const candidates = [...new Set([...identityUrls, ...searchedUrls, ...embeddedUrls])]
       .filter((url) => offerIdFromUrl(url) !== winnerSnapshot.offerId)
+      .filter((url) => {
+        const offerId = offerIdFromUrl(url);
+        return !offerId || !knownOfferIds.has(offerId);
+      })
       .slice(0, candidatesLimit);
 
     for (const candidateUrl of candidates) {
@@ -518,22 +704,7 @@ for (const [index, result] of selected.entries()) {
     console.log(`[${index + 1}/${selected.length}] ${result.engine} ${result.promptId}: failed`);
   }
 
-  await writeFile(
-    safeOutputPath,
-    `${JSON.stringify(
-      {
-        schemaVersion: "1.0.0",
-        runId,
-        updatedAt: new Date().toISOString(),
-        rawEvidenceCommitted: false,
-        requestedControlsPerWinner: controlsTarget,
-        observations: comparisons,
-      },
-      null,
-      2,
-    )}\n`,
-    "utf8",
-  );
+  await writeCheckpoint();
 }
 
 const totals = {

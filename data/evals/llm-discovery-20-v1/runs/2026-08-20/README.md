@@ -15,6 +15,26 @@
 | Gemini | 20/20 | 90 | 88 | 1 |
 | Razem | 40/40 | 182 | 155 | 4 |
 
+## Walidacja ofert i opisów
+
+Etap porównawczy wznowiono i zakończono 2026-08-24. Dla pierwszej aktywnej,
+bezpośredniej oferty z każdej odpowiedzi LLM pobrano pełną stronę Allegro,
+wyliczono profil opisu i szukano aktywnych ofert kontrolnych dokładnie tego
+samego produktu. Dopasowanie kontroli wymagało zgodności `product_id`, GTIN albo
+spójnych sygnałów marki i modelu.
+
+| Silnik | Przetworzone | Pełne (3–4 kontrole) | Częściowe | Negatywne | Błędy | Zweryfikowane kontrole |
+|---|---:|---:|---:|---:|---:|---:|
+| ChatGPT | 20/20 | 4 | 12 | 4 | 0 | 23 |
+| Gemini | 20/20 | 3 | 15 | 2 | 0 | 20 |
+| Razem | 40/40 | 7 | 27 | 6 | 0 | 43 |
+
+Status `częściowy` nie oznacza błędu testu. Oznacza, że znaleziono i
+przeanalizowano aktywną ofertę wskazaną przez LLM, ale po wyszukiwaniu tytułu,
+GTIN, kodu producenta oraz marki i modelu nie udało się potwierdzić co najmniej
+trzech aktywnych kontroli o tej samej tożsamości. Takich ofert nie zastępowano
+podobnymi wariantami, ponieważ zanieczyściłoby to dane uczące.
+
 Po globalnej deduplikacji ChatGPT wskazał 66 unikalnych ofert, a Gemini 87. Tylko 2 bezpośrednie oferty pojawiły się w obu silnikach:
 
 - Philips LatteGo 5500 EP5547/90, oferta `15664591213`.
@@ -35,13 +55,17 @@ Po globalnej deduplikacji ChatGPT wskazał 66 unikalnych ofert, a Gemini 87. Tyl
 - `../../prompts.json` — zamrożony zestaw promptów.
 - `../../PROTOCOL.md` — protokół badania.
 
-## Następny etap
+## Zrealizowany etap porównawczy
 
-Dla pierwszej aktywnej oferty Allegro w każdym pozytywnym teście należy:
+Dla pierwszej aktywnej oferty Allegro w każdym pozytywnym teście wykonano:
 
-1. potwierdzić tożsamość produktu i aktywność oferty,
-2. znaleźć 3–4 aktywne oferty dokładnie tego samego produktu,
-3. pobrać kompletne strony zwycięzcy i kontroli,
-4. wyliczyć cechy opisu oraz czynniki kontrolne,
-5. zapisać dowody i hashe, bez kopiowania pełnych opisów konkurencji do repozytorium.
+1. potwierdzenie tożsamości produktu i aktywności oferty,
+2. wyszukiwanie 3–4 aktywnych ofert dokładnie tego samego produktu,
+3. pobranie kompletnych stron zwycięzcy i znalezionych kontroli,
+4. wyliczenie cech opisu oraz czynników kontrolnych,
+5. zapis bezpiecznych profili i hashy bez kopiowania pełnych opisów konkurencji
+   do repozytorium.
 
+Pełne HTML pozostają lokalnie w ignorowanym katalogu `.evidence/`. Wersjonowany
+plik `offer-comparisons.json` jest bezpiecznym wejściem do dalszych analiz i
+budowy modelu rekomendującego poprawki opisów GEO.
