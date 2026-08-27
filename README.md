@@ -24,6 +24,10 @@ Wersja `0.1.0` zawiera:
 - wyjaśnialny `GEO Score v0.1` (0–100), który oddziela jakość treści od walidacji Allegro i faktycznej widoczności;
 - deterministyczne rekomendacje bez dopisywania niepotwierdzonych cech produktu;
 - kalibrację obserwacyjną na 43 dopasowanych parach ofert, bez uczenia wag na zbyt małej próbce.
+- ekstrakcję faktów ze ścieżką do pola źródłowego oraz jawny etap ich akceptacji;
+- deterministyczny generator opisów, w którym każdy blok jest odtwarzalny z zatwierdzonych `claimIds`;
+- walidację pochodzenia treści i zasad Allegro po wygenerowaniu;
+- klasyfikację eksperymentów opisu przed/po z wykrywaniem zmian ceny, dostawy, tytułu, parametrów, zdjęć i jakości sprzedawcy.
 
 ## Uruchomienie
 
@@ -43,6 +47,8 @@ npm run model:calibrate
 ```text
 src/
   domain/       kontrakty i stany
+  experiments/  kontrola porównań opisu przed/po
+  generation/   fakty, zatwierdzanie, kandydat i walidacja pochodzenia
   identity/     dopasowanie produktu i oferty
   measurement/  metryki widoczności LLM
   parser/       ekstrakcja publicznej strony Allegro
@@ -65,6 +71,8 @@ HANDOFF-widocznosc-ai.md
 - Treści konkurencyjnych ofert służą do wykrywania cech i luk, nigdy do kopiowania.
 - `GEO Score` nie jest prognozą pozycji ani dowodem wpływu przyczynowego opisu.
 - Wynik zgodności Allegro nie jest dodawany do `GEO Score`; oba wyniki są raportowane osobno.
+- Fakt odczytany z oferty nie trafia do generatora przed jawnym zatwierdzeniem.
+- Kandydat deterministyczny z poprawnym pochodzeniem nadal wymaga ręcznego przeglądu reguł semantycznych.
 
 ## Materiały koncepcyjne
 

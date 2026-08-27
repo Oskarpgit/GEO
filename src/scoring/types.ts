@@ -17,6 +17,10 @@ export type GeoDescriptionStructure = {
 };
 
 export type GeoOfferInput = {
+  source?: {
+    snapshotId: string;
+    evidenceIds: string[];
+  };
   title?: string;
   description?: string;
   parameters?: Record<string, unknown>;
