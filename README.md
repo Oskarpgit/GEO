@@ -21,6 +21,9 @@ Wersja `0.1.0` zawiera:
 - testy na fixture Philips EP2334/10 oraz na zapisanym wyniku Firecrawl.
 - wersjonowany korpus 20 zróżnicowanych ofert, z profilami opisów, wynikami reguł i hashami dowodów źródłowych.
 - pilot widoczności retrievalu LLM dla 20 ofert, który osobno mierzy domenę, produkt i konkretny `offer_id`.
+- wyjaśnialny `GEO Score v0.1` (0–100), który oddziela jakość treści od walidacji Allegro i faktycznej widoczności;
+- deterministyczne rekomendacje bez dopisywania niepotwierdzonych cech produktu;
+- kalibrację obserwacyjną na 43 dopasowanych parach ofert, bez uczenia wag na zbyt małej próbce.
 
 ## Uruchomienie
 
@@ -32,6 +35,7 @@ npm run typecheck
 npm test
 npm run eval:build -- <ścieżka-do-lokalnego-run-firecrawl>
 npm run eval:llm-pilot
+npm run model:calibrate
 ```
 
 ## Struktura
@@ -43,6 +47,7 @@ src/
   measurement/  metryki widoczności LLM
   parser/       ekstrakcja publicznej strony Allegro
   rules/        wersjonowane reguły i silnik walidacji
+  scoring/      cechy, GEO Score, rekomendacje i kalibracja
 test/
   fixtures/     małe, zanonimizowane dokumenty testowe
 data/evals/     wersjonowane przypadki i raporty bez pełnych opisów konkurencji
@@ -58,6 +63,8 @@ HANDOFF-widocznosc-ai.md
 - Reguła wymagająca oceny semantycznej nie może otrzymać automatycznie `passed`.
 - Kandydat opisu z błędem `blocker` albo `error` nie jest gotowy do użycia.
 - Treści konkurencyjnych ofert służą do wykrywania cech i luk, nigdy do kopiowania.
+- `GEO Score` nie jest prognozą pozycji ani dowodem wpływu przyczynowego opisu.
+- Wynik zgodności Allegro nie jest dodawany do `GEO Score`; oba wyniki są raportowane osobno.
 
 ## Materiały koncepcyjne
 

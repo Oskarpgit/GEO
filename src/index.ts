@@ -5,3 +5,8 @@ export * from "./measurement/metrics.js";
 export * from "./rules/allegro-rules.js";
 export * from "./rules/engine.js";
 export * from "./rules/schema.js";
+export * from "./scoring/audit.js";
+export * from "./scoring/calibration.js";
+export * from "./scoring/features.js";
+export * from "./scoring/score.js";
+export * from "./scoring/types.js";

@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "1.0.0",
+  "calibrationVersion": "geo-score-calibration-0.1.0",
+  "generatedFrom": "llm-discovery-20-v1/offer-comparisons.json",
+  "method": "winner-minus-mean-matched-controls-within-observation",
+  "evidenceLevel": "limited_observational",
+  "causalClaimAllowed": false,
+  "weightsFittedFromThisSample": false,
+  "sample": {
+    "llmRuns": 40,
+    "observationsWithControls": 18,
+    "matchedControlPairs": 43,
+    "byEngine": {
+      "chatgpt": {
+        "observationsWithControls": 9,
+        "matchedControlPairs": 23
+      },
+      "gemini": {
+        "observationsWithControls": 9,
+        "matchedControlPairs": 20
+      }
+    }
+  },
+  "features": [
+    {
+      "feature": "parameterCount",
+      "observationCount": 18,
+      "meanWinner": 8.0556,
+      "meanControls": 7.6667,
+      "meanPairedDelta": 0.3889,
+      "medianPairedDelta": 0,
+      "positiveDeltaShare": 0.1111,
+      "positiveObservations": 2,
+      "tiedObservations": 16,
+      "negativeObservations": 0
+    },
+    {
+      "feature": "imageCount",
+      "observationCount": 18,
+      "meanWinner": 17.2222,
+      "meanControls": 16.6019,
+      "meanPairedDelta": 0.6204,
+      "medianPairedDelta": 0,
+      "positiveDeltaShare": 0.3333,
+      "positiveObservations": 6,
+      "tiedObservations": 4,
+      "negativeObservations": 8
+    },
+    {
+      "feature": "description.characters",
+      "observationCount": 18,
+      "meanWinner": 3739.7778,
+      "meanControls": 3409.1574,
+      "meanPairedDelta": 330.6204,
+      "medianPairedDelta": 32.5,
+      "positiveDeltaShare": 0.5,
+      "positiveObservations": 9,
+      "tiedObservations": 1,
+      "negativeObservations": 8
+    },
+    {
+      "feature": "description.words",
+      "observationCount": 18,
+      "meanWinner": 518.2222,
+      "meanControls": 462.0602,
+      "meanPairedDelta": 56.162,
+      "medianPairedDelta": -12,
+      "positiveDeltaShare": 0.4444,
+      "positiveObservations": 8,
+      "tiedObservations": 1,
+      "negativeObservations": 9
+    },
+    {
+      "feature": "description.headings",
+      "observationCount": 18,
+      "meanWinner": 6.0556,
+      "meanControls": 6.3796,
+      "meanPairedDelta": -0.3241,
+      "medianPairedDelta": 0.5,
+      "positiveDeltaShare": 0.5,
+      "positiveObservations": 9,
+      "tiedObservations": 2,
+      "negativeObservations": 7
+    },
+    {
+      "feature": "description.paragraphs",
+      "observationCount": 18,
+      "meanWinner": 17.5556,
+      "meanControls": 18.0231,
+      "meanPairedDelta": -0.4676,
+      "medianPairedDelta": 0,
+      "positiveDeltaShare": 0.4444,
+      "positiveObservations": 8,
+      "tiedObservations": 2,
+      "negativeObservations": 8
+    },
+    {
+      "feature": "description.listItems",
+      "observationCount": 18,
+      "meanWinner": 31.8889,
+      "meanControls": 28.912,
+      "meanPairedDelta": 2.9769,
+      "medianPairedDelta": 0,
+      "positiveDeltaShare": 0.3889,
+      "positiveObservations": 7,
+      "tiedObservations": 3,
+      "negativeObservations": 8
+    },
+    {
+      "feature": "description.inlineImages",
+      "observationCount": 18,
+      "meanWinner": 6.2778,
+      "meanControls": 5.9907,
+      "meanPairedDelta": 0.287,
+      "medianPairedDelta": 0,
+      "positiveDeltaShare": 0.4444,
+      "positiveObservations": 8,
+      "tiedObservations": 2,
+      "negativeObservations": 8
+    },
+    {
+      "feature": "description.numericFacts",
+      "observationCount": 18,
+      "meanWinner": 39.5,
+      "meanControls": 26.588,
+      "meanPairedDelta": 12.912,
+      "medianPairedDelta": 1.75,
+      "positiveDeltaShare": 0.5,
+      "positiveObservations": 9,
+      "tiedObservations": 2,
+      "negativeObservations": 7
+    },
+    {
+      "feature": "description.faqSignals",
+      "observationCount": 18,
+      "meanWinner": 0.1667,
+      "meanControls": 0.537,
+      "meanPairedDelta": -0.3704,
+      "medianPairedDelta": 0,
+      "positiveDeltaShare": 0,
+      "positiveObservations": 0,
+      "tiedObservations": 15,
+      "negativeObservations": 3
+    }
+  ],
+  "limitationsPl": [
+    "Próbka obejmuje tylko obserwacje, dla których znaleziono aktywne oferty tego samego produktu.",
+    "Obecność w odpowiedzi LLM nie dowodzi, że zdecydował opis oferty.",
+    "Cena, dostępność, sprzedawca, indeksowanie i inne czynniki pozostają możliwymi zmiennymi zakłócającymi.",
+    "Wagi GEO Score v0.1 nie zostały dopasowane do tej małej próbki."
+  ]
+}
