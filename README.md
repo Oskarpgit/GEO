@@ -83,7 +83,9 @@ HANDOFF-widocznosc-ai.md
 - Fakt odczytany z oferty nie trafia do generatora przed jawnym zatwierdzeniem.
 - Fakt z Katalogu Allegro również pozostaje `source_backed`; integracja nie zatwierdza go automatycznie.
 - Dane Katalogu Allegro mogą być używane tylko w ofertach Allegro.
-- Publiczny link do oferty jest analizowany bez Firecrawl; produkcyjna tożsamość katalogowa nadal wymaga OAuth sprzedawcy.
+- Publiczny link jest najpierw pobierany bezpośrednio. Po blokadzie `403` aplikacja
+  może użyć opcjonalnego, serwerowego fallbacku Firecrawl do pobrania surowego
+  HTML; produkcyjna tożsamość katalogowa nadal wymaga OAuth sprzedawcy.
 - Kandydat deterministyczny z poprawnym pochodzeniem nadal wymaga ręcznego przeglądu reguł semantycznych.
 
 ## Materiały koncepcyjne

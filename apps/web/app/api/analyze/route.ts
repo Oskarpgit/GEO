@@ -6,6 +6,11 @@ import { geoOfferInputFromSnapshot } from "../../../../../src/scoring/adapters.j
 import { auditAllegroGeoOffer } from "../../../../../src/scoring/audit.js";
 import type { GeoOfferInput } from "../../../../../src/scoring/types.js";
 import { generateReviewedOfferDescription } from "../../../../../src/workflows/offer-description.js";
+import {
+  fetchAllegroOfferHtml,
+  OfferSourceError,
+  type AllegroDocumentSource,
+} from "../../../lib/allegro-offer-source.server.js";
 import { demoOffer } from "../../../lib/demo-offer.js";
 
 export const runtime = "edge";
@@ -16,55 +21,46 @@ type AnalyzeRequest = {
   approvedClaimIds?: string[];
 };
 
-function validatedAllegroUrl(rawUrl: string): URL {
-  let url: URL;
-  try {
-    url = new URL(rawUrl);
-  } catch {
-    throw new Error("Wpisz poprawny link do oferty Allegro.");
+function publicError(error: unknown): { message: string; status: number } {
+  if (error instanceof OfferSourceError) {
+    return { message: error.message, status: error.httpStatus };
   }
-  const validHost = url.hostname === "allegro.pl" || url.hostname === "www.allegro.pl";
-  if (url.protocol !== "https:" || !validHost || !url.pathname.includes("/oferta/")) {
-    throw new Error("Obsługiwany jest wyłącznie link HTTPS do oferty na allegro.pl.");
+  if (error instanceof Error && error.message.length <= 180) {
+    return { message: error.message, status: 400 };
   }
-  return url;
+  return {
+    message: "Nie udało się przeanalizować tej oferty. Spróbuj ponownie lub użyj przykładu.",
+    status: 400,
+  };
 }
 
-function publicError(error: unknown): string {
-  if (error instanceof Error && error.message.length <= 180) return error.message;
-  return "Nie udało się przeanalizować tej oferty. Spróbuj ponownie lub użyj przykładu.";
+function firecrawlProxyMode(): "basic" | "enhanced" | "auto" {
+  const configured = process.env.FIRECRAWL_PROXY_MODE?.trim();
+  if (configured === "enhanced" || configured === "auto") return configured;
+  return "basic";
 }
 
 async function inputFromPublicOffer(rawUrl: string): Promise<{
   input: GeoOfferInput;
   offerId: string;
   productId?: string;
+  documentSource: AllegroDocumentSource;
 }> {
-  const url = validatedAllegroUrl(rawUrl);
-  const response = await fetch(url, {
-    headers: {
-      Accept: "text/html,application/xhtml+xml",
-      "Accept-Language": "pl-PL,pl;q=0.9",
-      "User-Agent": "Shoppalyzer-GEO/0.1 (+https://shoppalyzer.pl)",
-    },
-    redirect: "follow",
-    signal: AbortSignal.timeout(12_000),
+  const apiKey = process.env.FIRECRAWL_API_KEY?.trim();
+  const document = await fetchAllegroOfferHtml(rawUrl, {
+    ...(apiKey ? { firecrawlApiKey: apiKey } : {}),
+    firecrawlProxyMode: firecrawlProxyMode(),
   });
-  if (!response.ok) throw new Error(`Allegro zwróciło błąd HTTP ${response.status}.`);
-  const finalUrl = validatedAllegroUrl(response.url);
-  const declaredSize = Number(response.headers.get("content-length") ?? 0);
-  if (declaredSize > 5_000_000) throw new Error("Strona oferty jest zbyt duża do bezpiecznej analizy.");
-  const html = await response.text();
-  if (html.length > 5_000_000) throw new Error("Strona oferty jest zbyt duża do bezpiecznej analizy.");
   const snapshot = parseAllegroOffer({
-    url: finalUrl.toString(),
-    html,
+    url: document.finalUrl.toString(),
+    html: document.html,
     capturedAt: new Date().toISOString(),
   });
   return {
     input: geoOfferInputFromSnapshot(snapshot),
     offerId: snapshot.offerId,
     ...(snapshot.productId ? { productId: snapshot.productId } : {}),
+    documentSource: document.source,
   };
 }
 
@@ -72,7 +68,12 @@ export async function POST(request: Request) {
   try {
     const body = (await request.json()) as AnalyzeRequest;
     const source = body.demo
-      ? { input: demoOffer, offerId: "demo-ep2334", productId: "demo-product" }
+      ? {
+          input: demoOffer,
+          offerId: "demo-ep2334",
+          productId: "demo-product",
+          documentSource: "verified_demo" as const,
+        }
       : await inputFromPublicOffer(body.url ?? "");
     const audit = auditAllegroGeoOffer(source.input);
     const claims = extractProductClaims(source.input);
@@ -90,7 +91,7 @@ export async function POST(request: Request) {
         offerId: source.offerId,
         ...(source.productId ? { productId: source.productId } : {}),
         title: source.input.title,
-        source: body.demo ? "verified_demo" : "public_allegro_page",
+        source: source.documentSource,
       },
       audit: {
         score: audit.geo.score,
@@ -144,6 +145,10 @@ export async function POST(request: Request) {
       },
     });
   } catch (error) {
-    return NextResponse.json({ error: publicError(error) }, { status: 400 });
+    const responseError = publicError(error);
+    return NextResponse.json(
+      { error: responseError.message },
+      { status: responseError.status },
+    );
   }
 }

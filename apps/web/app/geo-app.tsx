@@ -56,6 +56,12 @@ async function requestAnalysis(payload: Record<string, unknown>): Promise<Analys
   return body as Analysis;
 }
 
+function sourceLabel(source: string): string {
+  if (source === "firecrawl_allegro_page") return "Źródło: Firecrawl";
+  if (source === "verified_demo") return "Źródło: przykład zweryfikowany";
+  return "Źródło: publiczna strona Allegro";
+}
+
 export default function GeoApp() {
   const [activeModule, setActiveModule] = useState<"geo" | "analizy">("geo");
   const [mode, setMode] = useState<"basic" | "advanced">("basic");
@@ -209,6 +215,7 @@ export default function GeoApp() {
                       <span>{Math.round(analysis.audit.confidence * 100)}% kompletności dowodów</span>
                       <span>{analysis.claims.length} faktów do weryfikacji</span>
                       <span>{identityClaims}/4 sygnałów tożsamości</span>
+                      <span>{sourceLabel(analysis.offer.source)}</span>
                     </div>
                   </div>
                 </section>

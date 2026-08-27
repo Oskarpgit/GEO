@@ -41,7 +41,9 @@ traktowany jako etykieta jakości GEO.
   identyfikatory produktu, zdjęcia i dane pomocnicze.
 - Endpoint webowy akceptuje wyłącznie adres HTTPS w domenie `allegro.pl`,
   ponownie sprawdza adres po przekierowaniu i ogranicza rozmiar odpowiedzi.
-- Publiczna analiza nie używa Firecrawl.
+- Publiczna analiza najpierw próbuje zwykłego pobrania. Po blokadzie `403` może
+  użyć Firecrawl do pobrania surowego HTML, bez ekstrakcji LLM i bez ujawniania
+  klucza w przeglądarce.
 - Zaimplementowano klienta i adapter danych Katalogu Allegro, ale produkcyjne
   użycie wymaga jeszcze OAuth konta sprzedawcy.
 
@@ -366,9 +368,9 @@ W kolejnych etapach przydadzą się:
 3. Kilka własnych ofert pilotażowych, dla których można kontrolować opis.
 4. Klucze API OpenAI i Google Gemini dopiero przy wdrażaniu automatycznych
    pomiarów produkcyjnych.
-5. Firecrawl wyłącznie jako opcjonalne, kontrolowane źródło danych, gdy zwykłe
-   pobranie strony lub oficjalne API nie wystarczy. Każde użycie powinno być
-   wcześniej zatwierdzone ze względu na kredyty.
+5. Docelowy serwerowy sekret Firecrawl w Supabase. Integracja kodowa już istnieje,
+   ale klucz nie może trafić do zwykłej tabeli, odpowiedzi API ani klienta.
+   Produkcyjne limity kredytów powinny być kontrolowane per organizacja.
 
 Kluczy i tokenów nie wolno umieszczać w repozytorium. Lokalne sekrety powinny
 trafiać do ignorowanego pliku `.env.local`, a produkcyjne do ustawień środowiska
