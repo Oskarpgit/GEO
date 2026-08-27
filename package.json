@@ -12,6 +12,7 @@
     "eval:llm-evidence": "vite-node scripts/collect-llm-discovery-evidence.ts",
     "eval:llm-pilot": "vite-node scripts/build-llm-visibility-pilot.ts",
     "model:calibrate": "vite-node scripts/build-geo-score-calibration.ts",
+    "model:evaluate-generator": "vite-node scripts/evaluate-grounded-generator-corpus.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit"

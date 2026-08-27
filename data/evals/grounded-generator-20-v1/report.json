@@ -1,0 +1,473 @@
+{
+  "schemaVersion": "1.0.0",
+  "evaluationId": "grounded-generator-20-v1",
+  "sourceCorpus": "allegro-diverse-20-v1",
+  "rawEvidenceCommitted": false,
+  "automatedClaimApprovalForEvaluationOnly": true,
+  "productionApprovalRequired": true,
+  "totals": {
+    "cases": 20,
+    "generated": 8,
+    "blocked": 12,
+    "provenanceValid": 8,
+    "readyForHumanReview": 1,
+    "readyForUse": 0
+  },
+  "results": [
+    {
+      "testId": "P01-smartphone-samsung-galaxy-s25",
+      "category": "smartphones",
+      "status": "blocked",
+      "claimCount": 8,
+      "identityClaims": {
+        "brand": false,
+        "model": false,
+        "manufacturerCode": false,
+        "gtin": false
+      },
+      "reasons": [
+        "Brak zatwierdzonego faktu marki.",
+        "Brak zatwierdzonego faktu modelu."
+      ],
+      "omittedClaimCount": 0
+    },
+    {
+      "testId": "P02-smartphone-apple-iphone-16",
+      "category": "smartphones",
+      "status": "blocked",
+      "claimCount": 8,
+      "identityClaims": {
+        "brand": true,
+        "model": false,
+        "manufacturerCode": true,
+        "gtin": true
+      },
+      "reasons": [
+        "Brak zatwierdzonego faktu modelu."
+      ],
+      "omittedClaimCount": 0
+    },
+    {
+      "testId": "P03-laptop-lenovo-ideapad-slim-5",
+      "category": "laptops",
+      "status": "generated",
+      "claimCount": 8,
+      "identityClaims": {
+        "brand": true,
+        "model": true,
+        "manufacturerCode": true,
+        "gtin": false
+      },
+      "usedClaimCount": 8,
+      "omittedClaimCount": 0,
+      "sectionCount": 3,
+      "blockCount": 7,
+      "provenanceValid": true,
+      "validationStatus": "failed",
+      "readyForHumanReview": false,
+      "readyForUse": false,
+      "failedRuleIds": [
+        "ALG-PARAM-002"
+      ],
+      "needsReviewRuleIds": [
+        "ALG-TITLE-004",
+        "ALG-DESC-003",
+        "ALG-DESC-004",
+        "ALG-DESC-005",
+        "ALG-DESC-006",
+        "ALG-DESC-012"
+      ],
+      "candidateGeoScore": 90
+    },
+    {
+      "testId": "P04-laptop-apple-macbook-air-m4",
+      "category": "laptops",
+      "status": "blocked",
+      "claimCount": 8,
+      "identityClaims": {
+        "brand": true,
+        "model": false,
+        "manufacturerCode": false,
+        "gtin": false
+      },
+      "reasons": [
+        "Brak zatwierdzonego faktu modelu."
+      ],
+      "omittedClaimCount": 0
+    },
+    {
+      "testId": "P05-tablet-apple-ipad-11",
+      "category": "tablets",
+      "status": "blocked",
+      "claimCount": 8,
+      "identityClaims": {
+        "brand": false,
+        "model": false,
+        "manufacturerCode": false,
+        "gtin": false
+      },
+      "reasons": [
+        "Brak zatwierdzonego faktu marki.",
+        "Brak zatwierdzonego faktu modelu."
+      ],
+      "omittedClaimCount": 0
+    },
+    {
+      "testId": "P06-tablet-samsung-galaxy-tab-s10-fe",
+      "category": "tablets",
+      "status": "blocked",
+      "claimCount": 8,
+      "identityClaims": {
+        "brand": false,
+        "model": false,
+        "manufacturerCode": false,
+        "gtin": false
+      },
+      "reasons": [
+        "Brak zatwierdzonego faktu marki.",
+        "Brak zatwierdzonego faktu modelu."
+      ],
+      "omittedClaimCount": 0
+    },
+    {
+      "testId": "P07-headphones-sony-wh-1000xm5",
+      "category": "headphones",
+      "status": "generated",
+      "claimCount": 8,
+      "identityClaims": {
+        "brand": true,
+        "model": true,
+        "manufacturerCode": false,
+        "gtin": false
+      },
+      "usedClaimCount": 8,
+      "omittedClaimCount": 0,
+      "sectionCount": 3,
+      "blockCount": 7,
+      "provenanceValid": true,
+      "validationStatus": "failed",
+      "readyForHumanReview": false,
+      "readyForUse": false,
+      "failedRuleIds": [
+        "ALG-PARAM-002"
+      ],
+      "needsReviewRuleIds": [
+        "ALG-TITLE-004",
+        "ALG-DESC-003",
+        "ALG-DESC-004",
+        "ALG-DESC-005",
+        "ALG-DESC-006",
+        "ALG-DESC-012"
+      ],
+      "candidateGeoScore": 86
+    },
+    {
+      "testId": "P08-headphones-apple-airpods-pro-2",
+      "category": "headphones",
+      "status": "blocked",
+      "claimCount": 8,
+      "identityClaims": {
+        "brand": false,
+        "model": false,
+        "manufacturerCode": false,
+        "gtin": false
+      },
+      "reasons": [
+        "Brak zatwierdzonego faktu marki.",
+        "Brak zatwierdzonego faktu modelu."
+      ],
+      "omittedClaimCount": 0
+    },
+    {
+      "testId": "P09-tv-samsung-oled-55",
+      "category": "televisions",
+      "status": "blocked",
+      "claimCount": 8,
+      "identityClaims": {
+        "brand": false,
+        "model": false,
+        "manufacturerCode": false,
+        "gtin": false
+      },
+      "reasons": [
+        "Brak zatwierdzonego faktu marki.",
+        "Brak zatwierdzonego faktu modelu."
+      ],
+      "omittedClaimCount": 0
+    },
+    {
+      "testId": "P10-tv-lg-oled-55",
+      "category": "televisions",
+      "status": "blocked",
+      "claimCount": 8,
+      "identityClaims": {
+        "brand": false,
+        "model": false,
+        "manufacturerCode": false,
+        "gtin": false
+      },
+      "reasons": [
+        "Brak zatwierdzonego faktu marki.",
+        "Brak zatwierdzonego faktu modelu."
+      ],
+      "omittedClaimCount": 0
+    },
+    {
+      "testId": "P11-vacuum-dyson-v15-detect",
+      "category": "vacuum-cleaners",
+      "status": "generated",
+      "claimCount": 8,
+      "identityClaims": {
+        "brand": true,
+        "model": true,
+        "manufacturerCode": false,
+        "gtin": false
+      },
+      "usedClaimCount": 8,
+      "omittedClaimCount": 0,
+      "sectionCount": 3,
+      "blockCount": 7,
+      "provenanceValid": true,
+      "validationStatus": "failed",
+      "readyForHumanReview": false,
+      "readyForUse": false,
+      "failedRuleIds": [
+        "ALG-PARAM-002"
+      ],
+      "needsReviewRuleIds": [
+        "ALG-TITLE-004",
+        "ALG-DESC-003",
+        "ALG-DESC-004",
+        "ALG-DESC-005",
+        "ALG-DESC-006",
+        "ALG-DESC-012"
+      ],
+      "candidateGeoScore": 86
+    },
+    {
+      "testId": "P12-robot-vacuum-dreame-x50-ultra",
+      "category": "robot-vacuums",
+      "status": "generated",
+      "claimCount": 8,
+      "identityClaims": {
+        "brand": true,
+        "model": true,
+        "manufacturerCode": false,
+        "gtin": false
+      },
+      "usedClaimCount": 8,
+      "omittedClaimCount": 0,
+      "sectionCount": 4,
+      "blockCount": 7,
+      "provenanceValid": true,
+      "validationStatus": "failed",
+      "readyForHumanReview": false,
+      "readyForUse": false,
+      "failedRuleIds": [
+        "ALG-PARAM-002"
+      ],
+      "needsReviewRuleIds": [
+        "ALG-TITLE-004",
+        "ALG-DESC-003",
+        "ALG-DESC-004",
+        "ALG-DESC-005",
+        "ALG-DESC-006",
+        "ALG-DESC-012"
+      ],
+      "candidateGeoScore": 86
+    },
+    {
+      "testId": "P13-coffee-philips-lattego-ep2333",
+      "category": "coffee-machines",
+      "status": "blocked",
+      "claimCount": 8,
+      "identityClaims": {
+        "brand": false,
+        "model": false,
+        "manufacturerCode": false,
+        "gtin": false
+      },
+      "reasons": [
+        "Brak zatwierdzonego faktu marki.",
+        "Brak zatwierdzonego faktu modelu."
+      ],
+      "omittedClaimCount": 0
+    },
+    {
+      "testId": "P14-coffee-delonghi-dinamica-ecam35055",
+      "category": "coffee-machines",
+      "status": "generated",
+      "claimCount": 8,
+      "identityClaims": {
+        "brand": true,
+        "model": true,
+        "manufacturerCode": true,
+        "gtin": true
+      },
+      "usedClaimCount": 8,
+      "omittedClaimCount": 0,
+      "sectionCount": 3,
+      "blockCount": 7,
+      "provenanceValid": true,
+      "validationStatus": "needs_review",
+      "readyForHumanReview": true,
+      "readyForUse": false,
+      "failedRuleIds": [],
+      "needsReviewRuleIds": [
+        "ALG-TITLE-004",
+        "ALG-DESC-003",
+        "ALG-DESC-004",
+        "ALG-DESC-005",
+        "ALG-DESC-006",
+        "ALG-DESC-012"
+      ],
+      "candidateGeoScore": 90
+    },
+    {
+      "testId": "P15-console-playstation-5-slim-digital",
+      "category": "consoles",
+      "status": "blocked",
+      "claimCount": 8,
+      "identityClaims": {
+        "brand": false,
+        "model": false,
+        "manufacturerCode": true,
+        "gtin": true
+      },
+      "reasons": [
+        "Brak zatwierdzonego faktu marki.",
+        "Brak zatwierdzonego faktu modelu."
+      ],
+      "omittedClaimCount": 0
+    },
+    {
+      "testId": "P16-console-nintendo-switch-2",
+      "category": "consoles",
+      "status": "blocked",
+      "claimCount": 8,
+      "identityClaims": {
+        "brand": false,
+        "model": false,
+        "manufacturerCode": true,
+        "gtin": true
+      },
+      "reasons": [
+        "Brak zatwierdzonego faktu marki.",
+        "Brak zatwierdzonego faktu modelu."
+      ],
+      "omittedClaimCount": 0
+    },
+    {
+      "testId": "P17-smartwatch-apple-watch-series-10",
+      "category": "smartwatches",
+      "status": "generated",
+      "claimCount": 8,
+      "identityClaims": {
+        "brand": true,
+        "model": true,
+        "manufacturerCode": false,
+        "gtin": true
+      },
+      "usedClaimCount": 8,
+      "omittedClaimCount": 0,
+      "sectionCount": 3,
+      "blockCount": 7,
+      "provenanceValid": true,
+      "validationStatus": "failed",
+      "readyForHumanReview": false,
+      "readyForUse": false,
+      "failedRuleIds": [
+        "ALG-PARAM-002"
+      ],
+      "needsReviewRuleIds": [
+        "ALG-TITLE-004",
+        "ALG-DESC-003",
+        "ALG-DESC-004",
+        "ALG-DESC-005",
+        "ALG-DESC-006",
+        "ALG-DESC-012"
+      ],
+      "candidateGeoScore": 90
+    },
+    {
+      "testId": "P18-smartwatch-garmin-fenix-8",
+      "category": "smartwatches",
+      "status": "generated",
+      "claimCount": 8,
+      "identityClaims": {
+        "brand": true,
+        "model": true,
+        "manufacturerCode": false,
+        "gtin": false
+      },
+      "usedClaimCount": 8,
+      "omittedClaimCount": 0,
+      "sectionCount": 3,
+      "blockCount": 7,
+      "provenanceValid": true,
+      "validationStatus": "failed",
+      "readyForHumanReview": false,
+      "readyForUse": false,
+      "failedRuleIds": [
+        "ALG-PARAM-002"
+      ],
+      "needsReviewRuleIds": [
+        "ALG-TITLE-004",
+        "ALG-DESC-003",
+        "ALG-DESC-004",
+        "ALG-DESC-005",
+        "ALG-DESC-006",
+        "ALG-DESC-012"
+      ],
+      "candidateGeoScore": 81
+    },
+    {
+      "testId": "P19-camera-canon-eos-r50",
+      "category": "cameras",
+      "status": "blocked",
+      "claimCount": 8,
+      "identityClaims": {
+        "brand": false,
+        "model": true,
+        "manufacturerCode": false,
+        "gtin": false
+      },
+      "reasons": [
+        "Brak zatwierdzonego faktu marki."
+      ],
+      "omittedClaimCount": 0
+    },
+    {
+      "testId": "P20-camera-gopro-hero13-black",
+      "category": "action-cameras",
+      "status": "generated",
+      "claimCount": 8,
+      "identityClaims": {
+        "brand": true,
+        "model": true,
+        "manufacturerCode": false,
+        "gtin": false
+      },
+      "usedClaimCount": 8,
+      "omittedClaimCount": 0,
+      "sectionCount": 3,
+      "blockCount": 7,
+      "provenanceValid": true,
+      "validationStatus": "failed",
+      "readyForHumanReview": false,
+      "readyForUse": false,
+      "failedRuleIds": [
+        "ALG-PARAM-002"
+      ],
+      "needsReviewRuleIds": [
+        "ALG-TITLE-004",
+        "ALG-DESC-003",
+        "ALG-DESC-004",
+        "ALG-DESC-005",
+        "ALG-DESC-006",
+        "ALG-DESC-012"
+      ],
+      "candidateGeoScore": 86
+    }
+  ]
+}

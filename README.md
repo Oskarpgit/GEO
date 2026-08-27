@@ -40,6 +40,7 @@ npm test
 npm run eval:build -- <ścieżka-do-lokalnego-run-firecrawl>
 npm run eval:llm-pilot
 npm run model:calibrate
+npm run model:evaluate-generator
 ```
 
 ## Struktura
