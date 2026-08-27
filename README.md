@@ -30,6 +30,7 @@ Wersja `0.1.0` zawiera:
 - klasyfikację eksperymentów opisu przed/po z wykrywaniem zmian ceny, dostawy, tytułu, parametrów, zdjęć i jakości sprzedawcy.
 - bezpiecznego klienta `GET /sale/product-offers/{offerId}` i `GET /sale/products/{productId}`;
 - adapter tożsamości Katalogu Allegro z pochodzeniem na poziomie pola, wykrywaniem konfliktów i blokadą zgadywania z tytułu.
+- działającą aplikację webową `apps/web` z modułami `GEO / Analizy`, audytem oferty, rekomendacjami oraz zatwierdzaniem faktów przed generowaniem opisu.
 
 ## Uruchomienie
 
@@ -43,6 +44,9 @@ npm run eval:build -- <ścieżka-do-lokalnego-run-firecrawl>
 npm run eval:llm-pilot
 npm run model:calibrate
 npm run model:evaluate-generator
+npm run web:dev
+npm run web:build
+npm run web:lint
 ```
 
 ## Struktura
@@ -58,6 +62,7 @@ src/
   parser/       ekstrakcja publicznej strony Allegro
   rules/        wersjonowane reguły i silnik walidacji
   scoring/      cechy, GEO Score, rekomendacje i kalibracja
+apps/web/       aplikacja webowa Shoppalyzer GEO i API analizy
 test/
   fixtures/     małe, zanonimizowane dokumenty testowe
 data/evals/     wersjonowane przypadki i raporty bez pełnych opisów konkurencji
@@ -78,6 +83,7 @@ HANDOFF-widocznosc-ai.md
 - Fakt odczytany z oferty nie trafia do generatora przed jawnym zatwierdzeniem.
 - Fakt z Katalogu Allegro również pozostaje `source_backed`; integracja nie zatwierdza go automatycznie.
 - Dane Katalogu Allegro mogą być używane tylko w ofertach Allegro.
+- Publiczny link do oferty jest analizowany bez Firecrawl; produkcyjna tożsamość katalogowa nadal wymaga OAuth sprzedawcy.
 - Kandydat deterministyczny z poprawnym pochodzeniem nadal wymaga ręcznego przeglądu reguł semantycznych.
 
 ## Materiały koncepcyjne
@@ -85,4 +91,3 @@ HANDOFF-widocznosc-ai.md
 [HANDOFF-widocznosc-ai.md](HANDOFF-widocznosc-ai.md) zachowuje historię researchu, decyzji i ograniczeń. Kierunek Allegro-first oraz aktualne kontrakty mają pierwszeństwo przed wcześniejszym założeniem, że ścieżką główną będzie własny sklep.
 
 Repo zawiera również generator i pliki wcześniejszego one-pagera partnerskiego. Nie są one częścią runtime produktu.
-
