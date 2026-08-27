@@ -7,6 +7,9 @@ export * from "./generation/types.js";
 export * from "./generation/validation.js";
 export * from "./parser/allegro-offer.js";
 export * from "./identity/matcher.js";
+export * from "./integrations/allegro/client.js";
+export * from "./integrations/allegro/product-identity.js";
+export * from "./integrations/allegro/types.js";
 export * from "./measurement/metrics.js";
 export * from "./rules/allegro-rules.js";
 export * from "./rules/engine.js";
@@ -18,3 +21,4 @@ export * from "./scoring/features.js";
 export * from "./scoring/score.js";
 export * from "./scoring/types.js";
 export * from "./workflows/offer-description.js";
+

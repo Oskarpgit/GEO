@@ -28,6 +28,8 @@ Wersja `0.1.0` zawiera:
 - deterministyczny generator opisów, w którym każdy blok jest odtwarzalny z zatwierdzonych `claimIds`;
 - walidację pochodzenia treści i zasad Allegro po wygenerowaniu;
 - klasyfikację eksperymentów opisu przed/po z wykrywaniem zmian ceny, dostawy, tytułu, parametrów, zdjęć i jakości sprzedawcy.
+- bezpiecznego klienta `GET /sale/product-offers/{offerId}` i `GET /sale/products/{productId}`;
+- adapter tożsamości Katalogu Allegro z pochodzeniem na poziomie pola, wykrywaniem konfliktów i blokadą zgadywania z tytułu.
 
 ## Uruchomienie
 
@@ -51,6 +53,7 @@ src/
   experiments/  kontrola porównań opisu przed/po
   generation/   fakty, zatwierdzanie, kandydat i walidacja pochodzenia
   identity/     dopasowanie produktu i oferty
+  integrations/ klienci i adaptery zewnętrznych źródeł danych
   measurement/  metryki widoczności LLM
   parser/       ekstrakcja publicznej strony Allegro
   rules/        wersjonowane reguły i silnik walidacji
@@ -73,6 +76,8 @@ HANDOFF-widocznosc-ai.md
 - `GEO Score` nie jest prognozą pozycji ani dowodem wpływu przyczynowego opisu.
 - Wynik zgodności Allegro nie jest dodawany do `GEO Score`; oba wyniki są raportowane osobno.
 - Fakt odczytany z oferty nie trafia do generatora przed jawnym zatwierdzeniem.
+- Fakt z Katalogu Allegro również pozostaje `source_backed`; integracja nie zatwierdza go automatycznie.
+- Dane Katalogu Allegro mogą być używane tylko w ofertach Allegro.
 - Kandydat deterministyczny z poprawnym pochodzeniem nadal wymaga ręcznego przeglądu reguł semantycznych.
 
 ## Materiały koncepcyjne
@@ -80,3 +85,4 @@ HANDOFF-widocznosc-ai.md
 [HANDOFF-widocznosc-ai.md](HANDOFF-widocznosc-ai.md) zachowuje historię researchu, decyzji i ograniczeń. Kierunek Allegro-first oraz aktualne kontrakty mają pierwszeństwo przed wcześniejszym założeniem, że ścieżką główną będzie własny sklep.
 
 Repo zawiera również generator i pliki wcześniejszego one-pagera partnerskiego. Nie są one częścią runtime produktu.
+

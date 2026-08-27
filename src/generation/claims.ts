@@ -1,6 +1,10 @@
 import { createHash } from "node:crypto";
 import { extractGeoFeatures } from "../scoring/features.js";
-import type { GeoOfferInput } from "../scoring/types.js";
+import type {
+  GeoIdentityField,
+  GeoIdentitySource,
+  GeoOfferInput,
+} from "../scoring/types.js";
 import type {
   ProductClaim,
   ProductClaimKind,
@@ -40,7 +44,7 @@ function claim(
   value: string,
   sourceKind: ProductClaim["source"]["kind"],
   path: string,
-  source: GeoOfferInput["source"],
+  source: GeoOfferInput["source"] | GeoIdentitySource,
 ): ProductClaim {
   const fingerprint = `${kind}\u0000${path}\u0000${value}`;
   return {
@@ -80,6 +84,7 @@ export function extractProductClaims(input: GeoOfferInput): ProductClaim[] {
     return Object.entries(parametersRecord).find(([key]) => expected.has(normalized(key)));
   };
   const identityFields: Array<{
+    identityField: GeoIdentityField;
     kind: Exclude<ProductClaimKind, "parameter">;
     labelPl: string;
     explicitValue: unknown;
@@ -88,6 +93,7 @@ export function extractProductClaims(input: GeoOfferInput): ProductClaim[] {
     parameterNames: string[];
   }> = [
     {
+      identityField: "brand",
       kind: "brand",
       labelPl: "Marka",
       explicitValue: input.identity?.brand,
@@ -96,6 +102,7 @@ export function extractProductClaims(input: GeoOfferInput): ProductClaim[] {
       parameterNames: ["marka", "brand"],
     },
     {
+      identityField: "model",
       kind: "model",
       labelPl: "Model",
       explicitValue: input.identity?.model,
@@ -104,6 +111,7 @@ export function extractProductClaims(input: GeoOfferInput): ProductClaim[] {
       parameterNames: ["model"],
     },
     {
+      identityField: "manufacturerCode",
       kind: "manufacturer_code",
       labelPl: "Kod producenta",
       explicitValue: input.identity?.manufacturerCode,
@@ -112,6 +120,7 @@ export function extractProductClaims(input: GeoOfferInput): ProductClaim[] {
       parameterNames: ["kod producenta", "manufacturer code", "mpn"],
     },
     {
+      identityField: "gtin",
       kind: "gtin",
       labelPl: "GTIN",
       explicitValue: input.identity?.gtin,
@@ -125,14 +134,16 @@ export function extractProductClaims(input: GeoOfferInput): ProductClaim[] {
     const value = explicitValue ?? scalarText(field.inferredValue);
     if (!value) continue;
     const parameterSource = explicitValue ? undefined : findParameterSource(field.parameterNames);
+    const identitySource = explicitValue ? input.identitySources?.[field.identityField] : undefined;
     claims.push(
       claim(
         field.kind,
         field.labelPl,
         value,
-        parameterSource ? "offer_parameter" : "offer_identity",
-        parameterSource ? `parameters.${parameterSource[0]}` : field.identityPath,
-        input.source,
+        identitySource?.kind ?? (parameterSource ? "offer_parameter" : "offer_identity"),
+        identitySource?.path ??
+          (parameterSource ? `parameters.${parameterSource[0]}` : field.identityPath),
+        identitySource ?? input.source,
       ),
     );
   }
@@ -166,3 +177,4 @@ export function reviewProductClaims(
     return decision ? { ...item, reviewStatus: decision } : item;
   });
 }
+

@@ -16,6 +16,19 @@ export type GeoDescriptionStructure = {
   faqSignals: number;
 };
 
+export type GeoIdentityField = "brand" | "model" | "manufacturerCode" | "gtin";
+
+export type GeoIdentitySource = {
+  kind:
+    | "offer_identity"
+    | "offer_parameter"
+    | "allegro_catalog_parameter"
+    | "allegro_product_offer_parameter";
+  path: string;
+  snapshotId?: string;
+  evidenceIds: string[];
+};
+
 export type GeoOfferInput = {
   source?: {
     snapshotId: string;
@@ -32,6 +45,7 @@ export type GeoOfferInput = {
     gtin?: string;
     categoryPath?: string[];
   };
+  identitySources?: Partial<Record<GeoIdentityField, GeoIdentitySource>>;
   structure?: Partial<GeoDescriptionStructure>;
 };
 
@@ -141,3 +155,4 @@ export type AllegroGeoAudit = {
     generationInputReasons: string[];
   };
 };
+

@@ -15,7 +15,11 @@ export type ProductClaim = {
   labelPl: string;
   value: string;
   source: {
-    kind: "offer_identity" | "offer_parameter";
+    kind:
+      | "offer_identity"
+      | "offer_parameter"
+      | "allegro_catalog_parameter"
+      | "allegro_product_offer_parameter";
     path: string;
     contentHash: string;
     snapshotId?: string;
@@ -97,3 +101,4 @@ export type DescriptionCandidateValidation = {
   readyForHumanReview: boolean;
   readyForUse: boolean;
 };
+
